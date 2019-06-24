@@ -1,3 +1,3 @@
-![logo](docs/images/logo.png)
+![logo](docs/images/formats.png)
 
 # Markdown

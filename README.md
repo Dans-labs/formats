@@ -1,8 +1,8 @@
-![logo](docs/images/logo.png)
+![logo](docs/images/formats.png)
 
 # About
 
-[DANS]()https://www.dans.knaw.nl)
+[DANS](https://www.dans.knaw.nl)
 is developing normative guidelines about data and file types for the purpose
 of long-term archiving in its self-service repository
 [EASY](https://easy.dans.knaw.nl).
