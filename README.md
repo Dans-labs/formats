@@ -48,7 +48,7 @@ A data type is a way of organizing raw data for specific modelling applications:
 text, structured data, etc. 
 
 The folder 
-[fileTypes](docs/fileFormats) contains a collection of file formats, such as *pdf*, *xlsx*, *siard*, etc.
+[fileFormats](docs/fileFormats) contains a collection of file formats, such as *pdf*, *xlsx*, *siard*, etc.
 
 A file format is a way to serialize the data of a specific data type to a file.
 Applications that deal with that data are programmed in such a way that they can read
