@@ -1,4 +1,4 @@
-<img src="docs/images/formats.png" width="150" align="left"/>
+<img src="docs/images/formats.png" width="100" align="right"/>
 <img src="docs/images/DANS.png" width="200" align="right"/>
 
 # About
@@ -36,16 +36,16 @@ If you have comments on our current preferred format specifications, or if you w
 new formats, you can start by filing an issue.
 
 Please, browse through the
-[list of issues]()
+[list of issues](/issues)
 first in order to see if your topic is already being dealt with.
 
 # Overview
 
 The folder
-[dataTypes](dataTypes) contains a collection of data types, such as *text*, *spreadsheet*, *database*, etc.
+[dataTypes](/dataTypes) contains a collection of data types, such as *text*, *spreadsheet*, *database*, etc.
 
 The folder 
-[fileTypes](fileFormats) contains a collection of file formats, such as *pdf*, *xlsx*, *siard*, etc.
+[fileTypes](/fileFormats) contains a collection of file formats, such as *pdf*, *xlsx*, *siard*, etc.
 
 # Contact
 
