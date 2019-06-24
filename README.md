@@ -44,12 +44,18 @@ first in order to see if your topic is already being dealt with.
 The folder
 [dataTypes](docs/dataTypes) contains a collection of data types, such as *text*, *spreadsheet*, *database*, etc.
 
+A data type is a way of organizing raw data for specific modelling applications: image, sound,
+text, structured data, etc. 
+
 The folder 
 [fileTypes](docs/fileFormats) contains a collection of file formats, such as *pdf*, *xlsx*, *siard*, etc.
 
+A file format is a way to serialize the data of a specific data type to a file.
+Applications that deal with that data are programmed in such a way that they can read
+one or more file formats for that type.
+
+There are usually several file formats associated with one data type.
+
 # Contact
 
-[Dirk Roorda](dirk.roorda@dans.knaw.nl)
-
-
-
+[Dirk Roorda](mailto:dirk.roorda@dans.knaw.nl)
