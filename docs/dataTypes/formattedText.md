@@ -34,7 +34,7 @@ Common representations for formatted text are:
     universal language of the Web, deals with very rich layout, comparable to
     PDF, works together with [CSS](../fileTypes/css.md) to achieve subtle
     results. Looks perfect from the outside, may look horribe from the inside
-*   [Markdown](../fileTypes/md.md):
+*   [Markdown](../fileTypes/markdown.md):
     upcoming text language of the web, geared to plain text, but with basic
     formatting capabilities from HTML. Looks nice from the outside, looks good
     from the inside. This documentation is written in Markdown

@@ -18,16 +18,96 @@ other than that which can be achieved by spaces, tabs and newlines.
 
 Plain text is mostly used for IT purposes:
 
-*   writing software code (programs), using a *text editor* or
-    an *IDE* (integrated developing environment)
 *   writing quick notes, using a simple program like *notepad*
+    often with extension `.txt`;
+    note that [Markdown](../fileTypes/markdown.md) files are themselves
+    plain text, but they are used to represent formatted text as well;
+*   writing software code (programs), using a *text editor* or
+    an *IDE* (integrated developing environment);
+    see also [below](#programming-languages);
 *   for data with formal characteristics, such as 
     [JSON](../fileTypes/json.md)
     [CSV](../fileTypes/csv.md)
     [XML](../fileTypes/xml.md)
-    [SQL](../fileTypes/sql.md)
+    [SQL](../fileTypes/sql.md).
 
 ## Representations
 
-The most common representation for plain text is ... plain text.
+Computer files are either binary, in which case they are just a sequence of bits
+(1 and 0), or they are text files, in which case they are interpreted as a
+sequence of characters, separated by line breaks.
+
+### Text files versus binary files
+
+There are several notions of what a character is and what a line break is.
+A Windows line break is different from a Unix/Linux/Mac line break, and line
+breaks on OS9 Macs are yet different.
+
+### Character encoding
+
+What a character is, is determined by an *encoding*, which is a system to map
+characters to sequences of bits.
+
+The most ubiquitous character encoding is
+[ASCII](https://en.wikipedia.org/wiki/ASCII).
+It encodes a set of 128 characters.
+This is a basic set consisting of letters, uppercase and lowercase,
+digits, punctuation, arithmetical symbols, a few currency symbols, space, tab,
+newline, carriage return, and a few others.
+
+Later came the extensions for letters with accents, for other scripts such as
+Cyrillic and Greek.
+The first was IBM's [CP437](https://en.wikipedia.org/wiki/Code_page_437)
+These extension sets were defined by
+[code pages](https://en.wikipedia.org/wiki/ISO/IEC_8859),
+each of which defined a limited supply of non-ascii characters.
+
+Windows had its own notion of code page: 
+[125x](https://en.wikipedia.org/wiki/Windows_code_page).
+
+All this was common before UNICODE.
+Text files from this era pose the difficulty that nothing in the file itself
+declares which code page is being used. It is a matter of trial and error to
+determine the right code page, and sometimes it is impossible.
+
+This problem is carried over to older text-based formats such as 
+[CSV](../fileTypes/csv.md) and 
+[SQL](../fileTypes.sql.md).
+
+While the structure of SQL and CSV files is usually well-defined, the use of
+undeclared code pages remains a liability.
+
+### Unicode
+
+When [Unicode](http://unicode.org)
+arrived, it had the promise to tidy up most character issues.
+The Unicode standard is a major achievement.
+It not only maps nearly every written glyph unto a unique number, it also
+defines the notions of upper case and lower case intelligently, and it defines
+types of characters, such as letters, numerals, punctuation, and much more.
+
+Last but not least, associated with Unicode are severel encodings to map the
+unique numbers to streams of bits in efficient ways.
+
+In today's world, 
+[UTF8](https://en.wikipedia.org/wiki/UTF-8)
+is very common, and especially
+suited to Western languages, because it coincides with ASCII for
+the ASCII characters. 
+
+Other encodings are [UTF16](https://en.wikipedia.org/wiki/UTF-16)
+and [UTF32](https://en.wikipedia.org/wiki/UTF-32).
+
+### Specifyting a Unicode encoding
+
+File formats such as [XML](../fileTypes/xml.md) make it clear which Unicode
+encoding is being used.
+
+But in general, file types for plain text do not specify the encoding in a
+standard way.
+
+The recommendation is to let a non-UTF8 file start with a special character,
+the [Byte Order Mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark), from
+which most applications can deduce the encoding that is being used.
+
 
