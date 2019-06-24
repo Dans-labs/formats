@@ -1,5 +1,5 @@
-<img src="docs/images/formats.png" width=150" align="left"/>
-<img src="docs/images/DANS.png" width=200" align="right"/>
+<img src="docs/images/formats.png" width="150" align="left"/>
+<img src="docs/images/DANS.png" width="200" align="right"/>
 
 # About
 
