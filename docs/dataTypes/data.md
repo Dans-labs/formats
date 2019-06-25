@@ -18,19 +18,19 @@ scheme that gives structure to their contents.
 
 There are several data container methods, such as
 
-*   [TAR](../fileTypes/tar.md):
+*   [TAR](../fileFormats/tar.md):
     a long standing, ubiquitous way of storing files and folders
-*   [XML](../fileTypes/xml.md):
+*   [XML](../fileFormats/xml.md):
     a fine-grained way to store records and fields, but also 
     elements and sub-elements. It is used for 
     [databases](database.md) as well as formatted text.
-*   [JSON](../fileTypes/json.md):
+*   [JSON](../fileFormats/json.md):
     a fine-grained way to store lists and mappings, recursively nested.
     It is used for generic data exchange, especially between web clients and web servers.
     It is lighter-weight than XML.
-*   [YAML](../fileTypes/yaml.md):
+*   [YAML](../fileFormats/yaml.md):
     a fine-grained way to store lists and mappings, recursively nested.
-    It is to configuration files what [Markdown](../fileTypes/markdown.md) is
+    It is to configuration files what [Markdown](../fileFormats/markdown.md) is
     to [formatted text](formattedText.md).
 
 ## See also

@@ -6,12 +6,12 @@ for the purpose of long-term archiving in its self-service repository
 
 All texts are in Markdown and can be consulted in raw form by browsing the
 [folders]({{formats}}) of this repository, or in formatted form by visiting the
-[docs]({{docs}})/
+[docs]({{docs}}).
 
 # Disclaimer
 
 All texts you find here are work in progress.  The currently authoritative texts
-can be found on the [preffered formats]({{preferredFormats) web page of DANS.
+can be found on the [preffered formats]({{preferredFormats}}) web page of DANS.
 
 # Purpose
 

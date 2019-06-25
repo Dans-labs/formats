@@ -24,7 +24,7 @@ Documentation feature can be used to generate a document with column
 descriptions and table relationships.
 
 This document has data type [formatted text](../dataTypes/formattedText.md)
-and can be stored as a [PDF/A](pfda.md) file.
+and can be stored as a [PDF/A](pdfa.md) file.
 
 It must be
 ensured that all codes and variables used can be explained.

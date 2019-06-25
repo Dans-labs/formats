@@ -14,18 +14,18 @@ linked to the DBMS, but there are independent exchange formats too.
 
 There are several database representation methods, such as
 
-*   [SQL](../fileTypes/sql.md):
+*   [SQL](../fileFormats/sql.md):
     a long standing, ubiquitous way of handling relational databases
-*   [SIARD](../fileTypes/siard.md):
+*   [SIARD](../fileFormats/siard.md):
     a modern attempt to represent relational data in a
     software-indpependent way
-*   [CSV-files](../fileTypes/csv.md):
+*   [CSV-files](../fileFormats/csv.md):
     plain text files with rows and columns
 *   Legacy formats
     that may better be converted to more sustainable formats:
-    *   [dBase](../fileTypes/dbase.md)
-    *   [HDF5](../fileTypes/hdf5.md)
-    *   [Microsoft Access](../fileTypes/access.md)
+    *   [dBase](../fileFormats/dbase.md)
+    *   [HDF5](../fileFormats/hdf5.md)
+    *   [Microsoft Access](../fileFormats/access.md)
 
 ## See also
 

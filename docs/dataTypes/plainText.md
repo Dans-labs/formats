@@ -17,16 +17,16 @@ Plain text is mostly used for IT purposes:
 
 *   writing quick notes, using a simple program like *notepad*
     often with extension `.txt`;
-    note that [Markdown](../fileTypes/markdown.md) files are themselves
+    note that [Markdown](../fileFormats/markdown.md) files are themselves
     plain text, but they are used to represent formatted text as well;
 *   writing software code (programs), using a *text editor* or
     an *IDE* (integrated developing environment);
     see also [below](#programming-languages);
 *   for data with formal characteristics, such as 
-    [JSON](../fileTypes/json.md)
-    [CSV](../fileTypes/csv.md)
-    [XML](../fileTypes/xml.md)
-    [SQL](../fileTypes/sql.md).
+    [JSON](../fileFormats/json.md)
+    [CSV](../fileFormats/csv.md)
+    [XML](../fileFormats/xml.md)
+    [SQL](../fileFormats/sql.md).
 
 ## Representations
 
@@ -68,8 +68,8 @@ declares which code page is being used. It is a matter of trial and error to
 determine the right code page, and sometimes it is impossible.
 
 This problem is carried over to older text-based formats such as 
-[CSV](../fileTypes/csv.md) and 
-[SQL](../fileTypes.sql.md).
+[CSV](../fileFormats/csv.md) and 
+[SQL](../fileFormats/sql.md).
 
 While the structure of SQL and CSV files is usually well-defined, the use of
 undeclared code pages remains a liability.
@@ -97,7 +97,7 @@ and [UTF32]({{wikipedia}}/UTF-32).
 
 ### Specifyting a Unicode encoding
 
-File formats such as [XML](../fileTypes/xml.md) make it clear which Unicode
+File formats such as [XML](../fileFormats/xml.md) make it clear which Unicode
 encoding is being used.
 
 But in general, file types for plain text do not specify the encoding in a

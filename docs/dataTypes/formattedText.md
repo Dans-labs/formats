@@ -22,20 +22,20 @@ Formatted text can get very complex.
 
 Common representations for formatted text are:
 
-*   [PDF(/A)](../fileTypes/pdfa.md):
+*   [PDF(/A)](../fileFormats/pdfa.md):
     developed by Adobe, now standardized, deals with the most complex material
     that is printable, takes care of font and other graphics inclusions, makes
     text searchable. Looks perfect from the outside, may look horrible from the
     inside
-*   [HTML](../fileTypes/html.md):
+*   [HTML](../fileFormats/html.md):
     universal language of the Web, deals with very rich layout, comparable to
-    PDF, works together with [CSS](../fileTypes/css.md) to achieve subtle
+    PDF, works together with [CSS](../fileFormats/css.md) to achieve subtle
     results. Looks perfect from the outside, may look horribe from the inside
-*   [Markdown](../fileTypes/markdown.md):
+*   [Markdown](../fileFormats/markdown.md):
     upcoming text language of the web, geared to plain text, but with basic
     formatting capabilities from HTML. Looks nice from the outside, looks good
     from the inside. This documentation is written in Markdown
-*   [TeX](../fileTypes/tex.md):
+*   [TeX](../fileFormats/tex.md):
     source code for ancient text processor TeX (1987), the first one that could
     deliver scientific and mathematical documents with professional typesetting
     quality. TeX is still a de facto standard for writing scientific papers, not
