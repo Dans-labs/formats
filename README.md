@@ -11,7 +11,7 @@ about data types and their associated file formats.
 All texts are in Markdown and can be consulted in raw form by browsing the
 [folders](https://github.com/Dans-labs/formats)
 of this repository, or in formatted form by visiting
-the [docs](https://Dans-labs.github.io/formats/)
+the [docs](https://Dans-labs.github.io/formats/).
 
 # Disclaimer
 

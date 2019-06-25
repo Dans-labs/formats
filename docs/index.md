@@ -13,7 +13,7 @@ All texts are in Markdown and can be consulted in raw form by browsing the
 # Disclaimer
 
 All texts you find here are work in progress.  The currently authoritative texts
-can be found on the [preffered formats]({{preferredFormats}}) web page of DANS.
+can be found on the [prefered formats]({{preferredFormats}}) web page of DANS.
 
 # Purpose
 

@@ -31,7 +31,7 @@ extra:
     ---
 
   header: >-
-    <img src="/images/formats.png" width="100" align="right"/>
+    <img src="../images/formats.png" width="100" align="right"/>
 
     ---
 
@@ -44,8 +44,8 @@ extra:
   footer: >-
     ---
 
-    <img src="/images/formats.png" width="100" align="left"/>
-    <img src="/images/DANS.png" width="200" align="right"/>
+    <img src="../images/formats.png" width="100" align="left"/>
+    <img src="../images/DANS.png" width="200" align="right"/>
 
 theme:
   name: material
