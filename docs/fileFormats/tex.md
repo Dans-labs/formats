@@ -1,4 +1,9 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
+# TeX
 
+## Data types
 
+[text (formatted)](../dataTypes/formattedText.md)
+
+## See also
+
+[text (plain)](../dataTypes/plainText.md)

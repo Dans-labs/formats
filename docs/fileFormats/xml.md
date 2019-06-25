@@ -1,4 +1,15 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
+# XML
 
+## Data types
+
+[database](../dataTypes/database.md)
+
+## Data types
+
+[data container](../dataTypes/data.md)
+[text (formatted)](../dataTypes/formattedText.md)
+
+## See also
+
+[text (plain)](../dataTypes/plainText.md)
 

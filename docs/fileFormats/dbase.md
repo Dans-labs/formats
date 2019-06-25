@@ -1,11 +1,12 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # dBase
 
 ## Extensions
 
 `.dbf`
+
+## Data types
+
+[database](../dataTypes/database.md)
 
 ## Preferred status
 
@@ -23,7 +24,7 @@ into other formats, such as
 ## Description
 
 The
-[dBase Table File Format (.dbf)](https://en.wikipedia.org/wiki/.dbf)
+[dBase Table File Format (.dbf)]({{wikipedia}}/.dbf)
 is a proprietary product. The company behind
 dBase will still support older versions of the format. For versions earlier than
 7 no official documentation is made available.

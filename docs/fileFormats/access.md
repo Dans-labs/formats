@@ -1,11 +1,12 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # Access
 
 ## Extensions
 
 `.mdb`, `.accdb`
+
+## Data types
+
+[database](../dataTypes/database.md)
 
 ## Preferred status
 
@@ -32,7 +33,7 @@ providing more detailed descriptions in a separate document or “code book”.
 
 ## Description
 
-[Microsoft Access](https://en.wikipedia.org/wiki/Microsoft_Access#File_extensions)
+[Microsoft Access]({{wikipedia}}/Microsoft_Access#File_extensions)
 is widely used for creating databases. The Access
 MDB
 and

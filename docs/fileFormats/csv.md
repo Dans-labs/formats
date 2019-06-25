@@ -1,11 +1,12 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # CSV
 
 ## Extensions
 
 `.csv`, `.tsv`
+
+## Data types
+
+[database](../dataTypes/database.md)
 
 ## Preferred status
 
@@ -13,11 +14,11 @@ Yes
 
 ## Description
 
-[CSV (Comma Separated Values)](https://en.wikipedia.org/wiki/Comma-separated_values)
+[CSV (Comma Separated Values)]({{wikipedia}}/Comma-separated_values)
 provides a way to write tabular data as plain text.
 This format does not support data types and metadata beyond column titles. It is
 in fact based on the
-[RFC4180](https://tools.ietf.org/html/rfc4180)
+[RFC4180]({{rfc4180}})
 open standard, although there are different
 variants (dialects).
 
@@ -58,10 +59,14 @@ such as `utf8`, `utf16 (big endian)`, `utf16 (least endian)`.
 
 These encodings can be indicated by an optional first character in a file,
 the so-called
-[Byte Order Mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark).
+[Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark).
 
 If the encoding is `utf8`, the BOM is usually left out.
 
 A csv file with non-latin characters is best encoded as `utf16 least endian`
 with BOM mark. It seems to be the only option if one wants Excel to open the
 file without trouble.
+
+## See also
+
+[text (plain)](../dataTypes/plainText.md)

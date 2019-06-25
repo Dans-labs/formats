@@ -1,6 +1,3 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # Database
 
 ## Description
@@ -30,3 +27,6 @@ There are several database representation methods, such as
     *   [HDF5](../fileTypes/hdf5.md)
     *   [Microsoft Access](../fileTypes/access.md)
 
+## See also
+
+[Data (container)](data.md).

@@ -1,6 +1,3 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # Plain text
 
 ## Description
@@ -49,7 +46,7 @@ What a character is, is determined by an *encoding*, which is a system to map
 characters to sequences of bits.
 
 The most ubiquitous character encoding is
-[ASCII](https://en.wikipedia.org/wiki/ASCII).
+[ASCII]({{wikipedia}}/ASCII).
 It encodes a set of 128 characters.
 This is a basic set consisting of letters, uppercase and lowercase,
 digits, punctuation, arithmetical symbols, a few currency symbols, space, tab,
@@ -57,13 +54,13 @@ newline, carriage return, and a few others.
 
 Later came the extensions for letters with accents, for other scripts such as
 Cyrillic and Greek.
-The first was IBM's [CP437](https://en.wikipedia.org/wiki/Code_page_437)
+The first was IBM's [CP437]({{wikipedia}}/Code_page_437)
 These extension sets were defined by
-[code pages](https://en.wikipedia.org/wiki/ISO/IEC_8859),
+[code pages]({{wikipedia}}/ISO/IEC_8859),
 each of which defined a limited supply of non-ascii characters.
 
 Windows had its own notion of code page: 
-[125x](https://en.wikipedia.org/wiki/Windows_code_page).
+[125x]({{wikipedia}}/Windows_code_page).
 
 All this was common before UNICODE.
 Text files from this era pose the difficulty that nothing in the file itself
@@ -79,7 +76,7 @@ undeclared code pages remains a liability.
 
 ### Unicode
 
-When [Unicode](http://unicode.org)
+When [Unicode]({{unicode}})
 arrived, it had the promise to tidy up most character issues.
 The Unicode standard is a major achievement.
 It not only maps nearly every written glyph unto a unique number, it also
@@ -90,13 +87,13 @@ Last but not least, associated with Unicode are severel encodings to map the
 unique numbers to streams of bits in efficient ways.
 
 In today's world, 
-[UTF8](https://en.wikipedia.org/wiki/UTF-8)
+[UTF8]({{wikipedia}}/UTF-8)
 is very common, and especially
 suited to Western languages, because it coincides with ASCII for
 the ASCII characters. 
 
-Other encodings are [UTF16](https://en.wikipedia.org/wiki/UTF-16)
-and [UTF32](https://en.wikipedia.org/wiki/UTF-32).
+Other encodings are [UTF16]({{wikipedia}}/UTF-16)
+and [UTF32]({{wikipedia}}/UTF-32).
 
 ### Specifyting a Unicode encoding
 
@@ -107,7 +104,7 @@ But in general, file types for plain text do not specify the encoding in a
 standard way.
 
 The recommendation is to let a non-UTF8 file start with a special character,
-the [Byte Order Mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark), from
+the [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark), from
 which most applications can deduce the encoding that is being used.
 
 

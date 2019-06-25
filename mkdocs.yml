@@ -1,0 +1,92 @@
+site_name: DANS Preferred Formats
+site_description: >- 
+  File Formats and Digital Preservation:
+  catalogue of data types with associated file formats,
+  supplied with recommendations
+  on their suitability
+  to be preserved for the long term.
+
+site_url: 'https://Dans-labs.github.io/formats/'
+
+site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Henk van den Berg
+
+extra:
+  author: mailto:dirk.roorda@dans.knaw.nl)
+  coptr: http://coptr.digipres.org
+  dans: https://www.dans.knaw.nl
+  docs: https://github.com/Dans-labs/formats/
+  easy: https://easy.dans.knaw.nl
+  hdf5tools: https://support.hdfgroup.org/products/hdf5_tools/
+  issues: https://github.com/Dans-labs/formats/issues
+  formats: https://github.com/Dans-labs/formats
+  mozilla: https://developer.mozilla.org/en-US/docs
+  preferredFormats: https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats?set_language=en
+  rfc4180: https://tools.ietf.org/html/rfc4180
+  unicode: http://unicode.org
+  wikipedia: https://en.wikipedia.org/wiki
+
+theme:
+  name: material
+  logo: 'images/formats.png'
+  favicon: 'images/formats.png'
+  feature:
+    tabs: false
+repo_url: 'https://github.com/Dans-labs/formats/'
+
+strict: false
+
+nav:
+  - Home: 'index.md'
+  - Data Types:
+    - Database: 'dataTypes/database.md'
+    - Text (formatted): 'dataTypes/formattedText.md'
+    - Text (plain): 'dataTypes/plainText.md'
+    - Data (containers): 'dataTypes/data.md'
+  - File Formats (by data type):
+    - Data containers:
+      - json: 'fileFormats/json.md'
+      - tar: 'fileFormats/tar.md'
+      - xml: 'fileFormats/xml.md'
+      - yaml: 'fileFormats/yaml.md'
+    - Database:
+      - Access: 'fileFormats/access.md'
+      - csv: 'fileFormats/csv.md'
+      - dbase: 'fileFormats/dbase.md'
+      - hdf5: 'fileFormats/hdf5.md'
+      - siard: 'fileFormats/siard.md'
+      - sql: 'fileFormats/sql.md'
+    - Text (formatted):
+      - html: 'fileFormats/html.md'
+      - markdown: 'fileFormats/markdown.md'
+      - pdfa: 'fileFormats/pdfa.md'
+    - Text (plain):
+      - txt: 'fileFormats/txt.md'
+  - File Formats (A-Z):
+    - Access: 'fileFormats/access.md'
+    - csv: 'fileFormats/csv.md'
+    - dbase: 'fileFormats/dbase.md'
+    - hdf5: 'fileFormats/hdf5.md'
+    - html: 'fileFormats/html.md'
+    - json: 'fileFormats/json.md'
+    - markdown: 'fileFormats/markdown.md'
+    - pdfa: 'fileFormats/pdfa.md'
+    - siard: 'fileFormats/siard.md'
+    - sql: 'fileFormats/sql.md'
+    - tar: 'fileFormats/tar.md'
+    - tex: 'fileFormats/tex.md'
+    - txt: 'fileFormats/txt.md'
+    - xml: 'fileFormats/xml.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+
+plugins:
+  - markdownextradata

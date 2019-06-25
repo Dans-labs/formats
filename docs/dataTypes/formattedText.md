@@ -1,6 +1,3 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # Formatted text
 
 ## Description
@@ -43,5 +40,9 @@ Common representations for formatted text are:
     deliver scientific and mathematical documents with professional typesetting
     quality. TeX is still a de facto standard for writing scientific papers, not
     only in the exact sciences, but also in various branches of the humanities
+
+## See also
+
+[Data container](data.md), [Plain text](plainText.md).
 
 

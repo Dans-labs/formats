@@ -1,11 +1,12 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # SIARD
 
 ## Extensions
 
 Collection of files.
+
+## Data types
+
+[database](../dataTypes/database.md)
 
 ## Preferred status
 
@@ -25,13 +26,13 @@ SIARD is a relatively young format.
 
 There are tools for converting databases to SIARD and for validating the format,
 but the possibilities are limited. Some conversion tools such as
-[AccessToSiard](http://coptr.digipres.org/AccessToSiard)
+[AccessToSiard]({{coptr}}/AccessToSiard)
 and
-[CSV2SIARD](http://coptr.digipres.org/CSV2SIARD)
+[CSV2SIARD]({{coptr}}/CSV2SIARD)
 can be found via
-[COPTR (Community Owned Preservation ToolRegistry](http://coptr.digipres.org/Category:File_Format_Migration).
+[COPTR (Community Owned Preservation ToolRegistry]({{coptr}}/Category:File_Format_Migration).
 Using these tools requires the
-[SIARD Suite](http://coptr.digipres.org/SIARD_Suite) (free of charge).
+[SIARD Suite]({{coptr}}/SIARD_Suite) (free of charge).
 
 Databases can use routines which may be
 dependent on their own scripting languages or programming languages from the

@@ -1,11 +1,12 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # HTML
 
 ## Extensions
 
 `.html`, `.htm`
+
+## Data types
+
+[text (formatted)](../dataTypes/formattedText.md)
 
 ## Preferred status
 
@@ -13,7 +14,7 @@ Yes, but ...
 
 ## Description
 
-[HTML](https://en.wikipedia.org/wiki/HTML)
+[HTML]({{wikipedia}}/HTML)
 is *the* core web technology, turning the pre-www internet of 1991 into a World Wide Web.
 
 It is basically a document markup language, in which you can store
@@ -24,7 +25,7 @@ nowadays both are as sophisticated as the printed page can be.
 
 In order to achieve the richest formatting, HTML works together with another
 standard for *styles*.
-[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
+[CSS]({{wikipedia}}/Cascading_Style_Sheets).
 
 What sets HTML apart from printed work is dynamics: users can *interact* with a
 web page, and defining this interaction is delegated to yet another technology,
@@ -33,9 +34,9 @@ web page, and defining this interaction is delegated to yet another technology,
 The ultimate reference to all these technologies is the
 [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/):
 
-*   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-*   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-*   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+*   [HTML]({{mozilla}}/docs/Web/HTML)
+*   [CSS]({{mozilla}}/docs/Web/CSS)
+*   [Javascript]({{mozilla}}/docs/Web/JavaScript)
 
 HTML files may contain CSS styles inside, or they may refer to other files for
 their styling.
@@ -80,3 +81,7 @@ If possible, scan the file for references to external files, and if possible,
 rescue those files as well, and store them in an organization that matches
 the way they are referenced. Then preserve the resulting directory in a
 [tar](tar.md) file.
+
+## See also
+
+[text (plain)](../dataTypes/plainText.md)

@@ -1,11 +1,12 @@
-<img src="../images/formats.png" width="100" align="right"/>
-<img src="../images/DANS.png" width="200" align="right"/>
-
 # PDF/A
 
 ## Extensions
 
 `.pdf`
+
+## Data types
+
+[text (formatted)](../dataTypes/formattedText.md)
 
 ## Preferred status
 
@@ -13,13 +14,13 @@ Yes
 
 ## Description
 
-[Portable Document Format (PDF)](https://en.wikipedia.org/wiki/PDF),
+[Portable Document Format (PDF)]({{wikipedia}}/PDF),
 has been developed by software maker Adobe to represent printed documents
 faithfully and consistently independent of the computer and platform 
 where it is displayed.
 
 It has a subtype called
-[PDF/A](https://en.wikipedia.org/wiki/PDF/A)
+[PDF/A]({{wikipedia}}/PDF/A)
 which is specifically designed for long-term sustainability.
 PDF/A is the international standard for (formatted) text
 documents. A PDF/A file is a stand-alone document: all fonts and images are
