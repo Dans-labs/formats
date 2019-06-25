@@ -11,10 +11,10 @@ site_url: 'https://Dans-labs.github.io/formats/'
 site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Henk van den Berg
 
 extra:
-  author: mailto:dirk.roorda@dans.knaw.nl)
+  author: mailto:dirk.roorda@dans.knaw.nl
   coptr: http://coptr.digipres.org
   dans: https://www.dans.knaw.nl
-  docs: https://github.com/Dans-labs/formats/
+  docs: https://Dans-labs.github.io/formats/
   easy: https://easy.dans.knaw.nl
   hdf5tools: https://support.hdfgroup.org/products/hdf5_tools/
   issues: https://github.com/Dans-labs/formats/issues
@@ -24,6 +24,28 @@ extra:
   rfc4180: https://tools.ietf.org/html/rfc4180
   unicode: http://unicode.org
   wikipedia: https://en.wikipedia.org/wiki
+  header1: >-
+    <img src="images/formats.png" width="100" align="right"/>
+    <img src="images/DANS.png" width="200" align="right"/>
+
+    ---
+
+  header: >-
+    <img src="/images/formats.png" width="100" align="right"/>
+
+    ---
+
+  footer1: >-
+    ---
+
+    <img src="images/formats.png" width="100" align="left"/>
+    <img src="images/DANS.png" width="200" align="right"/>
+
+  footer: >-
+    ---
+
+    <img src="/images/formats.png" width="100" align="left"/>
+    <img src="/images/DANS.png" width="200" align="right"/>
 
 theme:
   name: material
@@ -31,6 +53,10 @@ theme:
   favicon: 'images/formats.png'
   feature:
     tabs: false
+  palette:
+    primary: red
+    accent: cyan
+
 repo_url: 'https://github.com/Dans-labs/formats/'
 
 strict: false
@@ -56,6 +82,7 @@ nav:
       - siard: 'fileFormats/siard.md'
       - sql: 'fileFormats/sql.md'
     - Text (formatted):
+      - css: 'fileFormats/css.md'
       - html: 'fileFormats/html.md'
       - markdown: 'fileFormats/markdown.md'
       - pdfa: 'fileFormats/pdfa.md'
@@ -63,6 +90,7 @@ nav:
       - txt: 'fileFormats/txt.md'
   - File Formats (A-Z):
     - Access: 'fileFormats/access.md'
+    - css: 'fileFormats/css.md'
     - csv: 'fileFormats/csv.md'
     - dbase: 'fileFormats/dbase.md'
     - hdf5: 'fileFormats/hdf5.md'

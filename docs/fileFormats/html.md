@@ -1,16 +1,10 @@
-# HTML
+{{header}}
 
-## Extensions
-
-`.html`, `.htm`
-
-## Data types
-
-[text (formatted)](../dataTypes/formattedText.md)
-
-## Preferred status
-
-Yes, but ...
+key | value
+--- | ---
+extensions | `.html`, `.htm`
+data types | [text (formatted)](../dataTypes/formattedText.md)
+preferred | ⚠️
 
 ## Description
 
@@ -85,3 +79,5 @@ the way they are referenced. Then preserve the resulting directory in a
 ## See also
 
 [text (plain)](../dataTypes/plainText.md)
+
+{{footer}}

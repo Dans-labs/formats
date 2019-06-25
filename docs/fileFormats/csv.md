@@ -1,16 +1,10 @@
-# CSV
+{{header}}
 
-## Extensions
-
-`.csv`, `.tsv`
-
-## Data types
-
-[database](../dataTypes/database.md)
-
-## Preferred status
-
-Yes
+key | value
+--- | ---
+extensions | `.csv`, `.tsv`
+data types | [database](../dataTypes/database.md)
+preferred | ✅
 
 ## Description
 
@@ -70,3 +64,5 @@ file without trouble.
 ## See also
 
 [text (plain)](../dataTypes/plainText.md)
+
+{{footer}}

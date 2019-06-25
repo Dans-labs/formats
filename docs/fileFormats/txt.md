@@ -1,3 +1,5 @@
+{{header}}
+
 # Text
 
 ## Extensions
@@ -57,4 +59,6 @@ microphone, but also by programs, scripts and commands on the terminal.
 ## See also
 
 [text (formatted)](../dataTypes/formattedText.md)
+
+{{footer}}
 

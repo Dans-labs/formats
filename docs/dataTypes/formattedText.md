@@ -1,3 +1,5 @@
+{{header}}
+
 # Formatted text
 
 ## Description
@@ -45,4 +47,4 @@ Common representations for formatted text are:
 
 [Data container](data.md), [Plain text](plainText.md).
 
-
+{{footer}}

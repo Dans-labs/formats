@@ -1,3 +1,5 @@
+{{header}}
+
 # XML
 
 ## Data types
@@ -12,4 +14,6 @@
 ## See also
 
 [text (plain)](../dataTypes/plainText.md)
+
+{{footer}}
 

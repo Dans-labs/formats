@@ -1,16 +1,26 @@
-# Access
+{{header}}
 
-## Extensions
+key | value
+--- | ---
+extensions | `.mdb` `.accdb`
+data types | [database](../dataTypes/database.md)
+preferred | ❌
 
-`.mdb`, `.accdb`
+## Description
 
-## Data types
+[Microsoft Access]({{wikipedia}}/Microsoft_Access#File_extensions)
+is widely used for creating databases. The Access
+MDB
+and
+ACCDB
+formats are, however, very poorly supported outside the commercial
+versions of Microsoft Access. Owing to the different versions of these formats,
+even Access itself will not always support the files very well.
 
-[database](../dataTypes/database.md)
-
-## Preferred status
-
-No.
+DANS has
+enabled many databases created with Microsoft Access to be processed in a
+sustainable and accessible manner by storing the tables from the database as
+separate [CSV](csv.md) text files.
 
 ### Recommendation
 
@@ -31,19 +41,4 @@ ensured that all codes and variables used can be explained.
 This may mean
 providing more detailed descriptions in a separate document or “code book”.
 
-## Description
-
-[Microsoft Access]({{wikipedia}}/Microsoft_Access#File_extensions)
-is widely used for creating databases. The Access
-MDB
-and
-ACCDB
-formats are, however, very poorly supported outside the commercial
-versions of Microsoft Access. Owing to the different versions of these formats,
-even Access itself will not always support the files very well.
-
-DANS has
-enabled many databases created with Microsoft Access to be processed in a
-sustainable and accessible manner by storing the tables from the database as
-separate [CSV](csv.md) text files.
-
+{{footer}}

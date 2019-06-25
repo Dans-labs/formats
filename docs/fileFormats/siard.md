@@ -1,16 +1,10 @@
-# SIARD
+{{header}}
 
-## Extensions
-
-Collection of files.
-
-## Data types
-
-[database](../dataTypes/database.md)
-
-## Preferred status
-
-Yes
+key | value
+--- | ---
+extensions | *collection of files*
+data types | [database](../dataTypes/database.md)
+preferred | ✅
 
 ## Description
 
@@ -39,3 +33,5 @@ dependent on their own scripting languages or programming languages from the
 DBMS. When converting to SIARD there is the potential risk of loss of such
 routines, but this risk is not considered to be very big because such
 languages are not expected to become obsolete.
+
+{{footer}}

@@ -1,16 +1,10 @@
-# HDF5
+{{header}}
 
-## Extensions
-
-`.hdf5`
-
-## Data types
-
-[database](../dataTypes/database.md)
-
-## Preferred status
-
-No.
+key | value
+--- | ---
+extensions | `.hdf5`
+data types | [database](../dataTypes/database.md)
+preferred | ❌
 
 ### Recommendation
 
@@ -30,4 +24,6 @@ common dataset format with the ability to store data in multidimensional arrays,
 grouped into collections and/or hierarchies. Relationships between data in the
 arrays can be saved, but the format does not allow for storing structured
 (descriptive) metadata.
+
+{{footer}}
 

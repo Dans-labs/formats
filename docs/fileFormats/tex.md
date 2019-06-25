@@ -1,3 +1,5 @@
+{{header}}
+
 # TeX
 
 ## Data types
@@ -7,3 +9,5 @@
 ## See also
 
 [text (plain)](../dataTypes/plainText.md)
+
+{{footer}}

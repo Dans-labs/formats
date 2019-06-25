@@ -1,16 +1,10 @@
-# dBase
+{{header}}
 
-## Extensions
-
-`.dbf`
-
-## Data types
-
-[database](../dataTypes/database.md)
-
-## Preferred status
-
-No.
+key | value
+--- | ---
+extensions | `.dbf`
+data types | [database](../dataTypes/database.md)
+preferred | ❌
 
 ### Recommendation
 
@@ -28,3 +22,5 @@ The
 is a proprietary product. The company behind
 dBase will still support older versions of the format. For versions earlier than
 7 no official documentation is made available.
+
+{{footer}}

@@ -1,16 +1,10 @@
-# CSS
+{{header}}
 
-## Extensions
-
-`.css`
-
-## Data types
-
-[text (formatted)](../dataTypes/formattedText.md)
-
-## Preferred status
-
-Yes, but ...
+key | value
+--- | ---
+extensions | `.css`
+data types [text (formatted)](../dataTypes/formattedText.md)
+preferred | ⚠️
 
 ## Description
 
@@ -40,3 +34,5 @@ deliberately `uglified`, in order to decrease their file size.
 
 [HTML](html.md)
 [text (plain)](../dataTypes/plainText.md).
+
+{{footer}}

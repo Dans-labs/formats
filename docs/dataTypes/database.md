@@ -1,3 +1,5 @@
+{{header}}
+
 # Database
 
 ## Description
@@ -30,3 +32,5 @@ There are several database representation methods, such as
 ## See also
 
 [Data (container)](data.md).
+
+{{footer}}

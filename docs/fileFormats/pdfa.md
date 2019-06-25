@@ -1,16 +1,10 @@
-# PDF/A
+{{header}}
 
-## Extensions
-
-`.pdf`
-
-## Data types
-
-[text (formatted)](../dataTypes/formattedText.md)
-
-## Preferred status
-
-Yes
+key | value
+--- | ---
+extensions | `.pdf`
+data types | [text (formatted)](../dataTypes/formattedText.md)
+preferred | ✅
 
 ## Description
 
@@ -57,3 +51,5 @@ formats and PDF can be performed with programs such as IrfanView and
 ImageMagick.
 
 Of course, Adobe sells quite capable software for creating PDF files.
+
+{{footer}}

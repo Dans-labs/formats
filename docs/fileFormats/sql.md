@@ -1,16 +1,10 @@
-# SQL
+{{header}}
 
-## Extensions
-
-`.sql`
-
-## Data types
-
-[database](../dataTypes/database.md)
-
-## Preferred status
-
-Yes
+key | value
+--- | ---
+extensions | `.sql`
+data types | [database](../dataTypes/database.md)
+preferred | ✅
 
 ## Description
 
@@ -31,3 +25,5 @@ be replaced by the data referred to.
 ## See also
 
 [text (plain)](../dataTypes/plainText.md)
+
+{{footer}}

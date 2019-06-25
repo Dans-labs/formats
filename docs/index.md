@@ -1,3 +1,5 @@
+{{header1}}
+
 # About
 
 [DANS]({{dans}}) is developing normative guidelines about data and file types
@@ -67,3 +69,5 @@ There are usually several file formats associated with one data type.
 # Contact
 
 [Dirk Roorda]({{author}})
+
+{{footer1}}

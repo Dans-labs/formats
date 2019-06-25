@@ -1,3 +1,5 @@
+{{header}}
+
 # Plain text
 
 ## Description
@@ -107,4 +109,4 @@ The recommendation is to let a non-UTF8 file start with a special character,
 the [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark), from
 which most applications can deduce the encoding that is being used.
 
-
+{{footer}}

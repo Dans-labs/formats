@@ -1,3 +1,5 @@
+{{header}}
+
 # YAML
 
 ## Data types
@@ -8,3 +10,4 @@
 
 [text (plain)](../dataTypes/plainText.md)
 
+{{footer}}

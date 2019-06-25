@@ -1,3 +1,5 @@
+{{header}}
+
 # Data (container)
 
 ## Description
@@ -36,3 +38,5 @@ There are several data container methods, such as
 ## See also
 
 [Database](database.md), [Formatted text](formattedText.md).
+
+{{footer}}

@@ -1,17 +1,10 @@
-# TAR
+{{header}}
 
-## Extensions
-
-`.tar`
-
-
-## Data types
-
-[data container](../dataTypes/data.md)
-
-## Preferred status
-
-Yes, but ...
+key | value
+--- | ---
+extensions | `.tar`
+data types | [data container](../dataTypes/data.md)
+preferred | ⚠️
 
 ## Description
 
@@ -29,4 +22,6 @@ use is nearly always combined with (g)zip in order to economize on storage.
 ## See also
 
 [text (plain)](../dataTypes/plainText.md)
+
+{{footer}}
 
