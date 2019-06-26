@@ -60,7 +60,7 @@ file | description
 [`footer.md`]({{formats}}/blob/master/source/footer.md) | footer for all pages
 [`data.yaml`]({{formats}}/blob/master/source/data.yaml) | relationships, metadata, links
 [`urls.list`]({{formats}}/blob/master/source/urls.list) | list of external urls
-[`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkdocsIn.yaml) | template for the site config file
+[`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkdocsIn.yml) | template for the site config file
 
 ## Intermediate
 
