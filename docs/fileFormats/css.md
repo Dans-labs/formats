@@ -1,21 +1,37 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# CSS
+
+**Cascading Stylesheet**
+
+item | info
 --- | ---
-extensions | `.css`
-data types [text (formatted)](../dataTypes/formattedText.md)
-preferred | ⚠️
+type | Text (plain)
+preferred | ⚠️ under conditions
+extensions | [`css`](../extensions/css.md)
+wikipedia | [`Cascading_Style_Sheets`]({{wikipedia}}/Cascading_Style_Sheets)
 
-## Description
+# Description
 
 [CSS]({{wikipedia}}/Cascading_Style_Sheets)
 is a style sheet language for styling
-[HTML](html.md) documents.
+[HTML](../fileFormats/html.md) documents.
 
 HTML files may contain CSS styles inside, or they may refer to other files for
 their styling.
 
-## Complications
+# Complications
 
 The World-wide-web is one of the most dynamic corners of IT. Standards are
 always on the move, and new patterns of organizing web content replace the best
@@ -30,9 +46,23 @@ CSS styling engine that has been used.
 Moreover, in real-world web applications, CSS files are often
 deliberately `uglified`, in order to decrease their file size.
 
+
 ## See also
+*   [`{{css}}`]({{css}})
+*   [`{{cssmdn}}`]({{cssmdn}})
 
-[HTML](html.md)
-[text (plain)](../dataTypes/plainText.md).
 
-{{footer}}
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

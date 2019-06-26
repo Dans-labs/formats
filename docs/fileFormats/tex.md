@@ -1,17 +1,45 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# TeX
+
+**TeX**
+
+item | info
 --- | ---
-extensions | `.tex`
-data types | [text (formatted)](../dataTypes/formattedText.md)
-preferred | ⚠️
+type | Text (plain)
+preferred | ⚠️ under conditions
+extensions | [`sty`](../extensions/sty.md), [`tex`](../extensions/tex.md)
+wikipedia | [`TeX`]({{wikipedia}}/TeX), [`LaTeX`]({{wikipedia}}/LaTeX)
 
-## Description
 
-## Recommendation
 
 ## See also
+*   [`{{tex}}`]({{tex}})
+*   [`{{latex}}`]({{latex}})
 
-[text (plain)](../dataTypes/plainText.md)
 
-{{footer}}
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

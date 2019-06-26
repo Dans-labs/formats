@@ -1,14 +1,44 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# Markdown
+
+**Markdown**
+
+item | info
 --- | ---
-extensions | `.md` `.markdown`
-data types | [text (formatted)](../dataTypes/formattedText.md)
-preferred | ✅
+type | Text (plain)
+preferred | ✅ yes
+extensions | [`md`](../extensions/md.md)
+wikipedia | [`Markdown`]({{wikipedia}}/Markdown)
+
+
 
 ## See also
+*   [`{{markdown}}`]({{markdown}})
 
-[text (plain)](../dataTypes/plainText.md)
 
-{{footer}}
 
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

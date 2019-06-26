@@ -1,0 +1,50 @@
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
+
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# Data (container)
+
+**Collections of entities in one file**
+
+item | info
+--- | ---
+formats | [JSON](../fileFormats/json.md), [SQL](../fileFormats/sql.md), [TAR](../fileFormats/tar.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
+extensions | [`tar`](../extensions/tar.md)
+
+## Description
+
+Structured data needs a concept of *container* to hold the structure
+by which various items of data are kept together.
+
+Think of parts and wholes, files and directories, text and markup.
+
+Data containers are a generic concept. They can be used for a variety
+of purposes, which may overlap with other data types, such as formatted
+text.
+
+Often, data containers are just plain text files that adhere to a defined
+scheme that gives structure to their contents.
+
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

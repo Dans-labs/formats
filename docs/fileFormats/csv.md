@@ -1,18 +1,33 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# CSV
+
+**Comma Separated Values**
+
+item | info
 --- | ---
-extensions | `.csv`, `.tsv`
-data types | [database](../dataTypes/database.md)
-preferred | ✅
+type | Text (plain)
+preferred | ⚠️ under conditions
+extensions | [`csv`](../extensions/csv.md), [`tsv`](../extensions/tsv.md)
+wikipedia | [`Comma-separated_values`]({{wikipedia}}/Comma-separated_values)
 
-## Description
+# Description
 
-[CSV (Comma Separated Values)]({{wikipedia}}/Comma-separated_values)
-provides a way to write tabular data as plain text.
+CSV files contain tabular data as plain text.
 This format does not support data types and metadata beyond column titles. It is
 in fact based on the
-[RFC4180]({{rfc4180}})
+[RFC4180]({{csvrfc}})
 open standard, although there are different
 variants (dialects).
 
@@ -29,7 +44,7 @@ However, other characters such as the semicolon are also frequently used,
 especially in regions where they are the default separator character.
 
 A region-independent choice of separator character is the *tab*, and csv files
-that use it are often given the extension `.tsv`.
+that use it are often given the extension [.tsv](../extensions/tsv.md).
 
 Depending on
 the computer’s default settings for the use of separators, an application may
@@ -44,7 +59,7 @@ setting can be found under List separator on the Region and Language screen. If
 the same separator is selected as what is found in the csv file,
 that csv file will be correctly displayed in distinct columns in all applications.
 
-## Character encoding.
+# Character encoding.
 
 There is no standard to declare the character encoding that is used in a csv
 file.
@@ -61,8 +76,24 @@ A csv file with non-latin characters is best encoded as `utf16 least endian`
 with BOM mark. It seems to be the only option if one wants Excel to open the
 file without trouble.
 
+See also [Text (plain)](../dataTypes/textPlain.md).
+
+
 ## See also
+*   [`{{csvrfc}}`]({{csvrfc}})
 
-[text (plain)](../dataTypes/plainText.md)
 
-{{footer}}
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

@@ -1,6 +1,24 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-# Plain text
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# Text (plain)
+
+**Readable text without special formatting codes**
+
+item | info
+--- | ---
+formats | [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [HTML](../fileFormats/html.md), [JSON](../fileFormats/json.md), [Markdown](../fileFormats/markdown.md), [SQL](../fileFormats/sql.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
+extensions | [`cfg`](../extensions/cfg.md), [`css`](../extensions/css.md), [`csv`](../extensions/csv.md), [`htm`](../extensions/htm.md), [`html`](../extensions/html.md), [`ini`](../extensions/ini.md), [`json`](../extensions/json.md), [`log`](../extensions/log.md), [`lst`](../extensions/lst.md), [`md`](../extensions/md.md), [`sql`](../extensions/sql.md), [`sty`](../extensions/sty.md), [`tex`](../extensions/tex.md), [`text`](../extensions/text.md), [`tsv`](../extensions/tsv.md), [`txt`](../extensions/txt.md), [`xml`](../extensions/xml.md), [`yaml`](../extensions/yaml.md)
 
 ## Description
 
@@ -10,7 +28,7 @@ for others it is what they read in a PDF, and for yet others it is the
 program code they hack in a text editor.
 
 For the purposes of archiving we divide the text data type in 
-[formatted text](formattedText.md) and **plain text**.md).
+[Text (formatted)](../dataTypes/textFormatted.md) and [Text (plain)](../dataTypes/textPlain.md).
 
 Plain text consists of text strings without any particular layout information
 other than that which can be achieved by spaces, tabs and newlines.
@@ -18,19 +36,19 @@ other than that which can be achieved by spaces, tabs and newlines.
 Plain text is mostly used for IT purposes:
 
 *   writing quick notes, using a simple program like *notepad*
-    often with extension `.txt`;
+    often with extension [.txt](../extensions/txt.md);
     note that [Markdown](../fileFormats/markdown.md) files are themselves
     plain text, but they are used to represent formatted text as well;
 *   writing software code (programs), using a *text editor* or
     an *IDE* (integrated developing environment);
-    see also [below](#programming-languages);
+    see also [Program code](../dataTypes/programCode.md);
 *   for data with formal characteristics, such as 
     [JSON](../fileFormats/json.md)
     [CSV](../fileFormats/csv.md)
     [XML](../fileFormats/xml.md)
-    [SQL](../fileFormats/sql.md).
+    [SQL](../fileFormats/sql.md)
 
-## Representations
+## Information representation
 
 Computer files are either binary, in which case they are just a sequence of bits
 (1 and 0), or they are text files, in which case they are interpreted as a
@@ -71,7 +89,7 @@ determine the right code page, and sometimes it is impossible.
 
 This problem is carried over to older text-based formats such as 
 [CSV](../fileFormats/csv.md) and 
-[SQL](../fileFormats/sql.md).
+[=SQL].
 
 While the structure of SQL and CSV files is usually well-defined, the use of
 undeclared code pages remains a liability.
@@ -109,4 +127,17 @@ The recommendation is to let a non-UTF8 file start with a special character,
 the [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark), from
 which most applications can deduce the encoding that is being used.
 
-{{footer}}
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

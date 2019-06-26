@@ -1,19 +1,36 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# SIARD
+
+**Software Independent Archiving of Relational Databases**
+
+item | info
 --- | ---
-extensions | *collection of files*
-data types | [database](../dataTypes/database.md)
-preferred | ✅
+type | Database
+preferred | ✅ yes
+extensions | [`siard`](../extensions/siard.md)
+wikipedia | [`SIARD_Suite`]({{wikipedia}}/SIARD_Suite)
 
-## Description
+# Description
 
 For relational databases, SIARD is seen as
 a suitable and sustainable format. SIARD (Software Independent Archiving of
 Relational Databases) is intended for archiving relational databases in a way
 that is as independent of the original DBMS as possible. This format takes into
 account all the significant characteristics of databases. SIARD is an open,
-freely available format, based on clear text formats: Unicode, XML, SQL (1999).
+freely available format, based on clear text formats:
+[Unicode]({{unicode}}), [XML](../fileFormats/xml.md), [SQL](../fileFormats/sql.md) (1999).
 This makes it accessible for various tools.
 
 SIARD is a relatively young format.
@@ -34,4 +51,22 @@ DBMS. When converting to SIARD there is the potential risk of loss of such
 routines, but this risk is not considered to be very big because such
 languages are not expected to become obsolete.
 
-{{footer}}
+
+## See also
+*   [`{{siard}}`]({{siard}})
+
+
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

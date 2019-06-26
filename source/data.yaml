@@ -1,0 +1,482 @@
+locations:
+  fileinfo: '{{fileinfo}}'
+  wikipedia: '{{wikipedia}}'
+
+preferred:
+  na:
+    acro: ❎
+    title: not applicable
+  yes:
+    acro: ✅
+    title: 'yes'
+  caution: 
+    acro: ⚠️
+    title: under conditions
+  no:
+    acro: ❌
+    title: 'no'
+  unknown:
+    acro: '❔'
+    title: undecided
+
+dataTypes:
+  dataContainer:
+    display: Data (container)
+    title: Collections of entities in one file
+  database:
+    display: Database
+    title: Data managed by a Database Management System
+  image:
+    display: Image
+    title: Visual, still graphics
+  textFormatted:
+    display: Text (formatted)
+    title: Readable text with layout and formatting
+  textPlain:
+    display: Text (plain)
+    title: Readable text without special formatting codes
+  programCode:
+    display: Program code
+    title: Software in a specific programming language
+
+fileFormats:
+  access:
+    display: Access
+    title: Microsoft Access Database
+    wikipedia:
+      - Microsoft_Access
+    links:
+      - '{{msaccess}}'
+      - '{{msaccesscom}}'
+    extensions: [mdb, accdb]
+    preferred: no
+  c:
+    display: C
+    title: C program
+    wikipedia:
+      - C_(programming_language)
+    links:
+      - '{{cbook}}'
+    extensions: [c, h]
+    preferred: na
+  cpp:
+    display: CPP
+    title: C++ program
+    wikipedia:
+      - C%2B%2B
+    links:
+      - '{{cpp}}'
+    extensions: [cpp, h]
+    preferred: na
+  css:
+    display: CSS
+    title: Cascading Stylesheet
+    wikipedia:
+      - Cascading_Style_Sheets
+    links:
+      - '{{css}}'
+      - '{{cssmdn}}'
+    extensions: [css]
+    preferred: caution
+  csv:
+    display: CSV
+    title: Comma Separated Values
+    wikipedia:
+      - Comma-separated_values
+    links:
+      - '{{csvrfc}}'
+    extensions: [csv, tsv]
+    preferred: caution
+    tagline: >-
+      plain text files with rows and columns
+  dbase:
+    display: dbase
+    title: dBase data file
+    wikipedia:
+      - DBase
+      - .dbf
+    links:
+      - dbase
+    extensions: [dbf]
+    preferred: no
+  gif:
+    display: GIF
+    title: Graphics Interchange Format
+    wikipedia:
+      - GIF
+    links:
+      - '{{gif}}'
+    extensions: [gif]
+    preferred: yes
+  hdf5:
+    display: HDF5
+    title: Hierarchical Data Format
+    wikipedia:
+      - Hierarchical_Data_Format
+    links:
+      - '{{hdf5}}'
+    extensions: [hdf5]
+    preferred: no
+  html:
+    display: HTML
+    title: Hypertext Markup Language
+    wikipedia:
+      - HTML
+    links:
+      - '{{html}}'
+      - '{{htmlmdn}}'
+    extensions: [html, htm]
+    preferred: caution
+    tagline: >-
+      universal language of the Web; deals with very rich layout; comparable to
+      [=pdf]; works together with [=css]] to achieve subtle
+      results; looks perfect from the outside, may look horribe from the inside
+  java:
+    display: JAVA
+    title: Java program
+    wikipedia:
+      - Java_(programming_language)
+    links:
+      - '{{java}}'
+    extensions: [java]
+    preferred: na
+  javascript:
+    display: JavaScript
+    title: JavaScript
+    wikipedia:
+      - JavaScript
+    links:
+      - '{{js}}'
+      - '{{jsmdn}}'
+    extensions: [js]
+    preferred: na
+  jpeg:
+    display: JPEG
+    title: Joint Photographic Experts Group
+    wikipedia:
+      - JPEG
+    links:
+      - '{{jpeg}}'
+    extensions: [jpeg, jpg]
+    preferred: yes
+  json:
+    display: JSON
+    title: Javascript Object Notation
+    wikipedia:
+      - JSON
+    links:
+      - '{{json}}'
+    extensions: [json]
+    preferred: yes
+    tagline: >-
+      a fine-grained way to store lists and mappings, recursively nested;
+      it is used for generic data exchange, especially between web clients and web servers;
+      it is lighter-weight than [=xml].
+  jsx:
+    display: JSX
+    title: React JSX
+    wikipedia:
+      - React_(JavaScript_library)#JSX
+    links:
+      - '{{jsx}}'
+    extensions: [jsx]
+    preferred: na
+  markdown:
+    display: Markdown
+    title: Markdown
+    wikipedia:
+      - Markdown
+    links:
+      - '{{markdown}}'
+    extensions: [md]
+    preferred: yes
+    tagline: >-
+      upcoming text language of the web, geared to plain text, but with basic
+      formatting capabilities from [=html];
+      looks nice from the outside, looks good
+      from the inside.
+  pascal:
+    display: Pascal
+    title: Pascal program
+    wikipedia:
+      - Pascal_(programming_language)
+      - ModernPascal
+    links:
+      - '{{pascal}}'
+    extensions: [pas, p]
+    preferred: na
+  pdf:
+    display: PDF
+    title: Portable Document Format
+    wikipedia:
+      - PDF
+    links:
+      - '{{pdf}}'
+    extensions: [pdf]
+    preferred: caution
+    tagline: >-
+      developed by Adobe, now standardized, deals with the most complex material
+      that is printable, takes care of font and other graphics inclusions, makes
+      text searchable;
+      PDF looks perfect from the outside, it may look horrible from the
+      inside
+  pdfa:
+    display: PDF/A
+    title: Portable Document Format (for Archiving)
+    wikipedia:
+      - PDF/A
+    links:
+      - '{{pdfa}}'
+    extensions: [pdf]
+    preferred: yes
+    tagline: >-
+      developed by Adobe, now standardized, deals with the most complex material
+      that is printable, takes care of font and other graphics inclusions, makes
+      text searchable; PDF/A is self-contained;
+      PDF looks perfect from the outside, it may look horrible from the
+      inside
+  perl:
+    display: Perl
+    title: Perl program
+    wikipedia:
+      - Perl
+    links:
+      - '{{perl}}'
+    extensions: [pl, p]
+    preferred: na
+  png:
+    display: PNG
+    title: Portable Network Graphics
+    wikipedia:
+      - Portable_Network_Graphics
+    links:
+      - '{{png}}'
+    extensions: [png]
+    preferred: yes
+  postscript:
+    display: PostScript
+    title: (Encapsulated) PostScript
+    wikipedia:
+      - PostScript
+      - Encapsulated_PostScript
+    links:
+      - '{{postscript}}'
+    extensions: [ps, eps]
+    preferred: no
+  prolog:
+    display: Prolog
+    title: Prolog program
+    wikipedia:
+      - Prolog
+    links:
+      - '{{prolog}}'
+    extensions: [pl, p]
+    preferred: na
+  python:
+    display: Python
+    title: Python program
+    wikipedia:
+      - Python_(programming_language)
+    links:
+      - '{{python}}'
+    extensions: [py, p]
+    preferred: na
+  ruby:
+    display: Ruby
+    title: Ruby program
+    extensions: [rb]
+    wikipedia:
+      - Ruby_(programming_language)
+    links:
+      - '{{ruby}}'
+    preferred: na
+  scala:
+    display: Scala
+    title: Scala program
+    wikipedia:
+      - Scala_(programming_language)
+    links:
+      - '{{scala}}'
+    extensions: [scala]
+    preferred: na
+  sgml:
+    display: SGML
+    title: Standard Generalized Markup Language
+    wikipedia:
+      - SGML
+    links:
+      - '{{sgml}}'
+    extensions: [xml]
+    preferred: caution
+    tagline: >-
+      a fine-grained way to store records and fields, but also 
+      elements and sub-elements;
+      used for wrapping [:database] contents and for representing
+      [:textFormatted] and its constituent text objects; 
+      a precursor of both [=html] and [=xml]. 
+  siard:
+    display: SIARD
+    title: Software Independent Archiving of Relational Databases
+    wikipedia:
+      - SIARD_Suite
+    links:
+      - '{{siard}}'
+    extensions: [siard]
+    preferred: yes
+    tagline: >-
+      a modern attempt to represent relational data in a
+      software-indpependent way
+  sql:
+    display: SQL
+    title: Structured Query Language
+    wikipedia:
+      - SQL
+    links:
+      - '{{mysql}}'
+      - '{{sqldoc}}'
+    extensions: [sql]
+    preferred: yes
+    tagline: >-
+      a long standing, ubiquitous way of handling and packaging relational databases
+  svg:
+    display: SVG
+    title: Scalable Vector Graphics
+    wikipedia:
+      - Scalable_Vector_Graphics
+    links:
+      - '{{svgmdn}}'
+    extensions: [svg]
+    preferred: yes
+  tar:
+    display: TAR
+    title: Tape Archive file
+    wikipedia:
+      - Tar_(computing)
+    links:
+      - '{{tar}}'
+    extensions: [tar]
+    preferred: yes
+    tagline: >-
+      a long standing, ubiquitous way of storing files and folders
+  tex:
+    display: TeX
+    title: TeX
+    wikipedia:
+      - TeX
+      - LaTeX
+    links:
+      - '{{tex}}'
+      - '{{latex}}'
+    extensions: [tex, sty]
+    preferred: caution
+    tagline: >-
+      source code for ancient text processor TeX (1987),
+      the first one that could
+      deliver scientific and mathematical documents with professional typesetting
+      quality; TeX is still a de facto standard for writing scientific papers, not
+      only in the exact sciences, but also in various branches of the humanities.
+  text:
+    display: Text
+    title: Plain text
+    extensions: [txt, text, lst, log, cfg, ini]
+    wikipedia:
+      - Plain_text
+      - UTF-8
+      - Byte_order_mark
+    links:
+      - '{{unicode}}'
+    preferred: caution
+  tiff:
+    display: TIFF
+    title: Tagged Image File Format
+    wikipedia:
+      - TIFF
+    links:
+      - '{{tiff}}'
+    extensions: [tiff, tif]
+    preferred: yes
+  xml:
+    display: XML
+    title: eXtensible Markup Language
+    wikipedia:
+      - XML
+    links:
+      - '{{xml}}'
+    extensions: [xml]
+    preferred: caution
+    tagline: >-
+      a fine-grained way to store records and fields, but also 
+      elements and sub-elements;
+      used for wrapping [:database] contents and for representing
+      [:textFormatted] and its constituent text objects; 
+      is intermediate between [=html] and [=sgml]. 
+  yaml:
+    display: YAML
+    title: Yet Another Markup Language
+    wikipedia:
+      - YAML
+    links:
+      - '{{yaml}}'
+    extensions: [yaml]
+    preferred: yes
+    tagline: >-
+      a fine-grained way to store lists and mappings, recursively nested;
+      it is to configuration files what [=markdown] is
+      to [:textFormatted].
+
+mapping:
+  dataContainer:
+    - json
+    - sql
+    - tar
+    - xml
+    - yaml
+  database:
+    - access
+    - csv
+    - dbase
+    - hdf5
+    - siard
+    - sql
+    - xml
+  image:
+    - gif
+    - jpeg
+    - pdf
+    - pdfa
+    - png
+    - postscript
+    - svg
+    - tiff
+  programCode:
+    - pascal
+    - prolog
+    - perl
+    - python
+    - java
+    - javascript
+    - c
+    - cpp
+    - ruby
+    - scala
+    - javascript
+    - jsx
+  textFormatted:
+    - css
+    - html
+    - markdown
+    - pdfa
+    - sgml
+    - tex
+    - xml
+  textPlain:
+    - css
+    - csv
+    - html
+    - json
+    - markdown
+    - sql
+    - tex
+    - text
+    - xml
+    - yaml

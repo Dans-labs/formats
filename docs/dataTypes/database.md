@@ -1,6 +1,24 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
+
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
 
 # Database
+
+**Data managed by a Database Management System**
+
+item | info
+--- | ---
+formats | [Access](../fileFormats/access.md), [CSV](../fileFormats/csv.md), [dbase](../fileFormats/dbase.md), [HDF5](../fileFormats/hdf5.md), [SIARD](../fileFormats/siard.md), [SQL](../fileFormats/sql.md), [XML](../fileFormats/xml.md)
+extensions | [`accdb`](../extensions/accdb.md), [`dbf`](../extensions/dbf.md), [`hdf5`](../extensions/hdf5.md), [`mdb`](../extensions/mdb.md), [`siard`](../extensions/siard.md)
 
 ## Description
 
@@ -12,25 +30,17 @@ DBMS controls roles and privileges of users (groups) and also offers a range of
 functions to perform various operations on the data. The file format is usually
 linked to the DBMS, but there are independent exchange formats too.
 
-## Representations
 
-There are several database representation methods, such as
 
-*   [SQL](../fileFormats/sql.md):
-    a long standing, ubiquitous way of handling relational databases
-*   [SIARD](../fileFormats/siard.md):
-    a modern attempt to represent relational data in a
-    software-indpependent way
-*   [CSV-files](../fileFormats/csv.md):
-    plain text files with rows and columns
-*   Legacy formats
-    that may better be converted to more sustainable formats:
-    *   [dBase](../fileFormats/dbase.md)
-    *   [HDF5](../fileFormats/hdf5.md)
-    *   [Microsoft Access](../fileFormats/access.md)
+---
 
-## See also
+Preferred Formats Documention **(under development)**
 
-[Data (container)](data.md).
+---
 
-{{footer}}
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

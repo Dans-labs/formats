@@ -1,30 +1,28 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# Text
+
+**Plain text**
+
+item | info
 --- | ---
-extensions | `.txt`, `log`, `lst`, `cfg`, `ini` plus extensions referring to programming languages.
-data types | [text (plain)](../dataTypes/plainText.md)
-preferred | ⚠️
+type | Text (plain)
+preferred | ⚠️ under conditions
+extensions | [`cfg`](../extensions/cfg.md), [`ini`](../extensions/ini.md), [`log`](../extensions/log.md), [`lst`](../extensions/lst.md), [`text`](../extensions/text.md), [`txt`](../extensions/txt.md)
+wikipedia | [`Plain_text`]({{wikipedia}}/Plain_text), [`UTF-8`]({{wikipedia}}/UTF-8), [`Byte_order_mark`]({{wikipedia}}/Byte_order_mark)
 
-??? "caution"
-    Each programming language has its own conventional file extension, but there is
-    no strictly enforced correspondence between programming language and extension.
-
-    A few examples:
-
-    language | extension
-    --- | ---
-    Pascal | `.p`
-    Prolog | `.p`, `.pl`
-    Perl | `.p`, `.pl`
-    Python | `.py`
-    C | `.h`, `.c`
-    C++ | `.h`, `.cpp`
-    Ruby | `.rb`
-    Javascript | `.js`
-    Java | `.java`
-
-## Description
+# Description
 
 Plain text is a data type that requires very little software to interpret it.
 The software that is required, is usually part of the operating system, such 
@@ -37,9 +35,9 @@ for logging, for data, and for programming.
 It can be produced by humans, typing on the keyboard or dictating in a
 microphone, but also by programs, scripts and commands on the terminal.
 
-## Preferred status
+# Preferred status
 
-DANS is confident that uncategorized plain text files
+We are confident that uncategorized plain text files
 using the Unicode character set,
 encoded as
 [UTF8]({{wikipedia}}/UTF-8)
@@ -54,9 +52,22 @@ that programming language.
 It is dependent on the programming language how the character encoding must be
 specified, and what the default encoding is.
 
+
 ## See also
+*   [`{{unicode}}`]({{unicode}})
 
-[text (formatted)](../dataTypes/formattedText.md)
 
-{{footer}}
 
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

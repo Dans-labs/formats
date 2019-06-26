@@ -1,0 +1,55 @@
+site_name: DANS Preferred Formats
+site_description: >- 
+  File Formats and Digital Preservation:
+  catalogue of data types with associated file formats,
+  supplied with recommendations
+  on their suitability
+  to be preserved for the long term.
+
+site_url: 'https://Dans-labs.github.io/formats/'
+
+site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Henk van den Berg
+
+extra:
+[[urls]]
+
+theme:
+  name: material
+  logo: 'images/formats.png'
+  favicon: 'images/formats.png'
+  feature:
+    tabs: false
+  palette:
+    primary: red
+    accent: cyan
+
+repo_url: 'https://github.com/Dans-labs/formats/'
+
+strict: false
+
+nav:
+  - Home: 'index.md'
+  - Data Types:
+[[dataTypes]]
+  - File Formats (by data type):
+[[fileFormatsDT]]
+  - File Formats (A-Z):
+[[fileFormats]]
+  - Extensions:
+[[extensions]]
+  - Build: 'help.md'
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+
+plugins:
+  - markdownextradata

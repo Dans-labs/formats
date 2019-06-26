@@ -11,41 +11,67 @@ site_url: 'https://Dans-labs.github.io/formats/'
 site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Henk van den Berg
 
 extra:
+  adobe: https://www.adobe.com
   author: mailto:dirk.roorda@dans.knaw.nl
+  bullzip: http://www.bullzip.com/products/pdf/info.php
+  cbook: https://www.academia.edu/37784778/The_C_Programming_Language_by_Brian_W.Kernighan_Dennis_M.Ritchie_2nd_Ed_
   coptr: http://coptr.digipres.org
+  cpp: https://isocpp.org
+  css: https://www.w3.org/TR/css-2018/
+  cssmdn: https://developer.mozilla.org/en-US/docs/Web/CSS
+  csvrfc: https://tools.ietf.org/html/rfc4180
   dans: https://www.dans.knaw.nl
+  dbase: https://www.dbase.com/Knowledgebase/dbulletin/bu03_b.htm
   docs: https://Dans-labs.github.io/formats/
   easy: https://easy.dans.knaw.nl
-  hdf5tools: https://support.hdfgroup.org/products/hdf5_tools/
-  issues: https://github.com/Dans-labs/formats/issues
+  fileinfo: https://fileinfo.com/extension
   formats: https://github.com/Dans-labs/formats
-  mozilla: https://developer.mozilla.org/en-US/docs
+  ghpages: https://pages.github.com
+  gif: https://www.w3.org/Graphics/GIF/spec-gif87.txt
+  gzip: https://www.gzip.org
+  hdf5: https://www.hdfgroup.org/solutions/hdf5/
+  hdf5tools: https://support.hdfgroup.org/products/hdf5_tools/
+  html: https://www.w3.org/TR/html/
+  htmlmdn: https://developer.mozilla.org/en-US/docs/Web/HTML
+  imagemagick: https://imagemagick.org/index.php
+  irfanview: https://www.irfanview.com
+  issues: https://github.com/Dans-labs/formats/issues
+  java: https://www.oracle.com/java/
+  jpeg: https://www.w3.org/Graphics/JPEG/itu-t81.pdf
+  js: http://ecma-international.org/ecma-262/9.0/index.html#Title
+  jsmdn: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  json: https://json.org
+  jsx: https://reactjs.org
+  latex: https://www.latex-project.org
+  libreoffice: https://www.libreoffice.org
+  markdown: https://daringfireball.net/projects/markdown/syntax
+  mdn: https://developer.mozilla.org/en-US/
+  msaccess: https://products.office.com/en/access
+  msaccesscom: https://techcommunity.microsoft.com/t5/Access/ct-p/Access_Cat
+  mysql: https://www.mysql.com
+  pascal: http://scihi.org/nikolaus-wirth-pascal/
+  pdf: https://www.pdfa.org/resource/iso-32000-1-pdf-1-7/
+  pdfa: https://www.pdfa.org/resource/iso-19005-pdfa/
+  perl: http://www.perl.org
+  png: http://www.libpng.org/pub/png/
+  postscript: https://www.adobe.com/products/postscript.html
   preferredFormats: https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats?set_language=en
-  rfc4180: https://tools.ietf.org/html/rfc4180
+  prolog: https://www.swi-prolog.org
+  python: https://www.python.org
+  readthedocs: https://readthedocs.org
+  ruby: https://www.ruby-lang.org/en/
+  scala: https://www.scala-lang.org
+  sgml: https://www.w3.org/MarkUp/SGML/
+  siard: https://www.bar.admin.ch/bar/en/home/archiving/tools/siard-suite.html
+  sqldoc: https://dev.mysql.com/doc/refman/8.0/en/sql-syntax.html
+  svgmdn: https://developer.mozilla.org/en-US/docs/Web/SVG
+  tar: https://www.gnu.org/software/tar/
+  tex: https://ctan.org
+  tiff: https://tools.ietf.org/html/rfc2306
   unicode: http://unicode.org
   wikipedia: https://en.wikipedia.org/wiki
-  header1: >-
-    ![img](images/formats.png){: width="100" align="right"}
-    ![img](images/DANS.png){: width="200" align="right"}
-
-    ---
-
-  header: >-
-    ![img](../images/formats.png){: width="100" align="right"}
-
-    ---
-
-  footer1: >-
-    ---
-
-    ![img](images/formats.png){: width="100" align="left"}
-    ![img](images/DANS.png){: width="200" align="right"}
-
-  footer: >-
-    ---
-
-    ![img](../images/formats.png){: width="100" align="left"}
-    ![img](../images/DANS.png){: width="200" align="right"}
+  xml: https://www.w3.org/TR/xml/
+  yaml: https://yaml.org
 
 theme:
   name: material
@@ -64,46 +90,151 @@ strict: false
 nav:
   - Home: 'index.md'
   - Data Types:
+    - Data (container): 'dataTypes/dataContainer.md'
     - Database: 'dataTypes/database.md'
-    - Text (formatted): 'dataTypes/formattedText.md'
-    - Text (plain): 'dataTypes/plainText.md'
-    - Data (containers): 'dataTypes/data.md'
+    - Image: 'dataTypes/image.md'
+    - Program code: 'dataTypes/programCode.md'
+    - Text (formatted): 'dataTypes/textFormatted.md'
+    - Text (plain): 'dataTypes/textPlain.md'
   - File Formats (by data type):
-    - Data containers:
-      - json: 'fileFormats/json.md'
-      - tar: 'fileFormats/tar.md'
-      - xml: 'fileFormats/xml.md'
-      - yaml: 'fileFormats/yaml.md'
+    - Data (container):
+      - JSON: 'fileFormats/json.md'
+      - SQL: 'fileFormats/sql.md'
+      - TAR: 'fileFormats/tar.md'
+      - XML: 'fileFormats/xml.md'
+      - YAML: 'fileFormats/yaml.md'
     - Database:
       - Access: 'fileFormats/access.md'
-      - csv: 'fileFormats/csv.md'
+      - CSV: 'fileFormats/csv.md'
+      - HDF5: 'fileFormats/hdf5.md'
+      - SIARD: 'fileFormats/siard.md'
+      - SQL: 'fileFormats/sql.md'
+      - XML: 'fileFormats/xml.md'
       - dbase: 'fileFormats/dbase.md'
-      - hdf5: 'fileFormats/hdf5.md'
-      - siard: 'fileFormats/siard.md'
-      - sql: 'fileFormats/sql.md'
+    - Image:
+      - GIF: 'fileFormats/gif.md'
+      - JPEG: 'fileFormats/jpeg.md'
+      - PDF: 'fileFormats/pdf.md'
+      - PDF/A: 'fileFormats/pdfa.md'
+      - PNG: 'fileFormats/png.md'
+      - PostScript: 'fileFormats/postscript.md'
+      - SVG: 'fileFormats/svg.md'
+      - TIFF: 'fileFormats/tiff.md'
+    - Program code:
+      - C: 'fileFormats/c.md'
+      - CPP: 'fileFormats/cpp.md'
+      - JAVA: 'fileFormats/java.md'
+      - JSX: 'fileFormats/jsx.md'
+      - JavaScript: 'fileFormats/javascript.md'
+      - Pascal: 'fileFormats/pascal.md'
+      - Perl: 'fileFormats/perl.md'
+      - Prolog: 'fileFormats/prolog.md'
+      - Python: 'fileFormats/python.md'
+      - Ruby: 'fileFormats/ruby.md'
+      - Scala: 'fileFormats/scala.md'
     - Text (formatted):
-      - css: 'fileFormats/css.md'
-      - html: 'fileFormats/html.md'
-      - markdown: 'fileFormats/markdown.md'
-      - pdfa: 'fileFormats/pdfa.md'
+      - CSS: 'fileFormats/css.md'
+      - HTML: 'fileFormats/html.md'
+      - Markdown: 'fileFormats/markdown.md'
+      - PDF/A: 'fileFormats/pdfa.md'
+      - SGML: 'fileFormats/sgml.md'
+      - TeX: 'fileFormats/tex.md'
+      - XML: 'fileFormats/xml.md'
     - Text (plain):
-      - txt: 'fileFormats/txt.md'
+      - CSS: 'fileFormats/css.md'
+      - CSV: 'fileFormats/csv.md'
+      - HTML: 'fileFormats/html.md'
+      - JSON: 'fileFormats/json.md'
+      - Markdown: 'fileFormats/markdown.md'
+      - SQL: 'fileFormats/sql.md'
+      - TeX: 'fileFormats/tex.md'
+      - Text: 'fileFormats/text.md'
+      - XML: 'fileFormats/xml.md'
+      - YAML: 'fileFormats/yaml.md'
   - File Formats (A-Z):
     - Access: 'fileFormats/access.md'
-    - css: 'fileFormats/css.md'
-    - csv: 'fileFormats/csv.md'
+    - C: 'fileFormats/c.md'
+    - CPP: 'fileFormats/cpp.md'
+    - CSS: 'fileFormats/css.md'
+    - CSV: 'fileFormats/csv.md'
+    - GIF: 'fileFormats/gif.md'
+    - HDF5: 'fileFormats/hdf5.md'
+    - HTML: 'fileFormats/html.md'
+    - JAVA: 'fileFormats/java.md'
+    - JPEG: 'fileFormats/jpeg.md'
+    - JSON: 'fileFormats/json.md'
+    - JSX: 'fileFormats/jsx.md'
+    - JavaScript: 'fileFormats/javascript.md'
+    - Markdown: 'fileFormats/markdown.md'
+    - PDF: 'fileFormats/pdf.md'
+    - PDF/A: 'fileFormats/pdfa.md'
+    - PNG: 'fileFormats/png.md'
+    - Pascal: 'fileFormats/pascal.md'
+    - Perl: 'fileFormats/perl.md'
+    - PostScript: 'fileFormats/postscript.md'
+    - Prolog: 'fileFormats/prolog.md'
+    - Python: 'fileFormats/python.md'
+    - Ruby: 'fileFormats/ruby.md'
+    - SGML: 'fileFormats/sgml.md'
+    - SIARD: 'fileFormats/siard.md'
+    - SQL: 'fileFormats/sql.md'
+    - SVG: 'fileFormats/svg.md'
+    - Scala: 'fileFormats/scala.md'
+    - TAR: 'fileFormats/tar.md'
+    - TIFF: 'fileFormats/tiff.md'
+    - TeX: 'fileFormats/tex.md'
+    - Text: 'fileFormats/text.md'
+    - XML: 'fileFormats/xml.md'
+    - YAML: 'fileFormats/yaml.md'
     - dbase: 'fileFormats/dbase.md'
-    - hdf5: 'fileFormats/hdf5.md'
-    - html: 'fileFormats/html.md'
-    - json: 'fileFormats/json.md'
-    - markdown: 'fileFormats/markdown.md'
-    - pdfa: 'fileFormats/pdfa.md'
-    - siard: 'fileFormats/siard.md'
-    - sql: 'fileFormats/sql.md'
-    - tar: 'fileFormats/tar.md'
-    - tex: 'fileFormats/tex.md'
-    - txt: 'fileFormats/txt.md'
-    - xml: 'fileFormats/xml.md'
+  - Extensions:
+    - .accdb: 'extensions/accdb.md'
+    - .c: 'extensions/c.md'
+    - .cfg: 'extensions/cfg.md'
+    - .cpp: 'extensions/cpp.md'
+    - .css: 'extensions/css.md'
+    - .csv: 'extensions/csv.md'
+    - .dbf: 'extensions/dbf.md'
+    - .eps: 'extensions/eps.md'
+    - .gif: 'extensions/gif.md'
+    - .h: 'extensions/h.md'
+    - .hdf5: 'extensions/hdf5.md'
+    - .htm: 'extensions/htm.md'
+    - .html: 'extensions/html.md'
+    - .ini: 'extensions/ini.md'
+    - .java: 'extensions/java.md'
+    - .jpeg: 'extensions/jpeg.md'
+    - .jpg: 'extensions/jpg.md'
+    - .js: 'extensions/js.md'
+    - .json: 'extensions/json.md'
+    - .jsx: 'extensions/jsx.md'
+    - .log: 'extensions/log.md'
+    - .lst: 'extensions/lst.md'
+    - .md: 'extensions/md.md'
+    - .mdb: 'extensions/mdb.md'
+    - .p: 'extensions/p.md'
+    - .pas: 'extensions/pas.md'
+    - .pdf: 'extensions/pdf.md'
+    - .pl: 'extensions/pl.md'
+    - .png: 'extensions/png.md'
+    - .ps: 'extensions/ps.md'
+    - .py: 'extensions/py.md'
+    - .rb: 'extensions/rb.md'
+    - .scala: 'extensions/scala.md'
+    - .siard: 'extensions/siard.md'
+    - .sql: 'extensions/sql.md'
+    - .sty: 'extensions/sty.md'
+    - .svg: 'extensions/svg.md'
+    - .tar: 'extensions/tar.md'
+    - .tex: 'extensions/tex.md'
+    - .text: 'extensions/text.md'
+    - .tif: 'extensions/tif.md'
+    - .tiff: 'extensions/tiff.md'
+    - .tsv: 'extensions/tsv.md'
+    - .txt: 'extensions/txt.md'
+    - .xml: 'extensions/xml.md'
+    - .yaml: 'extensions/yaml.md'
+  - Build: 'help.md'
 
 markdown_extensions:
   - attr_list

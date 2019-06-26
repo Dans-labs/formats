@@ -1,16 +1,33 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# SQL
+
+**Structured Query Language**
+
+item | info
 --- | ---
-extensions | `.sql`
-data types | [database](../dataTypes/database.md)
-preferred | ✅
+type | Text (plain)
+preferred | ✅ yes
+extensions | [`sql`](../extensions/sql.md)
+wikipedia | [`SQL`]({{wikipedia}}/SQL)
 
-## Description
+# Description
 
 Many DBMSs
 support the ISO standardized version of
-[Structured Query Language (SQL)]({{wikipedia}}/SQL). This is
+Structured Query Language (SQL).
+This is
 a language for querying and updating relational databases. Together with the
 data definition language, used to define and modify schemas, the contents of a
 database can be stored as a collection of schema and data statements. The
@@ -22,8 +39,23 @@ non-existent or external data without invalidating the file. If SQL is used for
 data exchange, any references must therefore be supplied, or each reference must
 be replaced by the data referred to.
 
+
 ## See also
+*   [`{{mysql}}`]({{mysql}})
+*   [`{{sqldoc}}`]({{sqldoc}})
 
-[text (plain)](../dataTypes/plainText.md)
 
-{{footer}}
+
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}

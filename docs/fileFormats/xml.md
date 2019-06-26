@@ -1,15 +1,44 @@
-{{header}}
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
 
-key | value
+---
+
+**this documentation is under development**
+
+[current docs]({{preferredFormats}})
+
+---
+
+
+
+# XML
+
+**eXtensible Markup Language**
+
+item | info
 --- | ---
-extensions | `.xml`
-data types | [data container](../dataTypes/data.md) [text (formatted)](../dataTypes/formattedText.md)
-preferred | ⚠️
+type | Text (plain)
+preferred | ⚠️ under conditions
+extensions | [`xml`](../extensions/xml.md)
+wikipedia | [`XML`]({{wikipedia}}/XML)
+
+
 
 ## See also
+*   [`{{xml}}`]({{xml}})
 
-[text (plain)](../dataTypes/plainText.md)
-[database](../dataTypes/database.md)
 
-{{footer}}
 
+
+---
+
+Preferred Formats Documention **(under development)**
+
+---
+
+[Current documentation]({{preferredFormats}})
+
+[Data Archiving and Networked Services (DANS)]({{dans}})
+
+![img](../images/formats.png){: width="100" align="right"}
+![img](../images/DANS.png){: width="200" align="right"}
