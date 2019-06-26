@@ -1,29 +1,41 @@
 {{header}}
 
-# Text
-
-## Extensions
-
-`.txt`, `log`, `lst`, `cfg`, `ini`
-
-plus extensions referring to programming languages.
-
-Each programming language has its own conventional file extension, but there is
-no strictly enforced correspondence between programming language and extension.
-
-A few examples:
-
-language | extension
+key | value
 --- | ---
-Pascal | `.p`
-Prolog | `.p`, `.pl`
-Perl | `.p`, `.pl`
-Python | `.py`
-C | `.h`, `.c`
-C++ | `.h`, `.cpp`
-Ruby | `.rb`
-Javascript | `.js`
-Java | `.java`
+extensions | `.txt`, `log`, `lst`, `cfg`, `ini` plus extensions referring to programming languages.
+data types | [text (plain)](../dataTypes/plainText.md)
+preferred | ⚠️
+
+??? "caution"
+    Each programming language has its own conventional file extension, but there is
+    no strictly enforced correspondence between programming language and extension.
+
+    A few examples:
+
+    language | extension
+    --- | ---
+    Pascal | `.p`
+    Prolog | `.p`, `.pl`
+    Perl | `.p`, `.pl`
+    Python | `.py`
+    C | `.h`, `.c`
+    C++ | `.h`, `.cpp`
+    Ruby | `.rb`
+    Javascript | `.js`
+    Java | `.java`
+
+## Description
+
+Plain text is a data type that requires very little software to interpret it.
+The software that is required, is usually part of the operating system, such 
+as *notepad* on Windows, *Text Edit* on the Mac, or the *Terminal* or *command
+prompt* on all systems.
+
+Plain text is used for text without formatting, for configuration documents,
+for logging, for data, and for programming.
+
+It can be produced by humans, typing on the keyboard or dictating in a
+microphone, but also by programs, scripts and commands on the terminal.
 
 ## Preferred status
 
@@ -41,20 +53,6 @@ For program files, it is recommended to follow the best practices for
 that programming language.
 It is dependent on the programming language how the character encoding must be
 specified, and what the default encoding is.
-
-## Description
-
-Plain text is a data type that requires very little software to interpret it.
-The software that is required, is usually part of the operating system, such 
-as *notepad* on Windows, *Text Edit* on the Mac, or the *Terminal* or *command
-prompt* on all systems.
-
-Plain text is used for text without formatting, for configuration documents,
-for logging, for data, and for programming.
-
-It can be produced by humans, typing on the keyboard or dictating in a
-microphone, but also by programs, scripts and commands on the terminal.
-
 
 ## See also
 

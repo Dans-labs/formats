@@ -1,10 +1,10 @@
 {{header}}
 
-# YAML
-
-## Data types
-
-[data container](../dataTypes/data.md)
+key | value
+--- | ---
+extensions | `.yml` `.yaml`
+data types | [data container](../dataTypes/data.md)
+preferred | ✅
 
 ## See also
 

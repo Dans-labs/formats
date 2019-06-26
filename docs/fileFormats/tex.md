@@ -1,10 +1,14 @@
 {{header}}
 
-# TeX
+key | value
+--- | ---
+extensions | `.tex`
+data types | [text (formatted)](../dataTypes/formattedText.md)
+preferred | ⚠️
 
-## Data types
+## Description
 
-[text (formatted)](../dataTypes/formattedText.md)
+## Recommendation
 
 ## See also
 
