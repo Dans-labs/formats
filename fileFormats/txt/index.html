@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#text" tabindex="1" class="md-skip">
+      <a href="#description" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -587,8 +587,6 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         txt
@@ -602,15 +600,13 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#extensions" title="Extensions" class="md-nav__link">
-    Extensions
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
   </a>
   
 </li>
@@ -618,13 +614,6 @@
         <li class="md-nav__item">
   <a href="#preferred-status" title="Preferred status" class="md-nav__link">
     Preferred status
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
   </a>
   
 </li>
@@ -845,8 +834,6 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         txt
@@ -860,15 +847,13 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#extensions" title="Extensions" class="md-nav__link">
-    Extensions
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
   </a>
   
 </li>
@@ -876,13 +861,6 @@
         <li class="md-nav__item">
   <a href="#preferred-status" title="Preferred status" class="md-nav__link">
     Preferred status
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
   </a>
   
 </li>
@@ -936,15 +914,13 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#extensions" title="Extensions" class="md-nav__link">
-    Extensions
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
   </a>
   
 </li>
@@ -952,13 +928,6 @@
         <li class="md-nav__item">
   <a href="#preferred-status" title="Preferred status" class="md-nav__link">
     Preferred status
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#description" title="Description" class="md-nav__link">
-    Description
   </a>
   
 </li>
@@ -989,12 +958,32 @@
                   <a href="https://github.com/Dans-labs/formats/edit/master/docs/fileFormats/txt.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
+                  <h1>txt</h1>
+                
                 <h2 id="_1"><img align="right" alt="img" src="../../images/formats.png" width="100" /><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<h1 id="text">Text<a class="headerlink" href="#text" title="Permanent link">&para;</a></h1>
-<h2 id="extensions">Extensions<a class="headerlink" href="#extensions" title="Permanent link">&para;</a></h2>
-<p><code>.txt</code>, <code>log</code>, <code>lst</code>, <code>cfg</code>, <code>ini</code></p>
-<p>plus extensions referring to programming languages.</p>
-<p>Each programming language has its own conventional file extension, but there is
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>extensions</td>
+<td><code>.txt</code>, <code>log</code>, <code>lst</code>, <code>cfg</code>, <code>ini</code> plus extensions referring to programming languages.</td>
+</tr>
+<tr>
+<td>data types</td>
+<td><a href="../../dataTypes/plainText/">text (plain)</a></td>
+</tr>
+<tr>
+<td>preferred</td>
+<td>⚠️</td>
+</tr>
+</tbody>
+</table>
+<details><summary>caution</summary><p>Each programming language has its own conventional file extension, but there is
 no strictly enforced correspondence between programming language and extension.</p>
 <p>A few examples:</p>
 <table>
@@ -1043,6 +1032,16 @@ no strictly enforced correspondence between programming language and extension.<
 </tr>
 </tbody>
 </table>
+</details>
+<h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
+<p>Plain text is a data type that requires very little software to interpret it.
+The software that is required, is usually part of the operating system, such 
+as <em>notepad</em> on Windows, <em>Text Edit</em> on the Mac, or the <em>Terminal</em> or <em>command
+prompt</em> on all systems.</p>
+<p>Plain text is used for text without formatting, for configuration documents,
+for logging, for data, and for programming.</p>
+<p>It can be produced by humans, typing on the keyboard or dictating in a
+microphone, but also by programs, scripts and commands on the terminal.</p>
 <h2 id="preferred-status">Preferred status<a class="headerlink" href="#preferred-status" title="Permanent link">&para;</a></h2>
 <p>DANS is confident that uncategorized plain text files
 using the Unicode character set,
@@ -1057,15 +1056,6 @@ can be represented correctly in most computing environments.</p>
 that programming language.
 It is dependent on the programming language how the character encoding must be
 specified, and what the default encoding is.</p>
-<h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
-<p>Plain text is a data type that requires very little software to interpret it.
-The software that is required, is usually part of the operating system, such 
-as <em>notepad</em> on Windows, <em>Text Edit</em> on the Mac, or the <em>Terminal</em> or <em>command
-prompt</em> on all systems.</p>
-<p>Plain text is used for text without formatting, for configuration documents,
-for logging, for data, and for programming.</p>
-<p>It can be produced by humans, typing on the keyboard or dictating in a
-microphone, but also by programs, scripts and commands on the terminal.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <p><a href="../../dataTypes/formattedText/">text (formatted)</a></p>
 <hr />
