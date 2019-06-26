@@ -25,13 +25,12 @@ extra:
   unicode: http://unicode.org
   wikipedia: https://en.wikipedia.org/wiki
   header1: >-
-    <img src="images/formats.png" width="100" align="right"/>
-    <img src="images/DANS.png" width="200" align="right"/>
+    ![img](images/formats.png){: width="100" align="right"}
+    ![img](images/DANS.png){: width="200" align="right"}
 
     ---
 
   header: >-
-    <img src="../images/formats.png" width="100" align="right"/>
     ![img](../images/formats.png){: width="100" align="right"}
 
     ---
@@ -39,14 +38,14 @@ extra:
   footer1: >-
     ---
 
-    <img src="images/formats.png" width="100" align="left"/>
-    <img src="images/DANS.png" width="200" align="right"/>
+    ![img](images/formats.png){: width="100" align="left"}
+    ![img](images/DANS.png){: width="200" align="right"}
 
   footer: >-
     ---
 
-    <img src="../images/formats.png" width="100" align="left"/>
-    <img src="../images/DANS.png" width="200" align="right"/>
+    ![img](../images/formats.png){: width="100" align="left"}
+    ![img](../images/DANS.png){: width="200" align="right"}
 
 theme:
   name: material
