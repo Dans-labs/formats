@@ -32,7 +32,7 @@ extra:
 
   header: >-
     <img src="../images/formats.png" width="100" align="right"/>
-  ![img](../images/formats.png){: width="100" align="right"}
+    ![img](../images/formats.png){: width="100" align="right"}
 
     ---
 
