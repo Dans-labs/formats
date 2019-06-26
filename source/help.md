@@ -28,8 +28,8 @@ file | description
 [`header.md`]({{formats}}/blob/master/source/header.md) | header for all pages
 [`footer.md`]({{formats}}/blob/master/source/footer.md) | footer for all pages
 [`data.yaml`]({{formats}}/blob/master/source/data.yaml) | relationships, metadata, links
-[`urls.list`]({{formats}}/blob/master/source/data.yaml) | list of external urls
-[`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkDocsIn.yaml) | template for the site config file
+[`urls.list`]({{formats}}/blob/master/source/urls.list) | list of external urls
+[`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkdocsIn.yaml) | template for the site config file
 
 ## Intermediate
 

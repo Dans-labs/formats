@@ -30,10 +30,10 @@ python3 build.py g commitmsg
 
 `make` compiles Markdown files from the source files.
 
-`docs` does the same, and serves them locally and them shows them in your browser.
+`docs` does `make` and then serves the docs locally and them shows them in your browser.
 
-`g` does the same, and pushes them to GitHub,
-where they will be published under <https://dans-labs.github.io/formats/>.
+`g` does `make`, and pushes the whole site to GitHub,
+where it will be published under <https://dans-labs.github.io/formats/>.
 The repo itself will also be committed and pushed to github.
 
 Replace `commitmsg` by anything that is appropriate as a commit message.
@@ -59,8 +59,8 @@ file | description
 [`header.md`]({{formats}}/blob/master/source/header.md) | header for all pages
 [`footer.md`]({{formats}}/blob/master/source/footer.md) | footer for all pages
 [`data.yaml`]({{formats}}/blob/master/source/data.yaml) | relationships, metadata, links
-[`urls.list`]({{formats}}/blob/master/source/data.yaml) | list of external urls
-[`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkDocsIn.yaml) | template for the site config file
+[`urls.list`]({{formats}}/blob/master/source/urls.list) | list of external urls
+[`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkdocsIn.yaml) | template for the site config file
 
 ## Intermediate
 
