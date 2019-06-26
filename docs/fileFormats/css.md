@@ -22,7 +22,7 @@ preferred | ⚠️ under conditions
 extensions | [`css`](../extensions/css.md)
 wikipedia | [`Cascading_Style_Sheets`]({{wikipedia}}/Cascading_Style_Sheets)
 
-# Description
+## Description
 
 [CSS]({{wikipedia}}/Cascading_Style_Sheets)
 is a style sheet language for styling
@@ -31,7 +31,7 @@ is a style sheet language for styling
 HTML files may contain CSS styles inside, or they may refer to other files for
 their styling.
 
-# Complications
+## Complications
 
 The World-wide-web is one of the most dynamic corners of IT. Standards are
 always on the move, and new patterns of organizing web content replace the best

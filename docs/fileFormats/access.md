@@ -22,7 +22,7 @@ preferred | ❌ no
 extensions | [`accdb`](../extensions/accdb.md), [`mdb`](../extensions/mdb.md)
 wikipedia | [`Microsoft_Access`]({{wikipedia}}/Microsoft_Access)
 
-# Description
+## Description
 
 Microsoft Access is widely used for creating databases. The Access
 [.mdb](../extensions/mdb.md) and [.accdb](../extensions/accdb.md)
@@ -36,7 +36,7 @@ enabled many databases created with Microsoft Access to be processed in a
 sustainable and accessible manner by storing the tables from the database as
 separate [CSV](../fileFormats/csv.md) text files.
 
-# Recommendation
+## Recommendation
 
 Export data as [CSV](../fileFormats/csv.md) and data description as [PDF/A](../fileFormats/pdfa.md).
 

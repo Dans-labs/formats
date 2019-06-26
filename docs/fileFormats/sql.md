@@ -22,7 +22,7 @@ preferred | ✅ yes
 extensions | [`sql`](../extensions/sql.md)
 wikipedia | [`SQL`]({{wikipedia}}/SQL)
 
-# Description
+## Description
 
 Many DBMSs
 support the ISO standardized version of

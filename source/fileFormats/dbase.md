@@ -1,11 +1,11 @@
-# Description
+## Description
 
 dBase is a proprietary product.
 The company behind
 dBase will still support older versions of the format. For versions earlier than
 7 no official documentation is made available.
 
-# Recommendation
+## Recommendation
 
 *dBase* formats can be read in
 several different database applications, including

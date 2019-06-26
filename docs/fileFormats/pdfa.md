@@ -22,7 +22,7 @@ preferred | ✅ yes
 extensions | [`pdf`](../extensions/pdf.md)
 wikipedia | [`PDF/A`]({{wikipedia}}/PDF/A)
 
-# Description
+## Description
 
 [PDF](../fileFormats/pdf.md)
 has been developed by software maker Adobe to represent printed documents

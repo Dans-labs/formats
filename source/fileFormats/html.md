@@ -1,4 +1,4 @@
-# Description
+## Description
 
 HTML
 is *the* core web technology, turning the pre-www internet of 1991 into a World Wide Web.
@@ -30,7 +30,7 @@ their styling.
 Likewise, they may contain [=javascript] inside, or they may refer to other files
 for their scripting.
 
-# Complications
+## Complications
 
 The World-wide-web is one of the most dynamic corners of IT. Standards are
 always on the move, and new patterns of organizing web content replace the best
@@ -46,7 +46,7 @@ software.
 HTML files can be almost one liners that call a big Javascript program that does
 all the rest, or it may contain everything inside.
 
-# HTML in the archive
+## HTML in the archive
 
 One scenario by which HTML files may enter the archive, is when a website gets
 archived. In that case, it is not the individual HTML files themselves that

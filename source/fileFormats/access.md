@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Microsoft Access is widely used for creating databases. The Access
 [.mdb] and [.accdb]
@@ -12,7 +12,7 @@ enabled many databases created with Microsoft Access to be processed in a
 sustainable and accessible manner by storing the tables from the database as
 separate [=csv] text files.
 
-# Recommendation
+## Recommendation
 
 Export data as [=csv] and data description as [=pdfa].
 

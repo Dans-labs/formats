@@ -115,7 +115,7 @@ the ASCII characters.
 Other encodings are [UTF16]({{wikipedia}}/UTF-16)
 and [UTF32]({{wikipedia}}/UTF-32).
 
-### Specifyting a Unicode encoding
+### Specifying a Unicode encoding
 
 File formats such as [XML](../fileFormats/xml.md) make it clear which Unicode
 encoding is being used.

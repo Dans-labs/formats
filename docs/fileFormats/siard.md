@@ -22,7 +22,7 @@ preferred | ✅ yes
 extensions | [`siard`](../extensions/siard.md)
 wikipedia | [`SIARD_Suite`]({{wikipedia}}/SIARD_Suite)
 
-# Description
+## Description
 
 For relational databases, SIARD is seen as
 a suitable and sustainable format. SIARD (Software Independent Archiving of

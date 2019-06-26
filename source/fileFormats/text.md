@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Plain text is a data type that requires very little software to interpret it.
 The software that is required, is usually part of the operating system, such 
@@ -11,7 +11,7 @@ for logging, for data, and for programming.
 It can be produced by humans, typing on the keyboard or dictating in a
 microphone, but also by programs, scripts and commands on the terminal.
 
-# Preferred status
+## Preferred status
 
 We are confident that uncategorized plain text files
 using the Unicode character set,

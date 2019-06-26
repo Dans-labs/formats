@@ -22,7 +22,7 @@ preferred | ⚠️ under conditions
 extensions | [`csv`](../extensions/csv.md), [`tsv`](../extensions/tsv.md)
 wikipedia | [`Comma-separated_values`]({{wikipedia}}/Comma-separated_values)
 
-# Description
+## Description
 
 CSV files contain tabular data as plain text.
 This format does not support data types and metadata beyond column titles. It is
@@ -59,7 +59,7 @@ setting can be found under List separator on the Region and Language screen. If
 the same separator is selected as what is found in the csv file,
 that csv file will be correctly displayed in distinct columns in all applications.
 
-# Character encoding.
+## Character encoding.
 
 There is no standard to declare the character encoding that is used in a csv
 file.

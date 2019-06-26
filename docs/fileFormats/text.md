@@ -22,7 +22,7 @@ preferred | ⚠️ under conditions
 extensions | [`cfg`](../extensions/cfg.md), [`ini`](../extensions/ini.md), [`log`](../extensions/log.md), [`lst`](../extensions/lst.md), [`text`](../extensions/text.md), [`txt`](../extensions/txt.md)
 wikipedia | [`Plain_text`]({{wikipedia}}/Plain_text), [`UTF-8`]({{wikipedia}}/UTF-8), [`Byte_order_mark`]({{wikipedia}}/Byte_order_mark)
 
-# Description
+## Description
 
 Plain text is a data type that requires very little software to interpret it.
 The software that is required, is usually part of the operating system, such 
@@ -35,7 +35,7 @@ for logging, for data, and for programming.
 It can be produced by humans, typing on the keyboard or dictating in a
 microphone, but also by programs, scripts and commands on the terminal.
 
-# Preferred status
+## Preferred status
 
 We are confident that uncategorized plain text files
 using the Unicode character set,

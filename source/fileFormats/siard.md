@@ -1,4 +1,4 @@
-# Description
+## Description
 
 For relational databases, SIARD is seen as
 a suitable and sustainable format. SIARD (Software Independent Archiving of

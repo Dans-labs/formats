@@ -22,7 +22,7 @@ preferred | ✅ yes
 extensions | [`tar`](../extensions/tar.md)
 wikipedia | [`Tar_(computing)`]({{wikipedia}}/Tar_(computing))
 
-# Description
+## Description
 
 TAR is a container format,
 historically used to create tape archives from large directories,
