@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 preferred | ❌ no
-extensions | [`dbf`](../extensions/dbf.md)
+extensions | [`.dbf`](../extensions/dbf.md)
 wikipedia | [`DBase`]({{wikipedia}}/DBase), [`.dbf`]({{wikipedia}}/.dbf)
 
 ## Description

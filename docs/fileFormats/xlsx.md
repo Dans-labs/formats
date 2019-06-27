@@ -11,14 +11,21 @@
 
 
 
-# .cfg
+# XLSX
+
+**Excel xlsx**
 
 item | info
 --- | ---
-type | [Text (plain)](../dataTypes/textPlain.md)
-format | [Text](../fileFormats/text.md)
-variants | [`.ini`](../extensions/ini.md), [`.log`](../extensions/log.md), [`.lst`](../extensions/lst.md), [`.text`](../extensions/text.md), [`.txt`](../extensions/txt.md)
-file info | [`extension/cfg`]({{fileinfo}}/cfg)
+type | [Spreadsheet](../dataTypes/spreadsheet.md)
+preferred | ✅ yes
+extensions | [`.xlsx`](../extensions/xlsx.md)
+wikipedia | [`Xlsx`]({{wikipedia}}/Xlsx), [`Office_Open_XML_file_formats`]({{wikipedia}}/Office_Open_XML_file_formats), [`Microsoft_Excel#File_formats`]({{wikipedia}}/Microsoft_Excel#File_formats)
+
+
+
+## See also
+*   [`{{ooxml}}`]({{ooxml}})
 
 
 

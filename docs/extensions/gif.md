@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 format | [GIF](../fileFormats/gif.md)
 variants | 
 file info | [`extension/gif`]({{fileinfo}}/gif)

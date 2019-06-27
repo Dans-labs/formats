@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 preferred | ✅ yes
-extensions | [`siard`](../extensions/siard.md)
+extensions | [`.siard`](../extensions/siard.md)
 wikipedia | [`SIARD_Suite`]({{wikipedia}}/SIARD_Suite)
 
 ## Description

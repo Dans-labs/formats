@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Text (formatted)](../dataTypes/textFormatted.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ⚠️ under conditions
-extensions | [`sty`](../extensions/sty.md), [`tex`](../extensions/tex.md)
+extensions | [`.sty`](../extensions/sty.md), [`.tex`](../extensions/tex.md)
 wikipedia | [`TeX`]({{wikipedia}}/TeX), [`LaTeX`]({{wikipedia}}/LaTeX)
 
 

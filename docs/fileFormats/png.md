@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 preferred | ✅ yes
-extensions | [`png`](../extensions/png.md)
+extensions | [`.png`](../extensions/png.md)
 wikipedia | [`Portable_Network_Graphics`]({{wikipedia}}/Portable_Network_Graphics)
 
 

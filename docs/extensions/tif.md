@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 format | [TIFF](../fileFormats/tiff.md)
 variants | [`.tiff`](../extensions/tiff.md)
 file info | [`extension/tif`]({{fileinfo}}/tif)

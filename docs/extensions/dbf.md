@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 format | [dbase](../fileFormats/dbase.md)
 variants | 
 file info | [`extension/dbf`]({{fileinfo}}/dbf)

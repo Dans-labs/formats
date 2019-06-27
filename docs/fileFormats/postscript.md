@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 preferred | ❌ no
-extensions | [`eps`](../extensions/eps.md), [`ps`](../extensions/ps.md)
+extensions | [`.eps`](../extensions/eps.md), [`.ps`](../extensions/ps.md)
 wikipedia | [`PostScript`]({{wikipedia}}/PostScript), [`Encapsulated_PostScript`]({{wikipedia}}/Encapsulated_PostScript)
 
 

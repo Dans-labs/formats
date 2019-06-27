@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 preferred | ✅ yes
-extensions | [`jpeg`](../extensions/jpeg.md), [`jpg`](../extensions/jpg.md)
+extensions | [`.jpeg`](../extensions/jpeg.md), [`.jpg`](../extensions/jpg.md)
 wikipedia | [`JPEG`]({{wikipedia}}/JPEG)
 
 

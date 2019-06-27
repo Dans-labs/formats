@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Data (container)](../dataTypes/dataContainer.md), [Database](../dataTypes/database.md), [Text (formatted)](../dataTypes/textFormatted.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ⚠️ under conditions
-extensions | [`xml`](../extensions/xml.md)
+extensions | [`.xml`](../extensions/xml.md)
 wikipedia | [`XML`]({{wikipedia}}/XML)
 
 

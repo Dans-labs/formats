@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Data (container)](../dataTypes/dataContainer.md), [Database](../dataTypes/database.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ✅ yes
-extensions | [`sql`](../extensions/sql.md)
+extensions | [`.sql`](../extensions/sql.md)
 wikipedia | [`SQL`]({{wikipedia}}/SQL)
 
 ## Description

@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 format | [Python](../fileFormats/python.md)
 variants | [`.p`](../extensions/p.md)
 file info | [`extension/py`]({{fileinfo}}/py)

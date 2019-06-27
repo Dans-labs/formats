@@ -4,7 +4,7 @@
 is a style sheet language for styling
 [=html] documents.
 
-HTML files may contain CSS styles inside, or they may refer to other files for
+[=html] files may contain CSS styles inside, or they may refer to other files for
 their styling.
 
 ## Complications
@@ -15,7 +15,7 @@ practices of yesterday.
 
 CSS is gone through several major versions.
 
-The format is plain text, so CSS files are easy to open,
+The format is [=text], so CSS files are easy to open,
 but the meaning of the styles is dependent on the version of the
 CSS styling engine that has been used.
 

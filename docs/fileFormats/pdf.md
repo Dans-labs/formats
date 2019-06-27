@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 preferred | ⚠️ under conditions
-extensions | [`pdf`](../extensions/pdf.md)
+extensions | [`.pdf`](../extensions/pdf.md)
 wikipedia | [`PDF`]({{wikipedia}}/PDF)
 
 

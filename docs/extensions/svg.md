@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 format | [SVG](../fileFormats/svg.md)
 variants | 
 file info | [`extension/svg`]({{fileinfo}}/svg)

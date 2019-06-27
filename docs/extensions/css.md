@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Text (formatted)](../dataTypes/textFormatted.md), [Text (plain)](../dataTypes/textPlain.md)
 format | [CSS](../fileFormats/css.md)
 variants | 
 file info | [`extension/css`]({{fileinfo}}/css)

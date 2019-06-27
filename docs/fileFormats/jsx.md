@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`jsx`](../extensions/jsx.md)
+extensions | [`.jsx`](../extensions/jsx.md)
 wikipedia | [`React_(JavaScript_library)#JSX`]({{wikipedia}}/React_(JavaScript_library)#JSX)
 
 

@@ -2,6 +2,7 @@ import sys
 import os
 import collections
 import re
+from itertools import chain
 from shutil import rmtree
 
 from time import sleep
@@ -40,7 +41,7 @@ python3 build.py g commitmsg
 
 `g` does `make`, and pushes the whole site to GitHub,
 where it will be published under <https://dans-labs.github.io/formats/>.
-The repo itself will also be committed and pushed to github.
+The repo itself will also be committed and pushed to GitHub.
 
 Replace `commitmsg` by anything that is appropriate as a commit message.
 
@@ -128,12 +129,12 @@ def makeDocs():
 
   errors = []
 
-  dataFromFile = {}
-  dataFromExt = {}
+  dataFromFile = collections.defaultdict(set)
+  dataFromExt = collections.defaultdict(set)
   filesFromData = collections.defaultdict(set)
-  fileFromExt = {}
-  extFromData = collections.defaultdict(set)
-  extFromFile = collections.defaultdict(set)
+  filesFromExt = collections.defaultdict(set)
+  extsFromData = collections.defaultdict(set)
+  extsFromFile = collections.defaultdict(set)
   texts = {}
 
   linkRe = re.compile(r'\[([=:.])(\S+)\]')
@@ -145,26 +146,6 @@ def makeDocs():
 
   def error(msg):
     errors.append(msg)
-
-  def linkRepl(match):
-    char = match.group(1)
-    item = match.group(2)
-    string = f'[{char}{item}]'
-
-    kind = linkMap.get(char, None)
-
-    if kind is None:
-      error(f'Link {string}: illegal "{char}"')
-      return string
-    if kind not in info:
-      error(f'Link {string}: unknown kind {kind}')
-      return string
-    if item not in info[kind]:
-      error(f'Link: unknown {kind} "{item}"')
-      return string
-
-    dName = info[kind][item]['display']
-    return f'[{dName}](../{kind}/{item}.md)'
 
   def readDocInfo():
 
@@ -179,7 +160,7 @@ def makeDocs():
       for ff in ffs:
         if ff not in fileFormats:
           error(f'undeclared file format "{ff}"')
-        dataFromFile[ff] = dt
+        dataFromFile[ff].add(dt)
         filesFromData[dt].add(ff)
 
     for dt in dataTypes:
@@ -187,16 +168,17 @@ def makeDocs():
         error(f'unmapped data type "{dt}"')
 
     for (ff, fInfo) in fileFormats.items():
-      dt = dataFromFile.get(ff, None)
-      if dt is None:
+      dts = dataFromFile[ff]
+      if not dts:
         error(f'unmapped file format "{ff}"')
         continue
       exts = fInfo.get('extensions', [])
       for ext in exts:
-        extFromFile[ff].add(ext)
-        extFromData[dt].add(ext)
-        fileFromExt[ext] = ff
-        dataFromExt[ext] = dt
+        extsFromFile[ff].add(ext)
+        for dt in dts:
+          extsFromData[dt].add(ext)
+          dataFromExt[ext].add(dt)
+        filesFromExt[ext].add(ff)
         extensions[ext] = {'display': f'.{ext}'}
 
     srcs = []
@@ -253,7 +235,27 @@ def makeDocs():
     print('Doc info OK')
     return True
 
-  def transformDoc(text):
+  def transformDoc(prefix, text):
+    def linkRepl(match):
+      char = match.group(1)
+      item = match.group(2)
+      string = f'[{char}{item}]'
+
+      kind = linkMap.get(char, None)
+
+      if kind is None:
+        error(f'Link {string}: illegal "{char}"')
+        return string
+      if kind not in info:
+        error(f'Link {string}: unknown kind {kind}')
+        return string
+      if item not in info[kind]:
+        error(f'Link: unknown {kind} "{item}"')
+        return string
+
+      dName = info[kind][item]['display']
+      return f'[{dName}]({prefix}{kind}/{item}.md)'
+
     text = linkRe.sub(linkRepl, text)
     return text
 
@@ -273,7 +275,7 @@ def makeDocs():
       text.append(texts['header1'])
       text.append(texts['index'])
       text.append(texts['footer1'])
-      text = transformDoc('\n'.join(text))
+      text = transformDoc('', '\n'.join(text))
       path = f'{DOCS}/{INDEX}'
       with open(path, 'w') as f:
         f.write(text)
@@ -283,7 +285,7 @@ def makeDocs():
       text.append(texts['header1'])
       text.append(texts['help'])
       text.append(texts['footer1'])
-      text = transformDoc('\n'.join(text))
+      text = transformDoc('', '\n'.join(text))
       text = text.replace('[[usage]]', USAGE)
       path = f'{DOCS}/{HELP}'
       with open(path, 'w') as f:
@@ -303,7 +305,7 @@ def makeDocs():
         )
         theseExtensions = ', '.join(
             f'[`{x}`](../extensions/{x}.md)'
-            for x in sorted(extFromData[item])
+            for x in sorted(extsFromData[item])
         )
 
         text.append(f'''
@@ -320,7 +322,7 @@ extensions | {theseExtensions}
 ''')
 
         text.append(texts['footer'])
-        text = transformDoc('\n'.join(text))
+        text = transformDoc('../', '\n'.join(text))
         path = f'{DOCS}/dataTypes/{item}.md'
         with open(path, 'w') as f:
           f.write(text)
@@ -333,12 +335,15 @@ extensions | {theseExtensions}
         display = itemInfo['display']
         title = itemInfo['title']
         material = itemInfo.get('text', '')
-        thisType = f'{dataTypes[dataFromFile[item]]["display"]}'
-        thisP = preferred[itemInfo['preferred']]
+        theseTypes = ', '.join(
+            f'[{dataTypes[x]["display"]}](../dataTypes/{x}.md)'
+            for x in sorted(dataFromFile[item])
+        )
+        thisP = preferred[itemInfo.get('preferred', 'unknown')]
         thisPreferred = f'{thisP["acro"]} {thisP["title"]}'
         theseExtensions = ', '.join(
-            f'[`{x}`](../extensions/{x}.md)'
-            for x in sorted(extFromFile[item])
+            f'[`{extensions[x]["display"]}`](../extensions/{x}.md)'
+            for x in sorted(extsFromFile[item])
         )
         theseWikis = ', '.join(
             f'[`{x}`]({wikiloc}/{x})'
@@ -356,7 +361,7 @@ extensions | {theseExtensions}
 
 item | info
 --- | ---
-type | {thisType}
+type | {theseTypes}
 preferred | {thisPreferred}
 extensions | {theseExtensions}
 wikipedia | {theseWikis}
@@ -369,7 +374,7 @@ wikipedia | {theseWikis}
 ''')
 
         text.append(texts['footer'])
-        text = transformDoc('\n'.join(text))
+        text = transformDoc('../', '\n'.join(text))
         path = f'{DOCS}/fileFormats/{item}.md'
         with open(path, 'w') as f:
           f.write(text)
@@ -381,13 +386,20 @@ wikipedia | {theseWikis}
 
         display = itemInfo['display']
         material = itemInfo.get('text', '')
-        thisType = f'{dataTypes[dataFromExt[item]]["display"]}'
-        thisF = fileFromExt[item]
-        thisFormat = f'[{fileFormats[thisF]["display"]}](../fileFormats/{thisF}.md)'
+        theseTypes = ', '.join(
+            f'[{dataTypes[x]["display"]}](../dataTypes/{x}.md)'
+            for x in sorted(dataFromExt[item])
+        )
+        theseF = filesFromExt[item]
+        theseFormats = ', '.join(
+            f'[{fileFormats[x]["display"]}](../fileFormats/{x}.md)'
+            for x in sorted(theseF)
+        )
         thisFileInfo = f'[`extension/{item}`]({fileinfo}/{item})'
+        exts = chain.from_iterable(extsFromFile[x] for x in theseF)
         variantExtensions = ', '.join(
             f'[`{extensions[x]["display"]}`](../extensions/{x}.md)'
-            for x in sorted(extFromFile[thisF])
+            for x in sorted(exts)
             if x != item
         )
 
@@ -396,8 +408,8 @@ wikipedia | {theseWikis}
 
 item | info
 --- | ---
-type | {thisType}
-format | {thisFormat}
+type | {theseTypes}
+format | {theseFormats}
 variants | {variantExtensions}
 file info | {thisFileInfo}
 
@@ -405,7 +417,7 @@ file info | {thisFileInfo}
 ''')
 
         text.append(texts['footer'])
-        text = transformDoc('\n'.join(text))
+        text = transformDoc('../', '\n'.join(text))
         path = f'{DOCS}/extensions/{item}.md'
         with open(path, 'w') as f:
           f.write(text)

@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Data (container)](../dataTypes/dataContainer.md), [Database](../dataTypes/database.md), [Text (plain)](../dataTypes/textPlain.md)
 format | [SQL](../fileFormats/sql.md)
 variants | 
 file info | [`extension/sql`]({{fileinfo}}/sql)

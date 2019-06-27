@@ -2,7 +2,7 @@
 
 Text is a broad category of data.
 For some, text is something that you type with Microsoft Word,
-for others it is what they read in a PDF, and for yet others it is the
+for others it is what they read in a [=pdf], and for yet others it is the
 program code they hack in a text editor.
 
 For the purposes of archiving we divide the text data type in 

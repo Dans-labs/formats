@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`java`](../extensions/java.md)
+extensions | [`.java`](../extensions/java.md)
 wikipedia | [`Java_(programming_language)`]({{wikipedia}}/Java_(programming_language))
 
 

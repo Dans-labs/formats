@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (formatted)
+type | [Image](../dataTypes/image.md), [Text (formatted)](../dataTypes/textFormatted.md)
 preferred | ✅ yes
-extensions | [`pdf`](../extensions/pdf.md)
+extensions | [`.pdf`](../extensions/pdf.md)
 wikipedia | [`PDF/A`]({{wikipedia}}/PDF/A)
 
 ## Description
@@ -32,7 +32,7 @@ where it is displayed.
 It has a subtype called
 PDF/A
 which is specifically designed for long-term sustainability.
-PDF/A is the international standard for (formatted) text
+PDF/A is the international standard for [Text (formatted)](../dataTypes/textFormatted.md)
 documents. A PDF/A file is a stand-alone document: all fonts and images are
 included in the file, so it is not dependent on other files on the computer to
 correctly display its content.
@@ -42,12 +42,12 @@ There are several types of PDF/A. PDF/A-1a is recommended for text documents
 that were created entirely on a computer (“born digital”). For digitized
 documents PDF/A-1b is a suitable format.
 
-PDF viewers are pretty much part of the operating system nowadays, but if not,
+[PDF](../fileFormats/pdf.md) viewers are pretty much part of the operating system nowadays, but if not,
 the Adobe Reader can be downloaded for free.
-Facilities to create PDF are near universal, because either the operating system
-or many applications let you "print" files as PDF.
+Facilities to create [PDF](../fileFormats/pdf.md) are near universal, because either the operating system
+or many applications let you "print" files as [PDF](../fileFormats/pdf.md).
 For example, Microsoft Word. Excel, and Powerpoint let you export documents
-as PDF, and so do the open source office suites such as
+as [PDF](../fileFormats/pdf.md), and so do the open source office suites such as
 [LibreOffice]({{libreoffice}})
 and the 
 Mac programs Pages, Numbers and KeyNote.
@@ -55,24 +55,24 @@ Mac programs Pages, Numbers and KeyNote.
 For Windows there is afree application that can “print” documents to a [PDF](../fileFormats/pdf.md):
 [Bullzip PDF Printer]({{bullzip}}).
 
-Modifying PDF files is less well supported by free programs, although
+Modifying [PDF](../fileFormats/pdf.md) files is less well supported by free programs, although
 marking up PDFs with annotations is getting mainstream.
 
-It is also possible to generate PDF as output from programs, there are
+It is also possible to generate [PDF](../fileFormats/pdf.md) as output from programs, there are
 good libraries to create custom PDFs.
 
 Users of [TeX](../fileFormats/tex.md) have especially sophisticated tools to create virtually any
-PDF they want.
+[PDF](../fileFormats/pdf.md) they want.
 
-PDF can be used to represent images. Conversions between more common [Image](../dataTypes/image.md)
-formats and PDF can be performed with programs such as
+[PDF](../fileFormats/pdf.md) can be used to represent images. Conversions between more common [Image](../dataTypes/image.md)
+formats and [PDF](../fileFormats/pdf.md) can be performed with programs such as
 [ImageMagick]({{imagemagick}})
 and on Windows:
 [IrfanView]({{irfanview}}).
 
 Of course,
 [Adobe]({{adobe}})
-sells quite capable software for creating PDF files.
+sells quite capable software for creating [PDF](../fileFormats/pdf.md) files.
 
 
 ## See also

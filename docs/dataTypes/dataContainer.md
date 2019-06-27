@@ -18,7 +18,7 @@
 item | info
 --- | ---
 formats | [JSON](../fileFormats/json.md), [SQL](../fileFormats/sql.md), [TAR](../fileFormats/tar.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
-extensions | [`tar`](../extensions/tar.md)
+extensions | [`json`](../extensions/json.md), [`sql`](../extensions/sql.md), [`tar`](../extensions/tar.md), [`xml`](../extensions/xml.md), [`yaml`](../extensions/yaml.md)
 
 ## Description
 
@@ -28,8 +28,8 @@ by which various items of data are kept together.
 Think of parts and wholes, files and directories, text and markup.
 
 Data containers are a generic concept. They can be used for a variety
-of purposes, which may overlap with other data types, such as formatted
-text.
+of purposes, which may overlap with other data types, such as [Text (formatted)](../dataTypes/textFormatted.md)
+and [Database](../dataTypes/database.md).
 
 Often, data containers are just plain text files that adhere to a defined
 scheme that gives structure to their contents.

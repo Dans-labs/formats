@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 format | [JavaScript](../fileFormats/javascript.md)
 variants | 
 file info | [`extension/js`]({{fileinfo}}/js)

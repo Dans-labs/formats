@@ -11,14 +11,21 @@
 
 
 
-# .cfg
+# XLS
+
+**Excel xls**
 
 item | info
 --- | ---
-type | [Text (plain)](../dataTypes/textPlain.md)
-format | [Text](../fileFormats/text.md)
-variants | [`.ini`](../extensions/ini.md), [`.log`](../extensions/log.md), [`.lst`](../extensions/lst.md), [`.text`](../extensions/text.md), [`.txt`](../extensions/txt.md)
-file info | [`extension/cfg`]({{fileinfo}}/cfg)
+type | [Spreadsheet](../dataTypes/spreadsheet.md)
+preferred | ❌ no
+extensions | [`.xls`](../extensions/xls.md)
+wikipedia | [`Microsoft_Excel#File_formats`]({{wikipedia}}/Microsoft_Excel#File_formats)
+
+
+
+## See also
+*   [`{{excel}}`]({{excel}})
 
 
 

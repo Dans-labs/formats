@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Text (formatted)](../dataTypes/textFormatted.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ✅ yes
-extensions | [`md`](../extensions/md.md)
+extensions | [`.md`](../extensions/md.md)
 wikipedia | [`Markdown`]({{wikipedia}}/Markdown)
 
 

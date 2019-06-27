@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Database](../dataTypes/database.md), [Text (plain)](../dataTypes/textPlain.md)
 format | [CSV](../fileFormats/csv.md)
 variants | [`.tsv`](../extensions/tsv.md)
 file info | [`extension/csv`]({{fileinfo}}/csv)

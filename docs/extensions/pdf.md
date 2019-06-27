@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | Text (formatted)
-format | [PDF/A](../fileFormats/pdfa.md)
+type | [Image](../dataTypes/image.md), [Text (formatted)](../dataTypes/textFormatted.md)
+format | [PDF](../fileFormats/pdf.md), [PDF/A](../fileFormats/pdfa.md)
 variants | 
 file info | [`extension/pdf`]({{fileinfo}}/pdf)
 

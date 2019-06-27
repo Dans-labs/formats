@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Text (plain)](../dataTypes/textPlain.md)
 preferred | ⚠️ under conditions
-extensions | [`cfg`](../extensions/cfg.md), [`ini`](../extensions/ini.md), [`log`](../extensions/log.md), [`lst`](../extensions/lst.md), [`text`](../extensions/text.md), [`txt`](../extensions/txt.md)
+extensions | [`.cfg`](../extensions/cfg.md), [`.ini`](../extensions/ini.md), [`.log`](../extensions/log.md), [`.lst`](../extensions/lst.md), [`.text`](../extensions/text.md), [`.txt`](../extensions/txt.md)
 wikipedia | [`Plain_text`]({{wikipedia}}/Plain_text), [`UTF-8`]({{wikipedia}}/UTF-8), [`Byte_order_mark`]({{wikipedia}}/Byte_order_mark)
 
 ## Description

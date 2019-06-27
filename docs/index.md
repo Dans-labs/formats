@@ -68,22 +68,22 @@ A *data type* is a way of organizing raw data for specific modelling application
 such as image, sound, text, structured data, etc. 
 
 A file format is a way to serialize the data of a specific data type to a file
-such as *pdf*, *xlsx*, *siard*, etc.
+such as [PDF](fileFormats/pdf.md), [XLSX](fileFormats/xlsx.md), [SIARD](fileFormats/siard.md), etc.
 
 Applications that deal with that data are programmed in such a way that they can
 read one or more file formats for that type.
 
 When data is written to file in a specific file format, the file name often gets
 an extension that indicates that file format
-such as `.pdf`, `.xslx`, etc.
+such as [.pdf](extensions/pdf.md), [.xlsx](extensions/xlsx.md), etc.
 
 There are usually several file formats associated with one data type.
 
 ## Building this site
 
 This site is built from source texts and structure information
-into a set of Markdown files that is processed by MkDocs into
-HTML files that can be served by GitHub Pages.
+into a set of [Markdown](fileFormats/markdown.md) files that is processed by MkDocs into
+[HTML](fileFormats/html.md) files that can be served by GitHub Pages.
 
 See the [help](help.md).
 

@@ -16,7 +16,7 @@ separate [=csv] text files.
 
 Export data as [=csv] and data description as [=pdfa].
 
-When storing the tables as CSV files, only the
+When storing the tables as [=csv] files, only the
 tabular data from a database are retained.
 
 In Microsoft Access databases, the Database

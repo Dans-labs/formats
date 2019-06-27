@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 preferred | ✅ yes
-extensions | [`svg`](../extensions/svg.md)
+extensions | [`.svg`](../extensions/svg.md)
 wikipedia | [`Scalable_Vector_Graphics`]({{wikipedia}}/Scalable_Vector_Graphics)
 
 

@@ -11,14 +11,21 @@
 
 
 
-# .cfg
+# ODS
+
+**Open Office XML (spreadsheet)**
 
 item | info
 --- | ---
-type | [Text (plain)](../dataTypes/textPlain.md)
-format | [Text](../fileFormats/text.md)
-variants | [`.ini`](../extensions/ini.md), [`.log`](../extensions/log.md), [`.lst`](../extensions/lst.md), [`.text`](../extensions/text.md), [`.txt`](../extensions/txt.md)
-file info | [`extension/cfg`]({{fileinfo}}/cfg)
+type | [Spreadsheet](../dataTypes/spreadsheet.md)
+preferred | ✅ yes
+extensions | [`.ods`](../extensions/ods.md)
+wikipedia | [`OpenOffice.org_XML`]({{wikipedia}}/OpenOffice.org_XML)
+
+
+
+## See also
+*   [`{{libreoffice}}`]({{libreoffice}})
 
 
 

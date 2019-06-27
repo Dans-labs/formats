@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | Text (plain)
-format | [XML](../fileFormats/xml.md)
+type | [Data (container)](../dataTypes/dataContainer.md), [Database](../dataTypes/database.md), [Text (formatted)](../dataTypes/textFormatted.md), [Text (plain)](../dataTypes/textPlain.md)
+format | [SGML](../fileFormats/sgml.md), [XML](../fileFormats/xml.md)
 variants | 
 file info | [`extension/xml`]({{fileinfo}}/xml)
 

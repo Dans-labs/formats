@@ -11,8 +11,10 @@
 
 
 This site is built from source texts and structure information
-into a set of Markdown files that is processed by MkDocs into
-HTML files that can be served by GitHub Pages.
+into a set of [Markdown](fileFormats/markdown.md) files that is processed by
+[MkDocs]({{mkdocs}})
+into [=htmkl] files that can be served by
+[GitHub Pages]({{ghpages}}).
 
 The build script,
 [`build.py`]({{formats}}/blob/master/build.py)
@@ -34,7 +36,7 @@ python3 build.py g commitmsg
 
 `g` does `make`, and pushes the whole site to GitHub,
 where it will be published under <https://dans-labs.github.io/formats/>.
-The repo itself will also be committed and pushed to github.
+The repo itself will also be committed and pushed to GitHub.
 
 Replace `commitmsg` by anything that is appropriate as a commit message.
 
@@ -43,11 +45,12 @@ Replace `commitmsg` by anything that is appropriate as a commit message.
 # Explanation
 
 ## Source
-All source texts are in Markdown and stored in
+The source texts are in [Markdown](fileFormats/markdown.md), [YAML](fileFormats/yaml.md), and [Text (plain)](dataTypes/textPlain.md)
+They are stored in
 [folders]({{formats}}/tree/master/source)
 of this repository.
 
-Most files are Markdown files containing the verbose text fragments
+Most files are [Markdown](fileFormats/markdown.md) files containing the verbose text fragments
 that are part of the docs for data types, file formats and extensions.
 
 There are a few other files:
@@ -65,17 +68,17 @@ file | description
 ## Intermediate
 
 The script [`build.py`]({{formats}}/blob/master/build.py)
-is responsible for transforming the source files into a set of Markdown files.
+is responsible for transforming the source files into a set of [Markdown](fileFormats/markdown.md) files.
 
 This is what happens:
 
 *   The structure file, `data.yaml` is read; it contains the information on how
     the data types, file formats, and extensions hang together.
     For each item in these categories, a key-value set is made.
-*   The markdown files in the `source` directory are read, and their content
+*   The [Markdown](fileFormats/markdown.md) files in the `source` directory are read, and their content
     is added to the key-value sets they belong to.
 *   The `header.md` and `footer.md` files are read.
-*   For each item in each category a Markdown file is created and filled with 
+*   For each item in each category a [Markdown](fileFormats/markdown.md) file is created and filled with 
     all relevant information:
     *   Meta data;
     *   Running text from source files;
@@ -88,7 +91,7 @@ This is what happens:
     *   A navigation structure is computed from the items.
 
 ??? abstract "transformations"
-    The generated markdown text is subjected to a transformation
+    The generated [Markdown](fileFormats/markdown.md) text is subjected to a transformation
     which makes the following replacements:
 
     *   `[:` *dataType* `]` will be expanded to the display name of that data type,

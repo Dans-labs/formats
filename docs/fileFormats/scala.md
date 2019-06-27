@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`scala`](../extensions/scala.md)
+extensions | [`.scala`](../extensions/scala.md)
 wikipedia | [`Scala_(programming_language)`]({{wikipedia}}/Scala_(programming_language))
 
 

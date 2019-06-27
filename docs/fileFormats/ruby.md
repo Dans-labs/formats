@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`rb`](../extensions/rb.md)
+extensions | [`.rb`](../extensions/rb.md)
 wikipedia | [`Ruby_(programming_language)`]({{wikipedia}}/Ruby_(programming_language))
 
 

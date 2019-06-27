@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Image
+type | [Image](../dataTypes/image.md)
 format | [JPEG](../fileFormats/jpeg.md)
 variants | [`.jpeg`](../extensions/jpeg.md)
 file info | [`extension/jpg`]({{fileinfo}}/jpg)

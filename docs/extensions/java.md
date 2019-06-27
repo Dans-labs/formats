@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 format | [JAVA](../fileFormats/java.md)
 variants | 
 file info | [`extension/java`]({{fileinfo}}/java)

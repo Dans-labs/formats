@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`js`](../extensions/js.md)
+extensions | [`.js`](../extensions/js.md)
 wikipedia | [`JavaScript`]({{wikipedia}}/JavaScript)
 
 

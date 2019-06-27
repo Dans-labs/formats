@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 preferred | ❌ no
-extensions | [`hdf5`](../extensions/hdf5.md)
+extensions | [`.hdf5`](../extensions/hdf5.md)
 wikipedia | [`Hierarchical_Data_Format`]({{wikipedia}}/Hierarchical_Data_Format)
 
 ## Description

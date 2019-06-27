@@ -24,6 +24,7 @@ extra:
   dbase: https://www.dbase.com/Knowledgebase/dbulletin/bu03_b.htm
   docs: https://Dans-labs.github.io/formats/
   easy: https://easy.dans.knaw.nl
+  excel: https://products.office.com/nl-nl/excel?legRedir=true&CorrelationId=6dac646b-7a61-46b9-90cd-5f6a3f0194a0&rtc=1
   fileinfo: https://fileinfo.com/extension
   formats: https://github.com/Dans-labs/formats
   ghpages: https://pages.github.com
@@ -46,9 +47,11 @@ extra:
   libreoffice: https://www.libreoffice.org
   markdown: https://daringfireball.net/projects/markdown/syntax
   mdn: https://developer.mozilla.org/en-US/
+  mkdocs: https://www.mkdocs.org
   msaccess: https://products.office.com/en/access
   msaccesscom: https://techcommunity.microsoft.com/t5/Access/ct-p/Access_Cat
   mysql: https://www.mysql.com
+  ooxml: https://www.ecma-international.org/publications/standards/Ecma-376.htm
   pascal: http://scihi.org/nikolaus-wirth-pascal/
   pdf: https://www.pdfa.org/resource/iso-32000-1-pdf-1-7/
   pdfa: https://www.pdfa.org/resource/iso-19005-pdfa/
@@ -94,6 +97,7 @@ nav:
     - Database: 'dataTypes/database.md'
     - Image: 'dataTypes/image.md'
     - Program code: 'dataTypes/programCode.md'
+    - Spreadsheet: 'dataTypes/spreadsheet.md'
     - Text (formatted): 'dataTypes/textFormatted.md'
     - Text (plain): 'dataTypes/textPlain.md'
   - File Formats (by data type):
@@ -132,6 +136,10 @@ nav:
       - Python: 'fileFormats/python.md'
       - Ruby: 'fileFormats/ruby.md'
       - Scala: 'fileFormats/scala.md'
+    - Spreadsheet:
+      - ODS: 'fileFormats/ods.md'
+      - XLS: 'fileFormats/xls.md'
+      - XLSX: 'fileFormats/xlsx.md'
     - Text (formatted):
       - CSS: 'fileFormats/css.md'
       - HTML: 'fileFormats/html.md'
@@ -166,6 +174,7 @@ nav:
     - JSX: 'fileFormats/jsx.md'
     - JavaScript: 'fileFormats/javascript.md'
     - Markdown: 'fileFormats/markdown.md'
+    - ODS: 'fileFormats/ods.md'
     - PDF: 'fileFormats/pdf.md'
     - PDF/A: 'fileFormats/pdfa.md'
     - PNG: 'fileFormats/png.md'
@@ -184,6 +193,8 @@ nav:
     - TIFF: 'fileFormats/tiff.md'
     - TeX: 'fileFormats/tex.md'
     - Text: 'fileFormats/text.md'
+    - XLS: 'fileFormats/xls.md'
+    - XLSX: 'fileFormats/xlsx.md'
     - XML: 'fileFormats/xml.md'
     - YAML: 'fileFormats/yaml.md'
     - dbase: 'fileFormats/dbase.md'
@@ -212,6 +223,7 @@ nav:
     - .lst: 'extensions/lst.md'
     - .md: 'extensions/md.md'
     - .mdb: 'extensions/mdb.md'
+    - .ods: 'extensions/ods.md'
     - .p: 'extensions/p.md'
     - .pas: 'extensions/pas.md'
     - .pdf: 'extensions/pdf.md'
@@ -232,6 +244,8 @@ nav:
     - .tiff: 'extensions/tiff.md'
     - .tsv: 'extensions/tsv.md'
     - .txt: 'extensions/txt.md'
+    - .xls: 'extensions/xls.md'
+    - .xlsx: 'extensions/xlsx.md'
     - .xml: 'extensions/xml.md'
     - .yaml: 'extensions/yaml.md'
   - Build: 'help.md'

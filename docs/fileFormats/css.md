@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Text (formatted)](../dataTypes/textFormatted.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ⚠️ under conditions
-extensions | [`css`](../extensions/css.md)
+extensions | [`.css`](../extensions/css.md)
 wikipedia | [`Cascading_Style_Sheets`]({{wikipedia}}/Cascading_Style_Sheets)
 
 ## Description
@@ -28,7 +28,7 @@ wikipedia | [`Cascading_Style_Sheets`]({{wikipedia}}/Cascading_Style_Sheets)
 is a style sheet language for styling
 [HTML](../fileFormats/html.md) documents.
 
-HTML files may contain CSS styles inside, or they may refer to other files for
+[HTML](../fileFormats/html.md) files may contain CSS styles inside, or they may refer to other files for
 their styling.
 
 ## Complications
@@ -39,7 +39,7 @@ practices of yesterday.
 
 CSS is gone through several major versions.
 
-The format is plain text, so CSS files are easy to open,
+The format is [Text](../fileFormats/text.md), so CSS files are easy to open,
 but the meaning of the styles is dependent on the version of the
 CSS styling engine that has been used.
 

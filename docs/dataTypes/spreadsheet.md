@@ -11,14 +11,14 @@
 
 
 
-# .cfg
+# Spreadsheet
+
+**Tabular, formatted data in a single document**
 
 item | info
 --- | ---
-type | [Text (plain)](../dataTypes/textPlain.md)
-format | [Text](../fileFormats/text.md)
-variants | [`.ini`](../extensions/ini.md), [`.log`](../extensions/log.md), [`.lst`](../extensions/lst.md), [`.text`](../extensions/text.md), [`.txt`](../extensions/txt.md)
-file info | [`extension/cfg`]({{fileinfo}}/cfg)
+formats | [ODS](../fileFormats/ods.md), [XLS](../fileFormats/xls.md), [XLSX](../fileFormats/xlsx.md)
+extensions | [`ods`](../extensions/ods.md), [`xls`](../extensions/xls.md), [`xlsx`](../extensions/xlsx.md)
 
 
 

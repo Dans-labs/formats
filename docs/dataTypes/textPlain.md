@@ -24,7 +24,7 @@ extensions | [`cfg`](../extensions/cfg.md), [`css`](../extensions/css.md), [`csv
 
 Text is a broad category of data.
 For some, text is something that you type with Microsoft Word,
-for others it is what they read in a PDF, and for yet others it is the
+for others it is what they read in a [PDF](../fileFormats/pdf.md), and for yet others it is the
 program code they hack in a text editor.
 
 For the purposes of archiving we divide the text data type in 
@@ -38,7 +38,7 @@ Plain text is mostly used for IT purposes:
 *   writing quick notes, using a simple program like *notepad*
     often with extension [.txt](../extensions/txt.md);
     note that [Markdown](../fileFormats/markdown.md) files are themselves
-    plain text, but they are used to represent formatted text as well;
+    plain text, but they are used to represent [Text (formatted)](../dataTypes/textFormatted.md) as well;
 *   writing software code (programs), using a *text editor* or
     an *IDE* (integrated developing environment);
     see also [Program code](../dataTypes/programCode.md);
@@ -88,10 +88,9 @@ declares which code page is being used. It is a matter of trial and error to
 determine the right code page, and sometimes it is impossible.
 
 This problem is carried over to older text-based formats such as 
-[CSV](../fileFormats/csv.md) and 
-[=SQL].
+[CSV](../fileFormats/csv.md) and [SQL](../fileFormats/sql.md).
 
-While the structure of SQL and CSV files is usually well-defined, the use of
+While the structure of [SQL](../fileFormats/sql.md) and [CSV](../fileFormats/csv.md) files is usually well-defined, the use of
 undeclared code pages remains a liability.
 
 ### Unicode

@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`p`](../extensions/p.md), [`py`](../extensions/py.md)
+extensions | [`.p`](../extensions/p.md), [`.py`](../extensions/py.md)
 wikipedia | [`Python_(programming_language)`]({{wikipedia}}/Python_(programming_language))
 
 

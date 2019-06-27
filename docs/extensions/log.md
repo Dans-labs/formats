@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Text (plain)](../dataTypes/textPlain.md)
 format | [Text](../fileFormats/text.md)
 variants | [`.cfg`](../extensions/cfg.md), [`.ini`](../extensions/ini.md), [`.lst`](../extensions/lst.md), [`.text`](../extensions/text.md), [`.txt`](../extensions/txt.md)
 file info | [`extension/log`]({{fileinfo}}/log)

@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 format | [CPP](../fileFormats/cpp.md)
 variants | [`.h`](../extensions/h.md)
 file info | [`extension/cpp`]({{fileinfo}}/cpp)

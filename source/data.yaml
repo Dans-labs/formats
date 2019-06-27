@@ -29,6 +29,9 @@ dataTypes:
   image:
     display: Image
     title: Visual, still graphics
+  spreadsheet:
+    display: Spreadsheet
+    title: Tabular, formatted data in a single document
   textFormatted:
     display: Text (formatted)
     title: Readable text with layout and formatting
@@ -195,6 +198,17 @@ fileFormats:
       formatting capabilities from [=html];
       looks nice from the outside, looks good
       from the inside.
+  ods:
+    display: ODS
+    title: Open Office XML (spreadsheet)
+    wikipedia:
+      - OpenOffice.org_XML
+    links:
+      - '{{libreoffice}}'
+    extensions: [ods]
+    preferred: yes
+    tagline: >-
+      transparent, openly standardized, xml/zip based format for spreadsheet applications;
   pascal:
     display: Pascal
     title: Pascal program
@@ -217,7 +231,7 @@ fileFormats:
     tagline: >-
       developed by Adobe, now standardized, deals with the most complex material
       that is printable, takes care of font and other graphics inclusions, makes
-      text searchable;
+      text searchable; compare [=pdfa];
       PDF looks perfect from the outside, it may look horrible from the
       inside
   pdfa:
@@ -232,7 +246,7 @@ fileFormats:
     tagline: >-
       developed by Adobe, now standardized, deals with the most complex material
       that is printable, takes care of font and other graphics inclusions, makes
-      text searchable; PDF/A is self-contained;
+      text searchable; PDF/A is guaranteed to be self-contained;
       PDF looks perfect from the outside, it may look horrible from the
       inside
   perl:
@@ -410,6 +424,32 @@ fileFormats:
       used for wrapping [:database] contents and for representing
       [:textFormatted] and its constituent text objects; 
       is intermediate between [=html] and [=sgml]. 
+  xls:
+    display: XLS
+    title: Excel xls
+    wikipedia:
+      - Microsoft_Excel#File_formats
+    links:
+      - '{{excel}}'
+    extensions: [xls]
+    preferred: no
+    tagline: >-
+      binary, proprietary, closed format for Microsoft Excel;
+      pre-2007
+  xlsx:
+    display: XLSX
+    title: Excel xlsx
+    wikipedia:
+      - Xlsx
+      - Office_Open_XML_file_formats
+      - Microsoft_Excel#File_formats
+    links:
+      - '{{ooxml}}'
+    extensions: [xlsx]
+    preferred: yes
+    tagline: >-
+      transparent, openly standardized, xml/zip based format for Microsoft Excel;
+      after 2007
   yaml:
     display: YAML
     title: Yet Another Markup Language
@@ -461,6 +501,10 @@ mapping:
     - scala
     - javascript
     - jsx
+  spreadsheet:
+    - ods
+    - xls
+    - xlsx
   textFormatted:
     - css
     - html

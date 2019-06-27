@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 format | [Access](../fileFormats/access.md)
 variants | [`.accdb`](../extensions/accdb.md)
 file info | [`extension/mdb`]({{fileinfo}}/mdb)

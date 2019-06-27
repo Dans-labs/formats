@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 format | [Scala](../fileFormats/scala.md)
 variants | 
 file info | [`extension/scala`]({{fileinfo}}/scala)

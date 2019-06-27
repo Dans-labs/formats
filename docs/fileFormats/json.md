@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (plain)
+type | [Data (container)](../dataTypes/dataContainer.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ✅ yes
-extensions | [`json`](../extensions/json.md)
+extensions | [`.json`](../extensions/json.md)
 wikipedia | [`JSON`]({{wikipedia}}/JSON)
 
 

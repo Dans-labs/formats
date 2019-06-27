@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`p`](../extensions/p.md), [`pas`](../extensions/pas.md)
+extensions | [`.p`](../extensions/p.md), [`.pas`](../extensions/pas.md)
 wikipedia | [`Pascal_(programming_language)`]({{wikipedia}}/Pascal_(programming_language)), [`ModernPascal`]({{wikipedia}}/ModernPascal)
 
 

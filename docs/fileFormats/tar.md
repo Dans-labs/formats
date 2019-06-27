@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Data (container)
+type | [Data (container)](../dataTypes/dataContainer.md)
 preferred | ✅ yes
-extensions | [`tar`](../extensions/tar.md)
+extensions | [`.tar`](../extensions/tar.md)
 wikipedia | [`Tar_(computing)`]({{wikipedia}}/Tar_(computing))
 
 ## Description

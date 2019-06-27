@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Text (formatted)
+type | [Text (formatted)](../dataTypes/textFormatted.md)
 preferred | ⚠️ under conditions
-extensions | [`xml`](../extensions/xml.md)
+extensions | [`.xml`](../extensions/xml.md)
 wikipedia | [`SGML`]({{wikipedia}}/SGML)
 
 

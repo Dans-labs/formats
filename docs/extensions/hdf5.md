@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 format | [HDF5](../fileFormats/hdf5.md)
 variants | 
 file info | [`extension/hdf5`]({{fileinfo}}/hdf5)

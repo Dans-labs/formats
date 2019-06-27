@@ -15,7 +15,7 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 format | [Ruby](../fileFormats/ruby.md)
 variants | 
 file info | [`extension/rb`]({{fileinfo}}/rb)

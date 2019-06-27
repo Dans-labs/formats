@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Database
+type | [Database](../dataTypes/database.md)
 preferred | ❌ no
-extensions | [`accdb`](../extensions/accdb.md), [`mdb`](../extensions/mdb.md)
+extensions | [`.accdb`](../extensions/accdb.md), [`.mdb`](../extensions/mdb.md)
 wikipedia | [`Microsoft_Access`]({{wikipedia}}/Microsoft_Access)
 
 ## Description
@@ -40,7 +40,7 @@ separate [CSV](../fileFormats/csv.md) text files.
 
 Export data as [CSV](../fileFormats/csv.md) and data description as [PDF/A](../fileFormats/pdfa.md).
 
-When storing the tables as CSV files, only the
+When storing the tables as [CSV](../fileFormats/csv.md) files, only the
 tabular data from a database are retained.
 
 In Microsoft Access databases, the Database

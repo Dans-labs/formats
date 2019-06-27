@@ -17,9 +17,9 @@
 
 item | info
 --- | ---
-type | Program code
+type | [Program code](../dataTypes/programCode.md)
 preferred | ❎ not applicable
-extensions | [`p`](../extensions/p.md), [`pl`](../extensions/pl.md)
+extensions | [`.p`](../extensions/p.md), [`.pl`](../extensions/pl.md)
 wikipedia | [`Prolog`]({{wikipedia}}/Prolog)
 
 
