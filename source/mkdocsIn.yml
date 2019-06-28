@@ -28,7 +28,7 @@ theme:
   font:
     text: Open Sans
     head: Glegoo
-    code: Courier New
+    code: Ubuntu Mono
 
 strict: false
 
