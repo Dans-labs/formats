@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Database](../dataTypes/database.md)
-format | [SIARD](../fileFormats/siard.md)
+types | [Database](../dataTypes/database.md)
+formats | [SIARD](../fileFormats/siard.md)
 variants | 
 file info | [`extension/siard`]({{fileinfo}}/siard)
 

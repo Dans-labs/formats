@@ -15,10 +15,14 @@
 
 **Collections of entities in one file**
 
+???+ abstract "In short"
+    Parts and wholes, files and directories, text and markup.
+
 item | info
 --- | ---
 formats | [JSON](../fileFormats/json.md), [SQL](../fileFormats/sql.md), [TAR](../fileFormats/tar.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
 extensions | [`json`](../extensions/json.md), [`sql`](../extensions/sql.md), [`tar`](../extensions/tar.md), [`xml`](../extensions/xml.md), [`yaml`](../extensions/yaml.md)
+related types | [Database](../dataTypes/database.md), [Markup](../dataTypes/markup.md)
 
 ## Description
 

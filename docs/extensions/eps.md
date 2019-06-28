@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Image](../dataTypes/image.md)
-format | [PostScript](../fileFormats/postscript.md)
+types | [Image](../dataTypes/image.md)
+formats | [PostScript](../fileFormats/postscript.md)
 variants | [`.ps`](../extensions/ps.md)
 file info | [`extension/eps`]({{fileinfo}}/eps)
 

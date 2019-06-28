@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Data (container)](../dataTypes/dataContainer.md), [Text (plain)](../dataTypes/textPlain.md)
-format | [JSON](../fileFormats/json.md)
+types | [Data (container)](../dataTypes/dataContainer.md), [Text (plain)](../dataTypes/textPlain.md)
+formats | [JSON](../fileFormats/json.md)
 variants | 
 file info | [`extension/json`]({{fileinfo}}/json)
 

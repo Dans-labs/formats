@@ -18,34 +18,42 @@ There are several types of PDF/A. PDF/A-1a is recommended for text documents
 that were created entirely on a computer (“born digital”). For digitized
 documents PDF/A-1b is a suitable format.
 
-[=pdf] viewers are pretty much part of the operating system nowadays, but if not,
-the Adobe Reader can be downloaded for free.
-Facilities to create [=pdf] are near universal, because either the operating system
-or many applications let you "print" files as [=pdf].
-For example, Microsoft Word. Excel, and Powerpoint let you export documents
-as [=pdf], and so do the open source office suites such as
-[LibreOffice]({{libreoffice}})
-and the 
-Mac programs Pages, Numbers and KeyNote.
+### Software
 
-For Windows there is afree application that can “print” documents to a [=pdf]:
-[Bullzip PDF Printer]({{bullzip}}).
+???+ explanation "Viewers"
+    [=pdf] viewers are pretty much part of the operating system nowadays, but if not,
+    the Adobe Reader can be downloaded for free.
 
-Modifying [=pdf] files is less well supported by free programs, although
-marking up PDFs with annotations is getting mainstream.
+??? explanation "Generators"
+    Facilities to create [=pdf] are near universal, because either the operating system
+    or many applications let you "print" files as [=pdf].
+    For example, Microsoft Word. Excel, and Powerpoint let you export documents
+    as [=pdf], and so do the open source office suites such as
+    [LibreOffice]({{libreoffice}})
+    and the 
+    Mac programs Pages, Numbers and KeyNote.
 
-It is also possible to generate [=pdf] as output from programs, there are
-good libraries to create custom PDFs.
+    It is also possible to generate [=pdf] as output from programs, there are
+    good libraries to create custom PDFs.
 
-Users of [=tex] have especially sophisticated tools to create virtually any
-[=pdf] they want.
+    Users of [=tex] have especially sophisticated tools to create virtually any
+    [=pdf] they want.
 
-[=pdf] can be used to represent images. Conversions between more common [:image]
-formats and [=pdf] can be performed with programs such as
-[ImageMagick]({{imagemagick}})
-and on Windows:
-[IrfanView]({{irfanview}}).
+    For Windows there is afree application that can “print” documents to a [=pdf]:
+    [Bullzip PDF Printer]({{bullzip}}).
 
-Of course,
-[Adobe]({{adobe}})
-sells quite capable software for creating [=pdf] files.
+??? explanation "Editors"
+    Modifying [=pdf] files is less well supported by free programs, although
+    marking up PDFs with annotations is getting mainstream.
+
+    Of course,
+    [Adobe]({{adobe}})
+    sells quite capable software for creating and modifying [=pdf] files.
+
+??? explanation "Converters"
+    [=pdf] can be used to represent images. Conversions between more common [:image]
+    formats and [=pdf] can be performed with programs such as
+    [ImageMagick]({{imagemagick}})
+    and on Windows:
+    [IrfanView]({{irfanview}}).
+

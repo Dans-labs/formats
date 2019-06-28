@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Program code](../dataTypes/programCode.md)
-format | [Pascal](../fileFormats/pascal.md)
+types | [Program code](../dataTypes/programCode.md)
+formats | [Pascal](../fileFormats/pascal.md)
 variants | [`.p`](../extensions/p.md)
 file info | [`extension/pas`]({{fileinfo}}/pas)
 

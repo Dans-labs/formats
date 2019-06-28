@@ -23,25 +23,57 @@ dataTypes:
   dataContainer:
     display: Data (container)
     title: Collections of entities in one file
+    tagline: >-
+      Parts and wholes,
+      files and directories,
+      text and markup.
   database:
     display: Database
     title: Data managed by a Database Management System
+    tagline: >-
+      Relational databases,
+      MySQL, Postgress,
+      SQL server,
+      MSAccess, etc.
+  font:
+    display: Font
+    title: Fonts of type
+    tagline: >-
+      TrueType and OpenType fonts,
+      neatly packaged for the Web.
   image:
     display: Image
     title: Visual, still graphics
+    tagline: >-
+      Photos, diagrams, pictures, charts.
   spreadsheet:
     display: Spreadsheet
     title: Tabular, formatted data in a single document
+    tagline: >-
+      Rows and columns, cells with formatting, formulas.
+  markup:
+    display: Markup
+    title: Plain text with layout and formatting
+    tagline: >-
+      Special syntax separates content from markup.
   textFormatted:
     display: Text (formatted)
-    title: Readable text with layout and formatting
+    title: Typeset text with layout and formatting
+    tagline: >-
+      Printed or printable documents.
   textPlain:
     display: Text (plain)
     title: Readable text without special formatting codes
+    tagline: >-
+      Text content that is readable
+      without special software.
   programCode:
     display: Program code
     title: Software in a specific programming language
-
+    tagline: >-
+      Plain text code with complex syntax
+      defined by
+      the programming language in question.
 fileFormats:
   access:
     display: Access
@@ -53,6 +85,8 @@ fileFormats:
       - '{{msaccesscom}}'
     extensions: [mdb, accdb]
     preferred: no
+    tagline: >-
+      Proprietary, binary, closed format.
   c:
     display: C
     title: C program
@@ -62,6 +96,9 @@ fileFormats:
       - '{{cbook}}'
     extensions: [c, h]
     preferred: na
+    tagline: >-
+      Low level system programming language.
+      Windows and Unix are largely written in C.
   cpp:
     display: CPP
     title: C++ program
@@ -71,6 +108,9 @@ fileFormats:
       - '{{cpp}}'
     extensions: [cpp, h]
     preferred: na
+    tagline: >-
+      System programming language.
+      Slightly higher level than C.
   css:
     display: CSS
     title: Cascading Stylesheet
@@ -81,6 +121,8 @@ fileFormats:
       - '{{cssmdn}}'
     extensions: [css]
     preferred: caution
+    tagline: >-
+      Declarative styles for the Web.
   csv:
     display: CSV
     title: Comma Separated Values
@@ -91,7 +133,8 @@ fileFormats:
     extensions: [csv, tsv]
     preferred: caution
     tagline: >-
-      plain text files with rows and columns
+      Plain text files with rows and columns
+      separated by a comma or other character.
   dbase:
     display: dbase
     title: dBase data file
@@ -102,6 +145,35 @@ fileFormats:
       - dbase
     extensions: [dbf]
     preferred: no
+    tagline: >-
+      Proprietary legacy format for tabular data.
+  doc:
+    display: DOC
+    title: Microsoft Word doc
+    wikipedia:
+      - Microsoft_Word#File_formats
+    links:
+      - '{{msword}}'
+    extensions: [doc]
+    preferred: no
+    tagline: >-
+      Binary, proprietary, closed format
+      for Microsoft Word; pre-2007.
+  docx:
+    display: DOCX
+    title: Microsoft Word docx
+    wikipedia:
+      - Docx
+      - Office_Open_XML_file_formats
+      - Microsoft_Word#File_formats
+    links:
+      - '{{ooxml}}'
+    extensions: [docx]
+    preferred: yes
+    tagline: >-
+      Transparent, openly standardized,
+      xml/zip based format for Microsoft Word;
+      after 2007.
   gif:
     display: GIF
     title: Graphics Interchange Format
@@ -111,6 +183,8 @@ fileFormats:
       - '{{gif}}'
     extensions: [gif]
     preferred: yes
+    tagline: >-
+      Classic image format for the Web.
   hdf5:
     display: HDF5
     title: Hierarchical Data Format
@@ -120,6 +194,8 @@ fileFormats:
       - '{{hdf5}}'
     extensions: [hdf5]
     preferred: no
+    tagline: >-
+      Proprietary legacy format for tabular data.
   html:
     display: HTML
     title: Hypertext Markup Language
@@ -128,12 +204,17 @@ fileFormats:
     links:
       - '{{html}}'
       - '{{htmlmdn}}'
+      - '{{markupw3c}}'
     extensions: [html, htm]
     preferred: caution
     tagline: >-
-      universal language of the Web; deals with very rich layout; comparable to
-      [=pdf]; works together with [=css]] to achieve subtle
-      results; looks perfect from the outside, may look horribe from the inside
+      Universal language of the Web;
+      deals with very rich layout;
+      comparable to [=pdf];
+      works together with [=css]
+      to achieve subtle results;
+      looks perfect from the outside,
+      may look horribe from the inside.
   java:
     display: JAVA
     title: Java program
@@ -143,6 +224,10 @@ fileFormats:
       - '{{java}}'
     extensions: [java]
     preferred: na
+    tagline: >-
+      Application/service development language;
+      between low level languages such as [=c] and
+      scripting languages such as [=python].
   javascript:
     display: JavaScript
     title: JavaScript
@@ -151,8 +236,12 @@ fileFormats:
     links:
       - '{{js}}'
       - '{{jsmdn}}'
-    extensions: [js]
+    extensions: [js, es]
     preferred: na
+    tagline: >-
+      Fast and elegant scripting language that runs inside
+      the browser, although it can also run stand alone;
+      it has a checkered history.
   jpeg:
     display: JPEG
     title: Joint Photographic Experts Group
@@ -162,6 +251,9 @@ fileFormats:
       - '{{jpeg}}'
     extensions: [jpeg, jpg]
     preferred: yes
+    tagline: >-
+      Classic image format for the Web
+      with several compression options.
   json:
     display: JSON
     title: Javascript Object Notation
@@ -172,8 +264,10 @@ fileFormats:
     extensions: [json]
     preferred: yes
     tagline: >-
-      a fine-grained way to store lists and mappings, recursively nested;
-      it is used for generic data exchange, especially between web clients and web servers;
+      A fine-grained way to store lists and mappings,
+      recursively nested;
+      it is used for generic data exchange,
+      especially between web clients and web servers;
       it is lighter-weight than [=xml].
   jsx:
     display: JSX
@@ -184,6 +278,9 @@ fileFormats:
       - '{{jsx}}'
     extensions: [jsx]
     preferred: na
+    tagline: >-
+      A mixture between [=javascript] and [=html];
+      part of the [React]({{react}}) framework.
   markdown:
     display: Markdown
     title: Markdown
@@ -194,21 +291,38 @@ fileFormats:
     extensions: [md]
     preferred: yes
     tagline: >-
-      upcoming text language of the web, geared to plain text, but with basic
-      formatting capabilities from [=html];
-      looks nice from the outside, looks good
-      from the inside.
+      Upcoming text language of the web,
+      geared to plain text,
+      but with basic formatting capabilities from [=html];
+      looks nice from the outside,
+      looks good from the inside.
   ods:
     display: ODS
     title: Open Office XML (spreadsheet)
     wikipedia:
+      - ODF
       - OpenOffice.org_XML
     links:
       - '{{libreoffice}}'
     extensions: [ods]
     preferred: yes
     tagline: >-
-      transparent, openly standardized, xml/zip based format for spreadsheet applications;
+      Transparent, openly standardized,
+      xml/zip based format for spreadsheet applications.
+  odt:
+    display: ODT
+    title: Open Office XML (document)
+    wikipedia:
+      - ODF
+      - OpenOffice.org_XML
+    links:
+      - '{{libreoffice}}'
+    extensions: [odt]
+    preferred: yes
+    tagline: >-
+      Transparent, openly standardized,
+      xml/zip based format
+      for word processing applications.
   pascal:
     display: Pascal
     title: Pascal program
@@ -219,6 +333,10 @@ fileFormats:
       - '{{pascal}}'
     extensions: [pas, p]
     preferred: na
+    tagline: >-
+      Started as an academic programming language in the
+      early 1980s; [TeX]({{tex}}) has been written in it;
+      still usable on modern platforms.
   pdf:
     display: PDF
     title: Portable Document Format
@@ -229,11 +347,16 @@ fileFormats:
     extensions: [pdf]
     preferred: caution
     tagline: >-
-      developed by Adobe, now standardized, deals with the most complex material
-      that is printable, takes care of font and other graphics inclusions, makes
-      text searchable; compare [=pdfa];
-      PDF looks perfect from the outside, it may look horrible from the
-      inside
+      Declarative specification of printed pages,
+      developed by Adobe after [=postscript],
+      now standardized.
+      Deals with the most complex material
+      that is printable,
+      takes care of font and other graphics inclusions,
+      makes text searchable.
+      See also [=pdfa].
+      PDF looks perfect from the outside,
+      it may look horrible from the inside.
   pdfa:
     display: PDF/A
     title: Portable Document Format (for Archiving)
@@ -244,11 +367,8 @@ fileFormats:
     extensions: [pdf]
     preferred: yes
     tagline: >-
-      developed by Adobe, now standardized, deals with the most complex material
-      that is printable, takes care of font and other graphics inclusions, makes
-      text searchable; PDF/A is guaranteed to be self-contained;
-      PDF looks perfect from the outside, it may look horrible from the
-      inside
+      Stricter form of [=pdf] which
+      is guaranteed to be self-contained.
   perl:
     display: Perl
     title: Perl program
@@ -258,6 +378,10 @@ fileFormats:
       - '{{perl}}'
     extensions: [pl, p]
     preferred: na
+    tagline: >-
+      General purpose scripting language
+      that became great on the Web
+      ([CGI]({{cgi}}).
   png:
     display: PNG
     title: Portable Network Graphics
@@ -267,6 +391,8 @@ fileFormats:
       - '{{png}}'
     extensions: [png]
     preferred: yes
+    tagline: >-
+      Modern image format for the Web.
   postscript:
     display: PostScript
     title: (Encapsulated) PostScript
@@ -277,6 +403,10 @@ fileFormats:
       - '{{postscript}}'
     extensions: [ps, eps]
     preferred: no
+    tagline: >-
+      Programming language for describing the graphics
+      on a printed page;
+      precursor of [=pdf].
   prolog:
     display: Prolog
     title: Prolog program
@@ -286,6 +416,10 @@ fileFormats:
       - '{{prolog}}'
     extensions: [pl, p]
     preferred: na
+    tagline: >-
+      High level programming language,
+      optimized for search and pattern-matching
+      in intricate search spaces.
   python:
     display: Python
     title: Python program
@@ -295,6 +429,11 @@ fileFormats:
       - '{{python}}'
     extensions: [py, p]
     preferred: na
+    tagline: >-
+      General purpose scripting language
+      that has gained traction in data processing;
+      its ecosystem gave birth to the
+      [Jupyter Notebook]({{jupyter}}).
   ruby:
     display: Ruby
     title: Ruby program
@@ -304,6 +443,12 @@ fileFormats:
     links:
       - '{{ruby}}'
     preferred: na
+    tagline: >-
+      General purpose scripting language
+      that became popular for powering
+      the web framework
+      [Ruby on Rails]({{rubyrails}});
+      it also powers [GitHub Pages]({{ghpages}}).
   scala:
     display: Scala
     title: Scala program
@@ -313,6 +458,9 @@ fileFormats:
       - '{{scala}}'
     extensions: [scala]
     preferred: na
+    tagline: >-
+      Application/service development language;
+      a modern continuation of [=java].
   sgml:
     display: SGML
     title: Standard Generalized Markup Language
@@ -320,12 +468,14 @@ fileFormats:
       - SGML
     links:
       - '{{sgml}}'
+      - '{{markupw3c}}'
     extensions: [xml]
     preferred: caution
     tagline: >-
-      a fine-grained way to store records and fields, but also 
-      elements and sub-elements;
-      used for wrapping [:database] contents and for representing
+      A fine-grained way to store records and fields,
+      but also elements and sub-elements;
+      used for wrapping [:database] contents
+      and for representing
       [:textFormatted] and its constituent text objects; 
       a precursor of both [=html] and [=xml]. 
   siard:
@@ -338,8 +488,8 @@ fileFormats:
     extensions: [siard]
     preferred: yes
     tagline: >-
-      a modern attempt to represent relational data in a
-      software-indpependent way
+      A modern attempt to represent relational data in a
+      software-indpependent way.
   sql:
     display: SQL
     title: Structured Query Language
@@ -351,7 +501,8 @@ fileFormats:
     extensions: [sql]
     preferred: yes
     tagline: >-
-      a long standing, ubiquitous way of handling and packaging relational databases
+      A long standing, ubiquitous way
+      of handling and packaging relational databases.
   svg:
     display: SVG
     title: Scalable Vector Graphics
@@ -361,6 +512,8 @@ fileFormats:
       - '{{svgmdn}}'
     extensions: [svg]
     preferred: yes
+    tagline: >-
+      Vector image format based on XML.
   tar:
     display: TAR
     title: Tape Archive file
@@ -371,7 +524,8 @@ fileFormats:
     extensions: [tar]
     preferred: yes
     tagline: >-
-      a long standing, ubiquitous way of storing files and folders
+      A long standing, ubiquitous way
+      of storing files and folders.
   tex:
     display: TeX
     title: TeX
@@ -384,11 +538,14 @@ fileFormats:
     extensions: [tex, sty]
     preferred: caution
     tagline: >-
-      source code for ancient text processor TeX (1987),
+      Instructions for ancient text processor TeX (1987),
       the first one that could
-      deliver scientific and mathematical documents with professional typesetting
-      quality; TeX is still a de facto standard for writing scientific papers, not
-      only in the exact sciences, but also in various branches of the humanities.
+      deliver scientific and mathematical documents
+      with professional typesetting quality;
+      TeX is still a de facto standard
+      for writing scientific papers,
+      not only in the exact sciences,
+      but also in various branches of the humanities.
   text:
     display: Text
     title: Plain text
@@ -400,6 +557,9 @@ fileFormats:
     links:
       - '{{unicode}}'
     preferred: caution
+    tagline: >-
+      Various instances where plain text is used such as
+      running text, lists, log files, configuration files.
   tiff:
     display: TIFF
     title: Tagged Image File Format
@@ -409,33 +569,68 @@ fileFormats:
       - '{{tiff}}'
     extensions: [tiff, tif]
     preferred: yes
-  xml:
-    display: XML
-    title: eXtensible Markup Language
+    tagline: >-
+      Raster image format.
+      Popular in the publishing industry.
+  woff:
+    display: WOFF
+    title: Web Open Font Format
     wikipedia:
-      - XML
+      - Web_Open_Font_Format
     links:
-      - '{{xml}}'
-    extensions: [xml]
+      - '{{woff}}'
+      - '{{markupw3c}}'
+    extensions: [woff]
+    preferred: yes
+    tagline: >-
+      Font format for Web pages; 
+      with font-specific compression
+      and XML metadata.
+  woff2:
+    display: WOFF2
+    title: Web Open Font Format (2)
+    wikipedia:
+      - Web_Open_Font_Format
+    links:
+      - '{{woff2}}'
+      - '{{markupw3c}}'
+    extensions: [woff2]
+    preferred: yes
+    tagline: >-
+      Font format for Web pages; 
+      with font-specific compression
+      (better than [=woff])
+      and XML metadata.
+  xhtml:
+    display: XHTML
+    title: eXtensible Hypertext Markup Language
+    wikipedia:
+      - XHTML
+    links:
+      - '{{xhtml}}'
+      - '{{markupw3c}}'
+    extensions: [html, htm]
     preferred: caution
     tagline: >-
-      a fine-grained way to store records and fields, but also 
-      elements and sub-elements;
-      used for wrapping [:database] contents and for representing
-      [:textFormatted] and its constituent text objects; 
-      is intermediate between [=html] and [=sgml]. 
+      Universal language of the Web;
+      deals with very rich layout;
+      comparable to [=pdf];
+      works together with [=css]
+      to achieve subtle results;
+      looks perfect from the outside,
+      may look horribe from the inside.
   xls:
     display: XLS
     title: Excel xls
     wikipedia:
       - Microsoft_Excel#File_formats
     links:
-      - '{{excel}}'
+      - '{{msexcel}}'
     extensions: [xls]
     preferred: no
     tagline: >-
-      binary, proprietary, closed format for Microsoft Excel;
-      pre-2007
+      Binary, proprietary, closed format
+      for Microsoft Excel; pre-2007.
   xlsx:
     display: XLSX
     title: Excel xlsx
@@ -448,8 +643,39 @@ fileFormats:
     extensions: [xlsx]
     preferred: yes
     tagline: >-
-      transparent, openly standardized, xml/zip based format for Microsoft Excel;
-      after 2007
+      Transparent, openly standardized,
+      xml/zip based format for
+      Microsoft Excel; after 2007.
+  xml:
+    display: XML
+    title: eXtensible Markup Language
+    wikipedia:
+      - XML
+    links:
+      - '{{xml}}'
+      - '{{markupw3c}}'
+    extensions: [xml]
+    preferred: caution
+    tagline: >-
+      A fine-grained way to store records and fields,
+      but also elements and sub-elements;
+      used for wrapping [:database] contents
+      and for representing [:textFormatted]
+      and its constituent text objects; 
+      is intermediate between [=html] and [=sgml]. 
+  xslt:
+    display: XSLT
+    title: eXtensible Stylesheet Language Transformations
+    wikipedia:
+      - XSLT
+    links:
+      - '{{xslt}}'
+      - '{{markupw3c}}'
+    extensions: [xsl, xslt]
+    preferred: caution
+    tagline: >-
+      Templates to transform and style [=xml] documents;
+      can be used as a programming language as well.
   yaml:
     display: YAML
     title: Yet Another Markup Language
@@ -460,9 +686,34 @@ fileFormats:
     extensions: [yaml]
     preferred: yes
     tagline: >-
-      a fine-grained way to store lists and mappings, recursively nested;
+      A fine-grained way to store lists and mappings,
+      recursively nested;
       it is to configuration files what [=markdown] is
       to [:textFormatted].
+
+related:
+  dataContainer:
+    - database
+    - markup
+  database:
+    - dataContainer
+    - spreadsheet
+  markup:
+    - dataContainer
+    - textPlain
+  spreadsheet:
+    - textFormatted
+  textFormatted:
+    - font
+    - markup
+    - spreadsheet
+    - textPlain
+  textPlain:
+    - markup
+    - programCode
+    - textFormatted
+  programCode:
+    - textPlain
 
 mapping:
   dataContainer:
@@ -479,6 +730,9 @@ mapping:
     - siard
     - sql
     - xml
+  font:
+    - woff
+    - woff2
   image:
     - gif
     - jpeg
@@ -488,31 +742,39 @@ mapping:
     - postscript
     - svg
     - tiff
-  programCode:
-    - pascal
-    - prolog
-    - perl
-    - python
-    - java
-    - javascript
-    - c
-    - cpp
-    - ruby
-    - scala
+  markup:
+    - css
+    - html
     - javascript
     - jsx
+    - markdown
+    - sgml
+    - tex
+    - xhtml
+    - xml
+    - xslt
+  programCode:
+    - c
+    - cpp
+    - java
+    - javascript
+    - jsx
+    - pascal
+    - perl
+    - prolog
+    - python
+    - ruby
+    - scala
+    - xslt
   spreadsheet:
     - ods
     - xls
     - xlsx
   textFormatted:
-    - css
-    - html
-    - markdown
+    - odt
+    - doc
+    - docx
     - pdfa
-    - sgml
-    - tex
-    - xml
   textPlain:
     - css
     - csv

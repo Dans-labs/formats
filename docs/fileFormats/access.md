@@ -15,11 +15,15 @@
 
 **Microsoft Access Database**
 
+???+ abstract "In short"
+    Proprietary, binary, closed format.
+
 item | info
 --- | ---
-type | [Database](../dataTypes/database.md)
+types | [Database](../dataTypes/database.md)
 preferred | ❌ no
 extensions | [`.accdb`](../extensions/accdb.md), [`.mdb`](../extensions/mdb.md)
+related formats | [CSV](../fileFormats/csv.md), [dbase](../fileFormats/dbase.md), [HDF5](../fileFormats/hdf5.md), [SIARD](../fileFormats/siard.md), [SQL](../fileFormats/sql.md), [XML](../fileFormats/xml.md)
 wikipedia | [`Microsoft_Access`]({{wikipedia}}/Microsoft_Access)
 
 ## Description

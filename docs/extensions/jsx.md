@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Program code](../dataTypes/programCode.md)
-format | [JSX](../fileFormats/jsx.md)
+types | [Markup](../dataTypes/markup.md), [Program code](../dataTypes/programCode.md)
+formats | [JSX](../fileFormats/jsx.md)
 variants | 
 file info | [`extension/jsx`]({{fileinfo}}/jsx)
 

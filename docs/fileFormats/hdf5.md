@@ -15,11 +15,15 @@
 
 **Hierarchical Data Format**
 
+???+ abstract "In short"
+    Proprietary legacy format for tabular data.
+
 item | info
 --- | ---
-type | [Database](../dataTypes/database.md)
+types | [Database](../dataTypes/database.md)
 preferred | ❌ no
 extensions | [`.hdf5`](../extensions/hdf5.md)
+related formats | [Access](../fileFormats/access.md), [CSV](../fileFormats/csv.md), [dbase](../fileFormats/dbase.md), [SIARD](../fileFormats/siard.md), [SQL](../fileFormats/sql.md), [XML](../fileFormats/xml.md)
 wikipedia | [`Hierarchical_Data_Format`]({{wikipedia}}/Hierarchical_Data_Format)
 
 ## Description

@@ -13,12 +13,16 @@
 
 # Text (formatted)
 
-**Readable text with layout and formatting**
+**Typeset text with layout and formatting**
+
+???+ abstract "In short"
+    Printed or printable documents.
 
 item | info
 --- | ---
-formats | [CSS](../fileFormats/css.md), [HTML](../fileFormats/html.md), [Markdown](../fileFormats/markdown.md), [PDF/A](../fileFormats/pdfa.md), [SGML](../fileFormats/sgml.md), [TeX](../fileFormats/tex.md), [XML](../fileFormats/xml.md)
-extensions | [`css`](../extensions/css.md), [`htm`](../extensions/htm.md), [`html`](../extensions/html.md), [`md`](../extensions/md.md), [`pdf`](../extensions/pdf.md), [`sty`](../extensions/sty.md), [`tex`](../extensions/tex.md), [`xml`](../extensions/xml.md)
+formats | [DOC](../fileFormats/doc.md), [DOCX](../fileFormats/docx.md), [ODT](../fileFormats/odt.md), [PDF/A](../fileFormats/pdfa.md)
+extensions | [`doc`](../extensions/doc.md), [`docx`](../extensions/docx.md), [`odt`](../extensions/odt.md), [`pdf`](../extensions/pdf.md)
+related types | [Font](../dataTypes/font.md), [Markup](../dataTypes/markup.md), [Spreadsheet](../dataTypes/spreadsheet.md), [Text (plain)](../dataTypes/textPlain.md)
 
 ## Description
 

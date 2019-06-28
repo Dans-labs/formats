@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Spreadsheet](../dataTypes/spreadsheet.md)
-format | [XLS](../fileFormats/xls.md)
+types | [Spreadsheet](../dataTypes/spreadsheet.md)
+formats | [XLS](../fileFormats/xls.md)
 variants | 
 file info | [`extension/xls`]({{fileinfo}}/xls)
 

@@ -13,7 +13,7 @@
 This site is built from source texts and structure information
 into a set of [Markdown](fileFormats/markdown.md) files that is processed by
 [MkDocs]({{mkdocs}})
-into [=htmkl] files that can be served by
+into [HTML](fileFormats/html.md) files that can be served by
 [GitHub Pages]({{ghpages}}).
 
 The build script,

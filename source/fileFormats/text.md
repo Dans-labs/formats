@@ -11,7 +11,7 @@ for logging, for data, and for programming.
 It can be produced by humans, typing on the keyboard or dictating in a
 microphone, but also by programs, scripts and commands on the terminal.
 
-## Preferred status
+## Recommendations
 
 We are confident that uncategorized plain text files
 using the Unicode character set,
@@ -23,7 +23,8 @@ or in an other UTF encoding with
 [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark),
 can be represented correctly in most computing environments.
 
-For program files, it is recommended to follow the best practices for
-that programming language.
-It is dependent on the programming language how the character encoding must be
-specified, and what the default encoding is.
+??? explanation "Programm code"
+    For program files, it is recommended to follow the best practices for
+    that programming language.
+    It is dependent on the programming language how the character encoding must be
+    specified, and what the default encoding is.

@@ -15,11 +15,15 @@
 
 **Tape Archive file**
 
+???+ abstract "In short"
+    A long standing, ubiquitous way of storing files and folders.
+
 item | info
 --- | ---
-type | [Data (container)](../dataTypes/dataContainer.md)
+types | [Data (container)](../dataTypes/dataContainer.md)
 preferred | ✅ yes
 extensions | [`.tar`](../extensions/tar.md)
+related formats | [JSON](../fileFormats/json.md), [SQL](../fileFormats/sql.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
 wikipedia | [`Tar_(computing)`]({{wikipedia}}/Tar_(computing))
 
 ## Description

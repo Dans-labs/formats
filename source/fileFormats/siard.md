@@ -11,15 +11,18 @@ This makes it accessible for various tools.
 
 SIARD is a relatively young format.
 
-There are tools for converting databases to SIARD and for validating the format,
-but the possibilities are limited. Some conversion tools such as
-[AccessToSiard]({{coptr}}/AccessToSiard)
-and
-[CSV2SIARD]({{coptr}}/CSV2SIARD)
-can be found via
-[COPTR (Community Owned Preservation ToolRegistry]({{coptr}}/Category:File_Format_Migration).
-Using these tools requires the
-[SIARD Suite]({{coptr}}/SIARD_Suite) (free of charge).
+??? explanation "Software"
+    There are tools for converting databases to SIARD and for validating the format,
+    but the possibilities are limited. Some conversion tools such as
+    [AccessToSiard]({{coptr}}/AccessToSiard)
+    and
+    [CSV2SIARD]({{coptr}}/CSV2SIARD)
+    can be found via
+    [COPTR (Community Owned Preservation ToolRegistry]({{coptr}}/Category:File_Format_Migration).
+    Using these tools requires the
+    [SIARD Suite]({{coptr}}/SIARD_Suite) (free of charge).
+
+## Recommendations
 
 Databases can use routines which may be
 dependent on their own scripting languages or programming languages from the

@@ -15,10 +15,14 @@
 
 **Readable text without special formatting codes**
 
+???+ abstract "In short"
+    Text content that is readable without special software.
+
 item | info
 --- | ---
 formats | [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [HTML](../fileFormats/html.md), [JSON](../fileFormats/json.md), [Markdown](../fileFormats/markdown.md), [SQL](../fileFormats/sql.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
 extensions | [`cfg`](../extensions/cfg.md), [`css`](../extensions/css.md), [`csv`](../extensions/csv.md), [`htm`](../extensions/htm.md), [`html`](../extensions/html.md), [`ini`](../extensions/ini.md), [`json`](../extensions/json.md), [`log`](../extensions/log.md), [`lst`](../extensions/lst.md), [`md`](../extensions/md.md), [`sql`](../extensions/sql.md), [`sty`](../extensions/sty.md), [`tex`](../extensions/tex.md), [`text`](../extensions/text.md), [`tsv`](../extensions/tsv.md), [`txt`](../extensions/txt.md), [`xml`](../extensions/xml.md), [`yaml`](../extensions/yaml.md)
+related types | [Markup](../dataTypes/markup.md), [Program code](../dataTypes/programCode.md), [Text (formatted)](../dataTypes/textFormatted.md)
 
 ## Description
 
@@ -54,77 +58,73 @@ Computer files are either binary, in which case they are just a sequence of bits
 (1 and 0), or they are text files, in which case they are interpreted as a
 sequence of characters, separated by line breaks.
 
-### Text files versus binary files
+??? explanation "Text files versus binary files"
+    There are several notions of what a character is and what a line break is.
+    A Windows line break is different from a Unix/Linux/Mac line break, and line
+    breaks on OS9 Macs are yet different.
 
-There are several notions of what a character is and what a line break is.
-A Windows line break is different from a Unix/Linux/Mac line break, and line
-breaks on OS9 Macs are yet different.
+??? explanation "Character encoding"
+    What a character is, is determined by an *encoding*, which is a system to map
+    characters to sequences of bits.
 
-### Character encoding
+    The most ubiquitous character encoding is
+    [ASCII]({{wikipedia}}/ASCII).
+    It encodes a set of 128 characters.
+    This is a basic set consisting of letters, uppercase and lowercase,
+    digits, punctuation, arithmetical symbols, a few currency symbols, space, tab,
+    newline, carriage return, and a few others.
 
-What a character is, is determined by an *encoding*, which is a system to map
-characters to sequences of bits.
+    Later came the extensions for letters with accents, for other scripts such as
+    Cyrillic and Greek.
+    The first was IBM's [CP437]({{wikipedia}}/Code_page_437)
+    These extension sets were defined by
+    [code pages]({{wikipedia}}/ISO/IEC_8859),
+    each of which defined a limited supply of non-ascii characters.
 
-The most ubiquitous character encoding is
-[ASCII]({{wikipedia}}/ASCII).
-It encodes a set of 128 characters.
-This is a basic set consisting of letters, uppercase and lowercase,
-digits, punctuation, arithmetical symbols, a few currency symbols, space, tab,
-newline, carriage return, and a few others.
+    Windows had its own notion of code page: 
+    [125x]({{wikipedia}}/Windows_code_page).
 
-Later came the extensions for letters with accents, for other scripts such as
-Cyrillic and Greek.
-The first was IBM's [CP437]({{wikipedia}}/Code_page_437)
-These extension sets were defined by
-[code pages]({{wikipedia}}/ISO/IEC_8859),
-each of which defined a limited supply of non-ascii characters.
+    All this was common before UNICODE.
+    Text files from this era pose the difficulty that nothing in the file itself
+    declares which code page is being used. It is a matter of trial and error to
+    determine the right code page, and sometimes it is impossible.
 
-Windows had its own notion of code page: 
-[125x]({{wikipedia}}/Windows_code_page).
+    This problem is carried over to older text-based formats such as 
+    [CSV](../fileFormats/csv.md) and [SQL](../fileFormats/sql.md).
 
-All this was common before UNICODE.
-Text files from this era pose the difficulty that nothing in the file itself
-declares which code page is being used. It is a matter of trial and error to
-determine the right code page, and sometimes it is impossible.
+    While the structure of [SQL](../fileFormats/sql.md) and [CSV](../fileFormats/csv.md) files is usually well-defined, the use of
+    undeclared code pages remains a liability.
 
-This problem is carried over to older text-based formats such as 
-[CSV](../fileFormats/csv.md) and [SQL](../fileFormats/sql.md).
+??? explanation "Unicode"
+    When [Unicode]({{unicode}})
+    arrived, it had the promise to tidy up most character issues.
+    The Unicode standard is a major achievement.
+    It not only maps nearly every written glyph unto a unique number, it also
+    defines the notions of upper case and lower case intelligently, and it defines
+    types of characters, such as letters, numerals, punctuation, and much more.
 
-While the structure of [SQL](../fileFormats/sql.md) and [CSV](../fileFormats/csv.md) files is usually well-defined, the use of
-undeclared code pages remains a liability.
+    Last but not least, associated with Unicode are severel encodings to map the
+    unique numbers to streams of bits in efficient ways.
 
-### Unicode
+    In today's world, 
+    [UTF8]({{wikipedia}}/UTF-8)
+    is very common, and especially
+    suited to Western languages, because it coincides with ASCII for
+    the ASCII characters. 
 
-When [Unicode]({{unicode}})
-arrived, it had the promise to tidy up most character issues.
-The Unicode standard is a major achievement.
-It not only maps nearly every written glyph unto a unique number, it also
-defines the notions of upper case and lower case intelligently, and it defines
-types of characters, such as letters, numerals, punctuation, and much more.
+    Other encodings are [UTF16]({{wikipedia}}/UTF-16)
+    and [UTF32]({{wikipedia}}/UTF-32).
 
-Last but not least, associated with Unicode are severel encodings to map the
-unique numbers to streams of bits in efficient ways.
+    ???+ explanation "Specifying a Unicode encoding"
+        File formats such as [XML](../fileFormats/xml.md) make it clear which Unicode
+        encoding is being used.
 
-In today's world, 
-[UTF8]({{wikipedia}}/UTF-8)
-is very common, and especially
-suited to Western languages, because it coincides with ASCII for
-the ASCII characters. 
+        But in general, file types for plain text do not specify the encoding in a
+        standard way.
 
-Other encodings are [UTF16]({{wikipedia}}/UTF-16)
-and [UTF32]({{wikipedia}}/UTF-32).
-
-### Specifying a Unicode encoding
-
-File formats such as [XML](../fileFormats/xml.md) make it clear which Unicode
-encoding is being used.
-
-But in general, file types for plain text do not specify the encoding in a
-standard way.
-
-The recommendation is to let a non-UTF8 file start with a special character,
-the [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark), from
-which most applications can deduce the encoding that is being used.
+        The recommendation is to let a non-UTF8 file start with a special character,
+        the [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark), from
+        which most applications can deduce the encoding that is being used.
 
 
 

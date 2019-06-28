@@ -12,9 +12,13 @@ site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Hen
 
 extra:
   adobe: https://www.adobe.com
+  angular: https://angular.io
   author: mailto:dirk.roorda@dans.knaw.nl
+  babel: https://babeljs.io
   bullzip: http://www.bullzip.com/products/pdf/info.php
   cbook: https://www.academia.edu/37784778/The_C_Programming_Language_by_Brian_W.Kernighan_Dennis_M.Ritchie_2nd_Ed_
+  cgi: https://en.wikipedia.org/wiki/Common_Gateway_Interface
+  chromev8: https://v8.dev
   coptr: http://coptr.digipres.org
   cpp: https://isocpp.org
   css: https://www.w3.org/TR/css-2018/
@@ -24,7 +28,8 @@ extra:
   dbase: https://www.dbase.com/Knowledgebase/dbulletin/bu03_b.htm
   docs: https://Dans-labs.github.io/formats/
   easy: https://easy.dans.knaw.nl
-  excel: https://products.office.com/nl-nl/excel?legRedir=true&CorrelationId=6dac646b-7a61-46b9-90cd-5f6a3f0194a0&rtc=1
+  es6: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
+  es6features: http://es6-features.org/#Constants
   fileinfo: https://fileinfo.com/extension
   formats: https://github.com/Dans-labs/formats
   ghpages: https://pages.github.com
@@ -33,12 +38,15 @@ extra:
   hdf5: https://www.hdfgroup.org/solutions/hdf5/
   hdf5tools: https://support.hdfgroup.org/products/hdf5_tools/
   html: https://www.w3.org/TR/html/
+  html52: https://www.w3.org/TR/html52/introduction.html#introduction-history
+  htmlliving: https://html.spec.whatwg.org
   htmlmdn: https://developer.mozilla.org/en-US/docs/Web/HTML
   imagemagick: https://imagemagick.org/index.php
   irfanview: https://www.irfanview.com
   issues: https://github.com/Dans-labs/formats/issues
   java: https://www.oracle.com/java/
   jpeg: https://www.w3.org/Graphics/JPEG/itu-t81.pdf
+  jupyter: https://jupyter.org
   js: http://ecma-international.org/ecma-262/9.0/index.html#Title
   jsmdn: https://developer.mozilla.org/en-US/docs/Web/JavaScript
   json: https://json.org
@@ -46,11 +54,17 @@ extra:
   latex: https://www.latex-project.org
   libreoffice: https://www.libreoffice.org
   markdown: https://daringfireball.net/projects/markdown/syntax
+  markupw3c: https://www.w3.org/MarkUp/
+  mathml: https://www.w3.org/Math/
   mdn: https://developer.mozilla.org/en-US/
   mkdocs: https://www.mkdocs.org
+  mongodb: https://www.mongodb.com
   msaccess: https://products.office.com/en/access
   msaccesscom: https://techcommunity.microsoft.com/t5/Access/ct-p/Access_Cat
+  msexcel: https://products.office.com/en/excel
+  msword: https://products.office.com/en/word
   mysql: https://www.mysql.com
+  nodejs: https://nodejs.org/en/
   ooxml: https://www.ecma-international.org/publications/standards/Ecma-376.htm
   pascal: http://scihi.org/nikolaus-wirth-pascal/
   pdf: https://www.pdfa.org/resource/iso-32000-1-pdf-1-7/
@@ -61,19 +75,35 @@ extra:
   preferredFormats: https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats?set_language=en
   prolog: https://www.swi-prolog.org
   python: https://www.python.org
+  react: https://reactjs.org
   readthedocs: https://readthedocs.org
+  relaxng: https://relaxng.org
   ruby: https://www.ruby-lang.org/en/
+  rubyrails: https://rubyonrails.org
   scala: https://www.scala-lang.org
   sgml: https://www.w3.org/MarkUp/SGML/
   siard: https://www.bar.admin.ch/bar/en/home/archiving/tools/siard-suite.html
+  smil: https://www.w3.org/AudioVideo/
   sqldoc: https://dev.mysql.com/doc/refman/8.0/en/sql-syntax.html
   svgmdn: https://developer.mozilla.org/en-US/docs/Web/SVG
   tar: https://www.gnu.org/software/tar/
+  tei: https://tei-c.org
   tex: https://ctan.org
   tiff: https://tools.ietf.org/html/rfc2306
   unicode: http://unicode.org
+  vue: https://vuejs.org
+  w3c: https://www.w3.org
+  w3cwhatwg: https://www.w3.org/2019/04/WHATWG-W3C-MOU.html
+  webpack: https://webpack.js.org
+  whatwg: https://whatwg.org
   wikipedia: https://en.wikipedia.org/wiki
+  woff: https://www.w3.org/TR/WOFF/
+  woff2: https://www.w3.org/TR/WOFF2/
+  xhtml: https://www.w3.org/TR/xhtml11/
   xml: https://www.w3.org/TR/xml/
+  xmldtd: https://www.w3.org/TR/REC-xml/#dt-doctype
+  xmlschema: https://www.w3.org/standards/xml/schema
+  xslt: https://www.w3.org/TR/xslt/all/
   yaml: https://yaml.org
 
 theme:
@@ -95,7 +125,9 @@ nav:
   - Data Types:
     - Data (container): 'dataTypes/dataContainer.md'
     - Database: 'dataTypes/database.md'
+    - Font: 'dataTypes/font.md'
     - Image: 'dataTypes/image.md'
+    - Markup: 'dataTypes/markup.md'
     - Program code: 'dataTypes/programCode.md'
     - Spreadsheet: 'dataTypes/spreadsheet.md'
     - Text (formatted): 'dataTypes/textFormatted.md'
@@ -115,6 +147,9 @@ nav:
       - SQL: 'fileFormats/sql.md'
       - XML: 'fileFormats/xml.md'
       - dbase: 'fileFormats/dbase.md'
+    - Font:
+      - WOFF: 'fileFormats/woff.md'
+      - WOFF2: 'fileFormats/woff2.md'
     - Image:
       - GIF: 'fileFormats/gif.md'
       - JPEG: 'fileFormats/jpeg.md'
@@ -124,6 +159,17 @@ nav:
       - PostScript: 'fileFormats/postscript.md'
       - SVG: 'fileFormats/svg.md'
       - TIFF: 'fileFormats/tiff.md'
+    - Markup:
+      - CSS: 'fileFormats/css.md'
+      - HTML: 'fileFormats/html.md'
+      - JSX: 'fileFormats/jsx.md'
+      - JavaScript: 'fileFormats/javascript.md'
+      - Markdown: 'fileFormats/markdown.md'
+      - SGML: 'fileFormats/sgml.md'
+      - TeX: 'fileFormats/tex.md'
+      - XHTML: 'fileFormats/xhtml.md'
+      - XML: 'fileFormats/xml.md'
+      - XSLT: 'fileFormats/xslt.md'
     - Program code:
       - C: 'fileFormats/c.md'
       - CPP: 'fileFormats/cpp.md'
@@ -136,18 +182,16 @@ nav:
       - Python: 'fileFormats/python.md'
       - Ruby: 'fileFormats/ruby.md'
       - Scala: 'fileFormats/scala.md'
+      - XSLT: 'fileFormats/xslt.md'
     - Spreadsheet:
       - ODS: 'fileFormats/ods.md'
       - XLS: 'fileFormats/xls.md'
       - XLSX: 'fileFormats/xlsx.md'
     - Text (formatted):
-      - CSS: 'fileFormats/css.md'
-      - HTML: 'fileFormats/html.md'
-      - Markdown: 'fileFormats/markdown.md'
+      - DOC: 'fileFormats/doc.md'
+      - DOCX: 'fileFormats/docx.md'
+      - ODT: 'fileFormats/odt.md'
       - PDF/A: 'fileFormats/pdfa.md'
-      - SGML: 'fileFormats/sgml.md'
-      - TeX: 'fileFormats/tex.md'
-      - XML: 'fileFormats/xml.md'
     - Text (plain):
       - CSS: 'fileFormats/css.md'
       - CSV: 'fileFormats/csv.md'
@@ -165,6 +209,8 @@ nav:
     - CPP: 'fileFormats/cpp.md'
     - CSS: 'fileFormats/css.md'
     - CSV: 'fileFormats/csv.md'
+    - DOC: 'fileFormats/doc.md'
+    - DOCX: 'fileFormats/docx.md'
     - GIF: 'fileFormats/gif.md'
     - HDF5: 'fileFormats/hdf5.md'
     - HTML: 'fileFormats/html.md'
@@ -175,6 +221,7 @@ nav:
     - JavaScript: 'fileFormats/javascript.md'
     - Markdown: 'fileFormats/markdown.md'
     - ODS: 'fileFormats/ods.md'
+    - ODT: 'fileFormats/odt.md'
     - PDF: 'fileFormats/pdf.md'
     - PDF/A: 'fileFormats/pdfa.md'
     - PNG: 'fileFormats/png.md'
@@ -193,9 +240,13 @@ nav:
     - TIFF: 'fileFormats/tiff.md'
     - TeX: 'fileFormats/tex.md'
     - Text: 'fileFormats/text.md'
+    - WOFF: 'fileFormats/woff.md'
+    - WOFF2: 'fileFormats/woff2.md'
+    - XHTML: 'fileFormats/xhtml.md'
     - XLS: 'fileFormats/xls.md'
     - XLSX: 'fileFormats/xlsx.md'
     - XML: 'fileFormats/xml.md'
+    - XSLT: 'fileFormats/xslt.md'
     - YAML: 'fileFormats/yaml.md'
     - dbase: 'fileFormats/dbase.md'
   - Extensions:
@@ -206,7 +257,10 @@ nav:
     - .css: 'extensions/css.md'
     - .csv: 'extensions/csv.md'
     - .dbf: 'extensions/dbf.md'
+    - .doc: 'extensions/doc.md'
+    - .docx: 'extensions/docx.md'
     - .eps: 'extensions/eps.md'
+    - .es: 'extensions/es.md'
     - .gif: 'extensions/gif.md'
     - .h: 'extensions/h.md'
     - .hdf5: 'extensions/hdf5.md'
@@ -224,6 +278,7 @@ nav:
     - .md: 'extensions/md.md'
     - .mdb: 'extensions/mdb.md'
     - .ods: 'extensions/ods.md'
+    - .odt: 'extensions/odt.md'
     - .p: 'extensions/p.md'
     - .pas: 'extensions/pas.md'
     - .pdf: 'extensions/pdf.md'
@@ -244,9 +299,13 @@ nav:
     - .tiff: 'extensions/tiff.md'
     - .tsv: 'extensions/tsv.md'
     - .txt: 'extensions/txt.md'
+    - .woff: 'extensions/woff.md'
+    - .woff2: 'extensions/woff2.md'
     - .xls: 'extensions/xls.md'
     - .xlsx: 'extensions/xlsx.md'
     - .xml: 'extensions/xml.md'
+    - .xsl: 'extensions/xsl.md'
+    - .xslt: 'extensions/xslt.md'
     - .yaml: 'extensions/yaml.md'
   - Build: 'help.md'
 

@@ -1,7 +1,7 @@
 This site is built from source texts and structure information
 into a set of [=markdown] files that is processed by
 [MkDocs]({{mkdocs}})
-into [=htmkl] files that can be served by
+into [=html] files that can be served by
 [GitHub Pages]({{ghpages}}).
 
 The build script,

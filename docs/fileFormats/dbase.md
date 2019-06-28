@@ -15,11 +15,15 @@
 
 **dBase data file**
 
+???+ abstract "In short"
+    Proprietary legacy format for tabular data.
+
 item | info
 --- | ---
-type | [Database](../dataTypes/database.md)
+types | [Database](../dataTypes/database.md)
 preferred | ❌ no
 extensions | [`.dbf`](../extensions/dbf.md)
+related formats | [Access](../fileFormats/access.md), [CSV](../fileFormats/csv.md), [HDF5](../fileFormats/hdf5.md), [SIARD](../fileFormats/siard.md), [SQL](../fileFormats/sql.md), [XML](../fileFormats/xml.md)
 wikipedia | [`DBase`]({{wikipedia}}/DBase), [`.dbf`]({{wikipedia}}/.dbf)
 
 ## Description

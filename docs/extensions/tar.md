@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Data (container)](../dataTypes/dataContainer.md)
-format | [TAR](../fileFormats/tar.md)
+types | [Data (container)](../dataTypes/dataContainer.md)
+formats | [TAR](../fileFormats/tar.md)
 variants | 
 file info | [`extension/tar`]({{fileinfo}}/tar)
 

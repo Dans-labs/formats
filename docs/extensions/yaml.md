@@ -15,8 +15,8 @@
 
 item | info
 --- | ---
-type | [Data (container)](../dataTypes/dataContainer.md), [Text (plain)](../dataTypes/textPlain.md)
-format | [YAML](../fileFormats/yaml.md)
+types | [Data (container)](../dataTypes/dataContainer.md), [Text (plain)](../dataTypes/textPlain.md)
+formats | [YAML](../fileFormats/yaml.md)
 variants | 
 file info | [`extension/yaml`]({{fileinfo}}/yaml)
 
