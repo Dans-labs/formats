@@ -31,11 +31,14 @@ Run `build.py` from the Terminal as follows:
 
 ```sh
 python3 build.py make
+python3 build.py build
 python3 build.py docs
 python3 build.py g commitmsg
 ```
 
 `make` compiles Markdown files from the source files.
+
+`build` does `make` and then generates html files from the Markdown files.
 
 `docs` does `make` and then serves the docs locally and them shows them in your browser.
 
@@ -55,7 +58,7 @@ def readArgs():
     return (False, None, [])
   arg = args[0]
   if arg not in {
-      'make', 'docs', 'g',
+      'make', 'build', 'docs', 'g',
   }:
     console(USAGE)
     return (False, None, [])
@@ -84,6 +87,10 @@ def commit(task, msg):
 
 def shipDocs():
   run(['mkdocs', 'gh-deploy'])
+
+
+def buildDocs():
+  run(['mkdocs', 'build'])
 
 
 def serveDocs():
@@ -530,6 +537,9 @@ def main():
     return
   elif task == 'make':
     makeDocs()
+  elif task == 'build':
+    if makeDocs():
+      buildDocs()
   elif task == 'docs':
     if makeDocs():
       serveDocs()

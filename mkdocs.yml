@@ -7,8 +7,9 @@ site_description: >-
   to be preserved for the long term.
 
 site_url: 'https://Dans-labs.github.io/formats/'
-
 site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Henk van den Berg
+
+repo_url: 'https://github.com/Dans-labs/formats/'
 
 extra:
   adobe: https://www.adobe.com
@@ -107,16 +108,20 @@ extra:
   yaml: https://yaml.org
 
 theme:
-  name: material
+  name: null
+  custom_dir: 'docs/theme/material'
   logo: 'images/formats.png'
   favicon: 'images/formats.png'
   feature:
     tabs: false
   palette:
-    primary: red
-    accent: cyan
-
-repo_url: 'https://github.com/Dans-labs/formats/'
+    primary: 
+    accent: 
+  language: en
+  font:
+    text: Open Sans
+    head: Glegoo
+    code: Courier New
 
 strict: false
 

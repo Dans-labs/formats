@@ -26,11 +26,14 @@ Run `build.py` from the Terminal as follows:
 
 ```sh
 python3 build.py make
+python3 build.py build
 python3 build.py docs
 python3 build.py g commitmsg
 ```
 
 `make` compiles Markdown files from the source files.
+
+`build` does `make` and then generates html files from the Markdown files.
 
 `docs` does `make` and then serves the docs locally and them shows them in your browser.
 
