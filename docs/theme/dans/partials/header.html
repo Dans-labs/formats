@@ -1,15 +1,24 @@
 {#-
   This file was automatically generated - do not edit
 -#}
+{% if config.theme.status == "development" %}
+<header class="md-header md-header-dev" data-md-component="header">
+{% else %}
 <header class="md-header" data-md-component="header">
+{% endif %}
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="{{ config.theme.institute.url | default(nav.homepage.url, true) | url }}" title="{{ config.theme.institute.name }}" class="md-header-nav__button md-logo">
+          <img src="{{ config.theme.institute.logo | url }}" height="50">
+        </a>
+      </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="{{ config.site_url | default(nav.homepage.url, true) | url }}" title="{{ config.site_name }}" class="md-header-nav__button md-logo">
           {% if config.theme.logo.icon %}
             <i class="md-icon">{{ config.theme.logo.icon }}</i>
           {% else %}
-            <img src="{{ config.theme.logo | url }}" width="24" height="24">
+            <img src="{{ config.theme.logo | url }}" height="50">
           {% endif %}
         </a>
       </div>
@@ -20,9 +29,23 @@
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           {% if config.site_name == page.title %}
             {{ config.site_name }}
+            {% if config.theme.status == "development" %}
+              <span class="md-header-nav__dev">
+            {% else %}
+              <span>
+            {% endif %}
+                {{ config.theme.status }}
+              </span>
           {% else %}
             <span class="md-header-nav__topic">
               {{ config.site_name }}
+            {% if config.theme.status == "development" %}
+              <span class="md-header-nav__dev">
+            {% else %}
+              <span>
+            {% endif %}
+                {{ config.theme.status }}
+              </span>
             </span>
             <span class="md-header-nav__topic">
               {% if page and page.meta and page.meta.title %}
@@ -30,6 +53,13 @@
               {% else %}
                 {{ page.title }}
               {% endif %}
+              {% if config.theme.status == "development" %}
+                <span class="md-header-nav__dev">
+              {% else %}
+                <span>
+              {% endif %}
+                  {{ config.theme.status }}
+                </span>
             </span>
           {% endif %}
         </div>

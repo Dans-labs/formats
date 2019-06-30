@@ -1,4 +1,4 @@
-site_name: DANS Preferred Formats
+site_name: Preferred Formats
 site_description: >- 
   File Formats and Digital Preservation:
   catalogue of data types with associated file formats,
@@ -16,7 +16,7 @@ extra:
 
 theme:
   name: null
-  custom_dir: 'docs/theme/material'
+  custom_dir: 'docs/theme/dans'
   logo: 'images/formats.png'
   favicon: 'images/formats.png'
   feature:
@@ -29,6 +29,13 @@ theme:
     text: Open Sans
     head: Glegoo
     code: Ubuntu Mono
+  institute:
+    url: 'https://dans.knaw.nl/en'
+    name: Data Archiving and Networked Services (DANS)
+    logo: images/DANS.png
+
+  status: development
+
 
 strict: false
 

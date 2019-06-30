@@ -13,9 +13,6 @@
             </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  {{ lang.t("footer.previous") }}
-                </span>
                 {{ page.previous_page.title }}
               </span>
             </div>
@@ -25,9 +22,6 @@
           <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title }}" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  {{ lang.t("footer.next") }}
-                </span>
                 {{ page.next_page.title }}
               </span>
             </div>
@@ -52,6 +46,8 @@
         and
         <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
+        customised by
+        <a href="https://github.com/Dans-labs">Dans-labs</a>
       </div>
       {% include "partials/social.html" %}
     </div>
