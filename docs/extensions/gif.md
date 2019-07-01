@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .gif
@@ -15,7 +11,3 @@ file info | [`extension/gif`]({{fileinfo}}/gif)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .p
@@ -15,7 +11,3 @@ file info | [`extension/p`]({{fileinfo}}/p)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

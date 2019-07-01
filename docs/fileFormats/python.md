@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Python
@@ -26,7 +22,3 @@ wikipedia | [`Python_(programming_language)`]({{wikipedia}}/Python_(programming_
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

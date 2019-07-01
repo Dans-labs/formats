@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Text
@@ -56,7 +52,3 @@ can be represented correctly in most computing environments.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

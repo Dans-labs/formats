@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # XSLT
@@ -45,7 +41,3 @@ that the references are still valid in the archived situation.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

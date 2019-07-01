@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # GIF
@@ -26,7 +22,3 @@ wikipedia | [`GIF`]({{wikipedia}}/GIF)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # XLS
@@ -26,7 +22,3 @@ wikipedia | [`Microsoft_Excel#File_formats`]({{wikipedia}}/Microsoft_Excel#File_
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

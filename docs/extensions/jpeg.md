@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .jpeg
@@ -15,7 +11,3 @@ file info | [`extension/jpeg`]({{fileinfo}}/jpeg)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

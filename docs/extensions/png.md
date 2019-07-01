@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .png
@@ -15,7 +11,3 @@ file info | [`extension/png`]({{fileinfo}}/png)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

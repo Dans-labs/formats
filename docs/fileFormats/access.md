@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Access
@@ -58,7 +54,3 @@ providing more detailed descriptions in a separate document or “code book”.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

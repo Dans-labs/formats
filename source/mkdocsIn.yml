@@ -11,45 +11,15 @@ site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Hen
 
 repo_url: 'https://github.com/Dans-labs/formats/'
 
-extra:
-[[urls]]
-
 theme:
-  name: null
-  custom_dir: 'docs/theme/dans'
+  name: dans
   logo: 'images/formats.png'
   favicon: 'images/formats.png'
-  feature:
-    tabs: false
-  palette:
-    primary: 
-    accent: 
-  language: en
-  font:
-    text: Open Sans
-    head: Glegoo
-    code: Ubuntu Mono
-  institute:
-    url: 'https://dans.knaw.nl/en'
-    name: Data Archiving and Networked Services (DANS)
-    logo: images/DANS.png
-
-  status: development
-
+  development: true
+  development_label: under development
+  production_link: https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats?set_language=en
 
 strict: false
-
-nav:
-  - Home: 'index.md'
-  - Data Types:
-[[dataTypes]]
-  - File Formats (by data type):
-[[fileFormatsDT]]
-  - File Formats (A-Z):
-[[fileFormats]]
-  - Extensions:
-[[extensions]]
-  - Build: 'help.md'
 
 markdown_extensions:
   - attr_list
@@ -62,6 +32,26 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.smartsymbols
 
 plugins:
   - markdownextradata
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: 'index.md'
+  - About: 'about.md'
+  - Data Types:
+[[dataTypes]]
+  - File Formats (by data type):
+[[fileFormatsDT]]
+  - File Formats (A-Z):
+[[fileFormats]]
+  - Extensions:
+[[extensions]]
+  - Build: 'help.md'
+
+extra:
+[[urls]]

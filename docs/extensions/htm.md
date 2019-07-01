@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .htm
@@ -15,7 +11,3 @@ file info | [`extension/htm`]({{fileinfo}}/htm)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 This site is built from source texts and structure information
 into a set of [Markdown](fileFormats/markdown.md) files that is processed by
@@ -13,7 +9,7 @@ The build script,
 [`build.py`]({{formats}}/blob/master/build.py)
 is included.
 
-# Usage
+## Usage
 
 Run `build.py` from the Terminal as follows:
 
@@ -38,9 +34,9 @@ Replace `commitmsg` by anything that is appropriate as a commit message.
 
 
 
-# Explanation
+## Explanation
 
-## Source
+### Source
 The source texts are in [Markdown](fileFormats/markdown.md), [YAML](fileFormats/yaml.md), and [Text (plain)](dataTypes/textPlain.md)
 They are stored in
 [folders]({{formats}}/tree/master/source)
@@ -61,7 +57,7 @@ file | description
 [`urls.list`]({{formats}}/blob/master/source/urls.list) | list of external urls
 [`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkdocsIn.yml) | template for the site config file
 
-## Intermediate
+### Intermediate
 
 The script [`build.py`]({{formats}}/blob/master/build.py)
 is responsible for transforming the source files into a set of [Markdown](fileFormats/markdown.md) files.
@@ -106,7 +102,3 @@ This is what happens:
     So in order to update an url, it is only needed to modify it once in the `urls.list` file,
     then all occurrences that are used in the docs will be generated to the new value.
 
-
----
-
-[go to current production version]({{preferredFormats}})

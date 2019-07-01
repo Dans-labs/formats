@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .pas
@@ -15,7 +11,3 @@ file info | [`extension/pas`]({{fileinfo}}/pas)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

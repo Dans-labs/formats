@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .html
@@ -15,7 +11,3 @@ file info | [`extension/html`]({{fileinfo}}/html)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

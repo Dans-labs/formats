@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .yaml
@@ -15,7 +11,3 @@ file info | [`extension/yaml`]({{fileinfo}}/yaml)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

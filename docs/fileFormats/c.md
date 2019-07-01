@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # C
@@ -26,7 +22,3 @@ wikipedia | [`C_(programming_language)`]({{wikipedia}}/C_(programming_language))
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

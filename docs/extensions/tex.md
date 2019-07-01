@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .tex
@@ -15,7 +11,3 @@ file info | [`extension/tex`]({{fileinfo}}/tex)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # CPP
@@ -26,7 +22,3 @@ wikipedia | [`C%2B%2B`]({{wikipedia}}/C%2B%2B)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

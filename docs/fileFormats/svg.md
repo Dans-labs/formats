@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # SVG
@@ -26,7 +22,3 @@ wikipedia | [`Scalable_Vector_Graphics`]({{wikipedia}}/Scalable_Vector_Graphics)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .js
@@ -15,7 +11,3 @@ file info | [`extension/js`]({{fileinfo}}/js)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .woff2
@@ -15,7 +11,3 @@ file info | [`extension/woff2`]({{fileinfo}}/woff2)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Image
@@ -19,7 +15,3 @@ related types |
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

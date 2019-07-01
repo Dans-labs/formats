@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .docx
@@ -15,7 +11,3 @@ file info | [`extension/docx`]({{fileinfo}}/docx)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

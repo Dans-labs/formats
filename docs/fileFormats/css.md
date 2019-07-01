@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # CSS
@@ -62,7 +58,3 @@ If the CSS files have been uglified, their non-uglified sources should be archiv
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

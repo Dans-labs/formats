@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .eps
@@ -15,7 +11,3 @@ file info | [`extension/eps`]({{fileinfo}}/eps)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

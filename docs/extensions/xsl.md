@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .xsl
@@ -15,7 +11,3 @@ file info | [`extension/xsl`]({{fileinfo}}/xsl)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

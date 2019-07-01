@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # JAVA
@@ -26,7 +22,3 @@ wikipedia | [`Java_(programming_language)`]({{wikipedia}}/Java_(programming_lang
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

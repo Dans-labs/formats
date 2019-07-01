@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .odt
@@ -15,7 +11,3 @@ file info | [`extension/odt`]({{fileinfo}}/odt)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

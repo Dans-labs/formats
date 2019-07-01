@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .tif
@@ -15,7 +11,3 @@ file info | [`extension/tif`]({{fileinfo}}/tif)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # SQL
@@ -48,7 +44,3 @@ be replaced by the data referred to.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

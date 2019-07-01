@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # TAR
@@ -39,7 +35,3 @@ in order to economize on storage.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

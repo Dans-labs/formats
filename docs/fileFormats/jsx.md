@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # JSX
@@ -26,7 +22,3 @@ wikipedia | [`React_(JavaScript_library)#JSX`]({{wikipedia}}/React_(JavaScript_l
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

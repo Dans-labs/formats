@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Program code
@@ -19,7 +15,3 @@ related types | [Text (plain)](../dataTypes/textPlain.md)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

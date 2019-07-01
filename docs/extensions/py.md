@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .py
@@ -15,7 +11,3 @@ file info | [`extension/py`]({{fileinfo}}/py)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

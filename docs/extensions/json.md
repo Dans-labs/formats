@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .json
@@ -15,7 +11,3 @@ file info | [`extension/json`]({{fileinfo}}/json)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

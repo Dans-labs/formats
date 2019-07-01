@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Prolog
@@ -26,7 +22,3 @@ wikipedia | [`Prolog`]({{wikipedia}}/Prolog)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

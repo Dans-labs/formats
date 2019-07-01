@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Scala
@@ -26,7 +22,3 @@ wikipedia | [`Scala_(programming_language)`]({{wikipedia}}/Scala_(programming_la
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

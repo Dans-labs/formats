@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Database
@@ -28,7 +24,3 @@ functions to perform various operations on the data. The file format is usually
 linked to the DBMS, but there are independent exchange formats too.
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

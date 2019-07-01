@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # WOFF
@@ -27,7 +23,3 @@ wikipedia | [`Web_Open_Font_Format`]({{wikipedia}}/Web_Open_Font_Format)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

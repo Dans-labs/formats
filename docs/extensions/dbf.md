@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .dbf
@@ -15,7 +11,3 @@ file info | [`extension/dbf`]({{fileinfo}}/dbf)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # DOCX
@@ -26,7 +22,3 @@ wikipedia | [`Docx`]({{wikipedia}}/Docx), [`Office_Open_XML_file_formats`]({{wik
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

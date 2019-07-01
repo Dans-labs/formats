@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .log
@@ -15,7 +11,3 @@ file info | [`extension/log`]({{fileinfo}}/log)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

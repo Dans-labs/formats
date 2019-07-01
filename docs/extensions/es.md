@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .es
@@ -15,7 +11,3 @@ file info | [`extension/es`]({{fileinfo}}/es)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

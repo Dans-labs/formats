@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Ruby
@@ -26,7 +22,3 @@ wikipedia | [`Ruby_(programming_language)`]({{wikipedia}}/Ruby_(programming_lang
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

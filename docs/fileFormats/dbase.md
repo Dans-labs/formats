@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # dbase
@@ -44,7 +40,3 @@ into other formats, such as
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

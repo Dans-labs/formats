@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .css
@@ -15,7 +11,3 @@ file info | [`extension/css`]({{fileinfo}}/css)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

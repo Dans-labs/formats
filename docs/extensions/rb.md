@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .rb
@@ -15,7 +11,3 @@ file info | [`extension/rb`]({{fileinfo}}/rb)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # PostScript
@@ -26,7 +22,3 @@ wikipedia | [`PostScript`]({{wikipedia}}/PostScript), [`Encapsulated_PostScript`
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

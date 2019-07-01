@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .mdb
@@ -15,7 +11,3 @@ file info | [`extension/mdb`]({{fileinfo}}/mdb)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

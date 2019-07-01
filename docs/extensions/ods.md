@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .ods
@@ -15,7 +11,3 @@ file info | [`extension/ods`]({{fileinfo}}/ods)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

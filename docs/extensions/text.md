@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .text
@@ -15,7 +11,3 @@ file info | [`extension/text`]({{fileinfo}}/text)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

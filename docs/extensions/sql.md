@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .sql
@@ -15,7 +11,3 @@ file info | [`extension/sql`]({{fileinfo}}/sql)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .h
@@ -15,7 +11,3 @@ file info | [`extension/h`]({{fileinfo}}/h)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

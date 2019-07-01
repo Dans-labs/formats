@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Markup
@@ -220,7 +216,3 @@ and the schemas by which the validity is checked.
 If a non-standard schema is used, the data depositor should consult DANS beforehand.
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

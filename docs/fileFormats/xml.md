@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # XML
@@ -27,7 +23,3 @@ wikipedia | [`XML`]({{wikipedia}}/XML)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

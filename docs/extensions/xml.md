@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .xml
@@ -15,7 +11,3 @@ file info | [`extension/xml`]({{fileinfo}}/xml)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

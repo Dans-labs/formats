@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .svg
@@ -15,7 +11,3 @@ file info | [`extension/svg`]({{fileinfo}}/svg)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # XHTML
@@ -27,7 +23,3 @@ wikipedia | [`XHTML`]({{wikipedia}}/XHTML)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

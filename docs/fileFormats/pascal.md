@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Pascal
@@ -26,7 +22,3 @@ wikipedia | [`Pascal_(programming_language)`]({{wikipedia}}/Pascal_(programming_
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

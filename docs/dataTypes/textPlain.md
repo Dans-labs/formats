@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Text (plain)
@@ -120,7 +116,3 @@ sequence of characters, separated by line breaks.
         which most applications can deduce the encoding that is being used.
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

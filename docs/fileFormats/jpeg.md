@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # JPEG
@@ -26,7 +22,3 @@ wikipedia | [`JPEG`]({{wikipedia}}/JPEG)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

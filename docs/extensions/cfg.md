@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .cfg
@@ -15,7 +11,3 @@ file info | [`extension/cfg`]({{fileinfo}}/cfg)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

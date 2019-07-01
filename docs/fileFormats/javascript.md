@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # JavaScript
@@ -90,7 +86,3 @@ all the dependencies used by the SPA and not much more.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

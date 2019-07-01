@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .jsx
@@ -15,7 +11,3 @@ file info | [`extension/jsx`]({{fileinfo}}/jsx)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

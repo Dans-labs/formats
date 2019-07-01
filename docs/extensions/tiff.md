@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .tiff
@@ -15,7 +11,3 @@ file info | [`extension/tiff`]({{fileinfo}}/tiff)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .pdf
@@ -19,7 +15,3 @@ The extension of [PDF](../fileFormats/pdf.md) files, whether they conform
 to [PDF/A](../fileFormats/pdfa.md) or not, is just `.pdf`, not `pdfa`.
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

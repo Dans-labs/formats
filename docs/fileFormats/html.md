@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # HTML
@@ -97,7 +93,3 @@ the way they are referenced. Then preserve the resulting directory in a
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

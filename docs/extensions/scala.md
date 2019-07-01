@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .scala
@@ -15,7 +11,3 @@ file info | [`extension/scala`]({{fileinfo}}/scala)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

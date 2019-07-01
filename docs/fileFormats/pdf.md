@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # PDF
@@ -26,7 +22,3 @@ wikipedia | [`PDF`]({{wikipedia}}/PDF)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

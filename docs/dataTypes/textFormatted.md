@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Text (formatted)
@@ -36,7 +32,3 @@ objects such as images.
 Formatted text can get very complex.
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

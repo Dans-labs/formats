@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # HDF5
@@ -43,7 +39,3 @@ to convert data to [SQL](../fileFormats/sql.md) or [CSV](../fileFormats/csv.md).
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

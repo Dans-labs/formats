@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .md
@@ -15,7 +11,3 @@ file info | [`extension/md`]({{fileinfo}}/md)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

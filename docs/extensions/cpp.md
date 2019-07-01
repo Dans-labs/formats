@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .cpp
@@ -15,7 +11,3 @@ file info | [`extension/cpp`]({{fileinfo}}/cpp)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

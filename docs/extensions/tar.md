@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .tar
@@ -15,7 +11,3 @@ file info | [`extension/tar`]({{fileinfo}}/tar)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

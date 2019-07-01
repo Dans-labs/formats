@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # PDF/A
@@ -85,7 +81,3 @@ documents PDF/A-1b is a suitable format.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

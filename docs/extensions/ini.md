@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .ini
@@ -15,7 +11,3 @@ file info | [`extension/ini`]({{fileinfo}}/ini)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

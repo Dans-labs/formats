@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # YAML
@@ -26,7 +22,3 @@ wikipedia | [`YAML`]({{wikipedia}}/YAML)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

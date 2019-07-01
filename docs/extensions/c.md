@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .c
@@ -15,7 +11,3 @@ file info | [`extension/c`]({{fileinfo}}/c)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

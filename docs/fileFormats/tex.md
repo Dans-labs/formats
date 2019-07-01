@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # TeX
@@ -27,7 +23,3 @@ wikipedia | [`TeX`]({{wikipedia}}/TeX), [`LaTeX`]({{wikipedia}}/LaTeX)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

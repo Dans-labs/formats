@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Data (container)
@@ -32,7 +28,3 @@ Often, data containers are just plain text files that adhere to a defined
 scheme that gives structure to their contents.
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

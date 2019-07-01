@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # DOC
@@ -26,7 +22,3 @@ wikipedia | [`Microsoft_Word#File_formats`]({{wikipedia}}/Microsoft_Word#File_fo
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # PNG
@@ -26,7 +22,3 @@ wikipedia | [`Portable_Network_Graphics`]({{wikipedia}}/Portable_Network_Graphic
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

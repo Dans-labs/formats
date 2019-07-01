@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # XLSX
@@ -26,7 +22,3 @@ wikipedia | [`Xlsx`]({{wikipedia}}/Xlsx), [`Office_Open_XML_file_formats`]({{wik
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

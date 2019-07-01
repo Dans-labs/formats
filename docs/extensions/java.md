@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .java
@@ -15,7 +11,3 @@ file info | [`extension/java`]({{fileinfo}}/java)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

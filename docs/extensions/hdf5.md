@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .hdf5
@@ -15,7 +11,3 @@ file info | [`extension/hdf5`]({{fileinfo}}/hdf5)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

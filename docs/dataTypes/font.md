@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Font
@@ -19,7 +15,3 @@ related types | [Text (formatted)](../dataTypes/textFormatted.md)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

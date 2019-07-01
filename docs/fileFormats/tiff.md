@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # TIFF
@@ -26,7 +22,3 @@ wikipedia | [`TIFF`]({{wikipedia}}/TIFF)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

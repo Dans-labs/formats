@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Markdown
@@ -26,7 +22,3 @@ wikipedia | [`Markdown`]({{wikipedia}}/Markdown)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

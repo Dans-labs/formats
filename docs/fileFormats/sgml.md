@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # SGML
@@ -27,7 +23,3 @@ wikipedia | [`SGML`]({{wikipedia}}/SGML)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

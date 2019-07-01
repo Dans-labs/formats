@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # SIARD
@@ -57,7 +53,3 @@ languages are not expected to become obsolete.
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

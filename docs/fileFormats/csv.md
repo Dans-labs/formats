@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # CSV
@@ -84,7 +80,3 @@ See also [Text (plain)](../dataTypes/textPlain.md).
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

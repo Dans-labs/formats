@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Perl
@@ -26,7 +22,3 @@ wikipedia | [`Perl`]({{wikipedia}}/Perl)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

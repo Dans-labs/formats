@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # ODT
@@ -26,7 +22,3 @@ wikipedia | [`ODF`]({{wikipedia}}/ODF), [`OpenOffice.org_XML`]({{wikipedia}}/Ope
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # JSON
@@ -26,7 +22,3 @@ wikipedia | [`JSON`]({{wikipedia}}/JSON)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

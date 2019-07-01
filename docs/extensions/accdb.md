@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .accdb
@@ -15,7 +11,3 @@ file info | [`extension/accdb`]({{fileinfo}}/accdb)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

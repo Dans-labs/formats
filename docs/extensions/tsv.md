@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .tsv
@@ -15,7 +11,3 @@ file info | [`extension/tsv`]({{fileinfo}}/tsv)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

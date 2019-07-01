@@ -8,12 +8,12 @@ The build script,
 [`build.py`]({{formats}}/blob/master/build.py)
 is included.
 
-# Usage
+## Usage
 [[usage]]
 
-# Explanation
+## Explanation
 
-## Source
+### Source
 The source texts are in [=markdown], [=yaml], and [:textPlain]
 They are stored in
 [folders]({{formats}}/tree/master/source)
@@ -34,7 +34,7 @@ file | description
 [`urls.list`]({{formats}}/blob/master/source/urls.list) | list of external urls
 [`mkdocsIn.yaml`]({{formats}}/blob/master/source/mkdocsIn.yml) | template for the site config file
 
-## Intermediate
+### Intermediate
 
 The script [`build.py`]({{formats}}/blob/master/build.py)
 is responsible for transforming the source files into a set of [=markdown] files.

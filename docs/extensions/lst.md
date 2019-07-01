@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .lst
@@ -15,7 +11,3 @@ file info | [`extension/lst`]({{fileinfo}}/lst)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

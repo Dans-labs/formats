@@ -24,6 +24,7 @@ FILE_FORMATS = 'fileFormats'
 EXTENSIONS = 'extensions'
 YAML = f'{SRC}/data.yaml'
 INDEX = f'index.md'
+ABOUT = f'about.md'
 HELP = f'help.md'
 
 USAGE = '''
@@ -95,7 +96,7 @@ def buildDocs():
 
 def serveDocs():
   proc = Popen(['mkdocs', 'serve'])
-  sleep(3)
+  sleep(4)
   run('open http://127.0.0.1:8000', shell=True)
   try:
     proc.wait()
@@ -114,6 +115,7 @@ def makeDocs():
 
   tasks = (
       (INDEX, False),
+      (ABOUT, False),
       (HELP, False),
       (DATA_TYPES, True),
       (FILE_FORMATS, True),
@@ -288,13 +290,81 @@ def makeDocs():
       if isDir:
         os.makedirs(path, exist_ok=True)
 
+    def makeOverview():
+      text = []
+      text.append('''
+<table>
+  <tr>
+    <th>Data type</th>
+    <th>File types with extensions</th>
+  </tr>
+''')
+      for (dataType, dataTypeInfo) in sorted(
+          dataTypes.items(),
+          key=lambda x: x[1]['display'],
+      ):
+        thisType = f'''<a
+          href="../dataTypes/{dataType}.md"
+        >{dataTypes[dataType]["display"]}</a>
+'''
+        textFF = []
+        textFF.append('''
+<table>
+''')
+        for fileFormat in sorted(
+            filesFromType[dataType],
+            key=lambda x: fileFormats[x]['display'],
+        ):
+          thisFormat = f'''<a
+            href="../fileFormats/{fileFormat}.md"
+          >{fileFormats[fileFormat]["display"]}</a>
+'''
+          extensionInfo = ' '.join(
+              f'<a href="../extensions/{x}.md"><code>{extensions[x]["display"]}</code></a>'
+              for x in sorted(
+                  extsFromFile[fileFormat],
+                  key=lambda e: extensions[e]['display'],
+              )
+          )
+          textFF.append(f'''
+  <tr>
+    <td>{thisFormat}</td>
+    <td>{extensionInfo}</td>
+  </tr>
+''')
+        textFF.append('''
+</table>
+''')
+        fileFormatInfo = '\n'.join(textFF)
+        text.append(f'''
+  <tr>
+    <td>{thisType}</td>
+    <td>{fileFormatInfo}</td>
+  </tr>
+''')
+      text.append('''
+</table>
+''')
+      return '\n'.join(text)
+
     def writeIndex():
       text = []
       text.append(texts['header1'])
       text.append(texts['index'])
       text.append(texts['footer1'])
       text = transformDoc(INDEX, '', '\n'.join(text))
+      text = text.replace('[[overview]]', makeOverview())
       path = f'{DOCS}/{INDEX}'
+      with open(path, 'w') as f:
+        f.write(text)
+
+    def writeAbout():
+      text = []
+      text.append(texts['header'])
+      text.append(texts['about'])
+      text.append(texts['footer'])
+      text = transformDoc(ABOUT, '', '\n'.join(text))
+      path = f'{DOCS}/{ABOUT}'
       with open(path, 'w') as f:
         f.write(text)
 
@@ -512,6 +582,7 @@ file info | {thisFileInfo}
         f.write("".join(text))
 
     writeIndex()
+    writeAbout()
     writeHelp()
     writeDataTypes()
     writeFileFormats()

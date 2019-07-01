@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # Spreadsheet
@@ -19,7 +15,3 @@ related types | [Database](../dataTypes/database.md), [Text (formatted)](../data
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})

@@ -1,7 +1,3 @@
-[go to current production version]({{preferredFormats}})
-
----
-
 
 
 # .xlsx
@@ -15,7 +11,3 @@ file info | [`extension/xlsx`]({{fileinfo}}/xlsx)
 
 
 
-
----
-
-[go to current production version]({{preferredFormats}})
