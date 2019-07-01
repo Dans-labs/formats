@@ -2,872 +2,877 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://Dans-labs.github.io/formats/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://Dans-labs.github.io/formats/about/</loc>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/dataContainer/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/database/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/font/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/image/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/markup/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/programCode/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/spreadsheet/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/textFormatted/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/dataTypes/textPlain/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/json/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/sql/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tar/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/yaml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/access/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/csv/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/hdf5/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/siard/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/sql/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/dbase/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/woff/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/woff2/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/gif/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/jpeg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pdf/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pdfa/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/png/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/postscript/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/svg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tiff/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/css/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/html/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/jsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/javascript/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/markdown/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/sgml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tex/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xhtml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xslt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/c/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/cpp/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/java/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/jsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/javascript/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pascal/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/perl/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/prolog/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/python/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/ruby/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/scala/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xslt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/ods/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xls/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xlsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/doc/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/docx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/odt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pdfa/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/css/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/csv/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/html/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/json/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/markdown/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/sql/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tex/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/text/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/yaml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/access/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/c/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/cpp/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/css/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/csv/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/doc/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/docx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/gif/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/hdf5/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/html/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/java/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/jpeg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/json/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/jsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/javascript/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/markdown/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/ods/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/odt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pdf/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pdfa/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/png/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/pascal/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/perl/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/postscript/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/prolog/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/python/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/ruby/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/sgml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/siard/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/sql/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/svg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/scala/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tar/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tiff/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/tex/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/text/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/woff/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/woff2/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xhtml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xls/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xlsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/xslt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/yaml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/fileFormats/dbase/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/accdb/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/c/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/cfg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/cpp/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/css/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/csv/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/dbf/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/doc/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/docx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/eps/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/es/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/gif/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/h/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/hdf5/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/htm/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/html/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/ini/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/java/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/jpeg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/jpg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/js/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/json/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/jsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/log/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/lst/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/md/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/mdb/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/ods/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/odt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/p/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/pas/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/pdf/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/pl/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/png/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/ps/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/py/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/rb/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/scala/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/siard/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/sql/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/sty/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/svg/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/tar/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/tex/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/text/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/tif/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/tiff/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/tsv/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/txt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/woff/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/woff2/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/xls/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/xlsx/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/xml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/xsl/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/xslt/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/extensions/yaml/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://Dans-labs.github.io/formats/help/</loc>
-     <lastmod>2019-06-30</lastmod>
+     <lastmod>2019-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
