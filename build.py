@@ -298,63 +298,6 @@ def makeDocs():
       if isDir:
         os.makedirs(path, exist_ok=True)
 
-    def makeOverviewOld():
-      text = []
-      text.append('''
-<table>
-  <tr>
-    <th>Data type</th>
-    <th>File types with extensions</th>
-  </tr>
-''')
-      for (dataType, dataTypeInfo) in sorted(
-          dataTypes.items(),
-          key=sortKey2,
-      ):
-        thisType = f'''<a
-          href="dataTypes/{dataType}"
-        >{dataTypes[dataType]["display"]}</a>
-'''
-        textFF = []
-        textFF.append('''
-<table>
-''')
-        for fileFormat in sorted(
-            filesFromType[dataType],
-            key=sortKey(fileFormats),
-        ):
-          thisFormat = f'''<a
-            href="fileFormats/{fileFormat}"
-          >{fileFormats[fileFormat]["display"]}</a>
-'''
-          extensionInfo = ' '.join(
-              f'<a href="extensions/{x}"><code>{extensions[x]["display"]}</code></a>'
-              for x in sorted(
-                  extsFromFile[fileFormat],
-                  key=sortKey(extensions),
-              )
-          )
-          textFF.append(f'''
-  <tr>
-    <td>{thisFormat}</td>
-    <td>{extensionInfo}</td>
-  </tr>
-''')
-        textFF.append('''
-</table>
-''')
-        fileFormatInfo = '\n'.join(textFF)
-        text.append(f'''
-  <tr>
-    <td>{thisType}</td>
-    <td>{fileFormatInfo}</td>
-  </tr>
-''')
-      text.append('''
-</table>
-''')
-      return '\n'.join(text)
-
     def makeOverview():
       text = []
       text.append('''
@@ -364,7 +307,7 @@ File format | Preferred ? | Extensions | Related | Data types
       for (item, itemInfo) in sorted(fileFormats.items(), key=sortKey2):
         display = f'[{itemInfo["display"]}](fileFormats/{item}.md)'
         thisP = preferred[itemInfo.get('preferred', 'unknown')]
-        thisPreferred = f'{thisP["acro"]} {thisP["title"]}'
+        thisPreferred = thisP["acro"]
         theseTypes = ', '.join(
             f'[{dataTypes[x]["display"]}](dataTypes/{x}.md)'
             for x in sorted(typesFromFile[item], key=sortKey(dataTypes))
@@ -385,13 +328,28 @@ File format | Preferred ? | Extensions | Related | Data types
         text.append(f'{row}\n')
       return ''.join(text)
 
+    def makePreferred():
+      text = []
+      text.append('''
+    icon | meaning
+    --- | ---
+''')
+      for (item, itemInfo) in preferred.items():
+        row = f'    {itemInfo["acro"]} | {itemInfo["title"]}\n'
+        text.append(row)
+      return ''.join(text)
+
     def writeIndex():
       text = []
       text.append(texts['header1'])
       text.append(texts['index'])
       text.append(texts['footer1'])
       text = transformDoc(INDEX, '', '\n'.join(text))
-      text = text.replace('[[overview]]', makeOverview())
+      text = (
+          text.
+          replace('[[overview]]', makeOverview()).
+          replace('[[preferred]]', makePreferred())
+      )
       path = f'{DOCS}/{INDEX}'
       with open(path, 'w') as f:
         f.write(text)

@@ -7,9 +7,7 @@ See [about](about.md) for background.
 Click on an entry for more information.
 Alternatively, use the navigation menu.
 
-[[overview]]
-
-??? explanation "Legenda"
+??? explanation "Concepts"
     A *data type* is a way of organizing raw data for specific modelling applications
     such as image, sound, text, structured data, etc. 
 
@@ -25,7 +23,12 @@ Alternatively, use the navigation menu.
 
     There are usually several file formats associated with one data type.
 
-??? explanation "If you are reading an archived copy of these docs"
+??? explanation "Legenda"
+[[preferred]]
+
+[[overview]]
+
+??? caution "If you are reading an archived copy of these docs"
     If you browsing the raw files,
     [dataTypes]({{formats}}/tree/master/docs/dataTypes/)
     contains a collection of data types
@@ -35,5 +38,8 @@ Alternatively, use the navigation menu.
     and
     [extensions]({{formats}}/tree/master/docs/extensions/)
     contains a collection of file extensions.
+
+    All the content is preserved, but the formatting is just done
+    by means of white space and by using [=markdown] formatting.
 
 
