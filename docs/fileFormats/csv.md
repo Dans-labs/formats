@@ -37,7 +37,7 @@ The file extension derives from the original separator character, the **c**omma.
 However, other characters such as the semicolon are also frequently used,
 especially in regions where they are the default separator character.
 
-??? explanation "Complications with the comma"
+??? caution "Complications with the comma"
     A region-independent choice of separator character is the *tab*, and CSV files
     that use it are often given the extension [.tsv](../extensions/tsv.md).
 
@@ -61,7 +61,7 @@ file.
 If the CSV file is in Unicode, there are still many options for the encoding,
 such as `utf8`, `utf16 (big endian)`, `utf16 (least endian)`.
 
-??? explanation "Details"
+??? info "Details"
     These encodings can be indicated by an optional first character in a file,
     the so-called
     [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark).

@@ -4,7 +4,7 @@ JavaScript or more formally ECMAScript or ES6 is a scripting language that has
 been developed in a web context, but that has evolved into a full-fledged
 programming language.
 
-??? explanation "History"
+??? info "History"
     It used to be a rather ugly and slow scripting language, snippets of which
     were included in [=html] pages to add interaction to elements on the page and
     to submit forms. 
@@ -31,7 +31,7 @@ programming language.
     [Babel]({{babel}}), a transpiler that converts ES6 into pre-2015 Javascript.
     By the same approach, newer, post-ES6 features can be used in applications.
 
-??? explanation "Modern uses"
+??? abstract "Modern uses"
     Modern websites have taken a lot of advantage from modern JavaScript.
     There has been a tendency to move processing on the server to the client,
     which has lead to so-called 

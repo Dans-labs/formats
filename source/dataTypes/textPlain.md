@@ -32,12 +32,12 @@ Computer files are either binary, in which case they are just a sequence of bits
 (1 and 0), or they are text files, in which case they are interpreted as a
 sequence of characters, separated by line breaks.
 
-??? explanation "Text files versus binary files"
+??? note "Text files versus binary files"
     There are several notions of what a character is and what a line break is.
     A Windows line break is different from a Unix/Linux/Mac line break, and line
     breaks on OS9 Macs are yet different.
 
-??? explanation "Character encoding"
+??? caution "Character encoding"
     What a character is, is determined by an *encoding*, which is a system to map
     characters to sequences of bits.
 
@@ -69,7 +69,7 @@ sequence of characters, separated by line breaks.
     While the structure of [=sql] and [=csv] files is usually well-defined, the use of
     undeclared code pages remains a liability.
 
-??? explanation "Unicode"
+??? abstract "Unicode"
     When [Unicode]({{unicode}})
     arrived, it had the promise to tidy up most character issues.
     The Unicode standard is a major achievement.
@@ -89,7 +89,7 @@ sequence of characters, separated by line breaks.
     Other encodings are [UTF16]({{wikipedia}}/UTF-16)
     and [UTF32]({{wikipedia}}/UTF-32).
 
-    ???+ explanation "Specifying a Unicode encoding"
+    ???+ caution "Specifying a Unicode encoding"
         File formats such as [=xml] make it clear which Unicode
         encoding is being used.
 

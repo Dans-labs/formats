@@ -8,7 +8,7 @@ See [about](about.md) for background.
 Click on an entry for more information.
 Alternatively, use the navigation menu.
 
-??? explanation "Concepts"
+??? abstract "Concepts"
     A *data type* is a way of organizing raw data for specific modelling applications
     such as image, sound, text, structured data, etc. 
 
@@ -24,7 +24,7 @@ Alternatively, use the navigation menu.
 
     There are usually several file formats associated with one data type.
 
-??? explanation "Legenda"
+??? tip "Legenda"
 
     icon | meaning
     --- | ---

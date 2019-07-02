@@ -37,11 +37,11 @@ documents PDF/A-1b is a suitable format.
 
 ### Software
 
-???+ explanation "Viewers"
+???+ abstract "Viewers"
     [PDF](../fileFormats/pdf.md) viewers are pretty much part of the operating system nowadays, but if not,
     the Adobe Reader can be downloaded for free.
 
-??? explanation "Generators"
+??? abstract "Generators"
     Facilities to create [PDF](../fileFormats/pdf.md) are near universal, because either the operating system
     or many applications let you "print" files as [PDF](../fileFormats/pdf.md).
     For example, Microsoft Word. Excel, and Powerpoint let you export documents
@@ -59,7 +59,7 @@ documents PDF/A-1b is a suitable format.
     For Windows there is afree application that can “print” documents to a [PDF](../fileFormats/pdf.md):
     [Bullzip PDF Printer]({{bullzip}}).
 
-??? explanation "Editors"
+??? abstract "Editors"
     Modifying [PDF](../fileFormats/pdf.md) files is less well supported by free programs, although
     marking up PDFs with annotations is getting mainstream.
 
@@ -67,7 +67,7 @@ documents PDF/A-1b is a suitable format.
     [Adobe]({{adobe}})
     sells quite capable software for creating and modifying [PDF](../fileFormats/pdf.md) files.
 
-??? explanation "Converters"
+??? abstract "Converters"
     [PDF](../fileFormats/pdf.md) can be used to represent images. Conversions between more common [Image](../dataTypes/image.md)
     formats and [PDF](../fileFormats/pdf.md) can be performed with programs such as
     [ImageMagick]({{imagemagick}})

@@ -20,11 +20,11 @@ documents PDF/A-1b is a suitable format.
 
 ### Software
 
-???+ explanation "Viewers"
+???+ abstract "Viewers"
     [=pdf] viewers are pretty much part of the operating system nowadays, but if not,
     the Adobe Reader can be downloaded for free.
 
-??? explanation "Generators"
+??? abstract "Generators"
     Facilities to create [=pdf] are near universal, because either the operating system
     or many applications let you "print" files as [=pdf].
     For example, Microsoft Word. Excel, and Powerpoint let you export documents
@@ -42,7 +42,7 @@ documents PDF/A-1b is a suitable format.
     For Windows there is afree application that can “print” documents to a [=pdf]:
     [Bullzip PDF Printer]({{bullzip}}).
 
-??? explanation "Editors"
+??? abstract "Editors"
     Modifying [=pdf] files is less well supported by free programs, although
     marking up PDFs with annotations is getting mainstream.
 
@@ -50,7 +50,7 @@ documents PDF/A-1b is a suitable format.
     [Adobe]({{adobe}})
     sells quite capable software for creating and modifying [=pdf] files.
 
-??? explanation "Converters"
+??? abstract "Converters"
     [=pdf] can be used to represent images. Conversions between more common [:image]
     formats and [=pdf] can be performed with programs such as
     [ImageMagick]({{imagemagick}})

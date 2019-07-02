@@ -27,7 +27,7 @@ special software.
 Such files cannot be accepted without further verification;
 please check with DANS.
 
-??? explanation "Connections between SG/X/HT/XHT-ML"
+??? abstract "Connections between SG/X/HT/XHT-ML"
     [SGML](../fileFormats/sgml.md) is a classic, which has been extensively used to manufacture large
     bodies of documentation.
 
@@ -53,7 +53,7 @@ please check with DANS.
 
     [SGML](../fileFormats/sgml.md) and [XML](../fileFormats/xml.md) are hardly being further developed.
 
-??? explanation "Quirks in the history of HTML"
+??? info "Quirks in the history of HTML"
     The story of [HTML](../fileFormats/html.md) is more intriguing.
     Whereas the W3C has tried,
     [for a long time]({{html52}}#introduction-history),
@@ -74,7 +74,7 @@ and most Markdown processor allow interspersed [HTML](../fileFormats/html.md).
 That being said, markdown processors also tend to strip such [HTML](../fileFormats/html.md) if it is
 considered dangerous.
 
-??? explanation "Raison d'être"
+??? info "Raison d'être"
     The richness of [XML](../fileFormats/xml.md) and [HTML](../fileFormats/html.md) comes at a price:
     they are unsuitable for being typed by a human.
 
@@ -104,7 +104,7 @@ e.g. music and exotic languages.
 Many documentation tools use [TeX](../fileFormats/tex.md) as an intermediate format from which they
 generate [PDF](../fileFormats/pdf.md).
 
-??? explanation "History"
+??? info "History"
     One of the first uses of markup for professional type-setting is the classic
     [`TeX`]({{tex}}).
     Here text is interspersed with macros and commands, most of which start with a
@@ -137,7 +137,7 @@ parses, or it does not.
 For [SGML](../fileFormats/sgml.md) and [XML](../fileFormats/xml.md) the notion of validity has been divided into **well-formedness** and
 **validity**.
 
-??? explanation "Well-formed and valid"
+??? note "Well-formed and valid"
     Well-formed documents have a correct mixture of markup and text, i.e. the markup
     elements are properly shaped, start tags and end tags match, all characters are
     defined. It is a largely cosmetic, but essential requirement.

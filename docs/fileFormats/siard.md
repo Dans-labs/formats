@@ -28,7 +28,7 @@ This makes it accessible for various tools.
 
 SIARD is a relatively young format.
 
-??? explanation "Software"
+??? tip "Software"
     There are tools for converting databases to SIARD and for validating the format,
     but the possibilities are limited. Some conversion tools such as
     [AccessToSiard]({{coptr}}/AccessToSiard)

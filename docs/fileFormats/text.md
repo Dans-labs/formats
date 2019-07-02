@@ -40,7 +40,7 @@ or in an other UTF encoding with
 [Byte Order Mark (BOM)]({{wikipedia}}/Byte_order_mark),
 can be represented correctly in most computing environments.
 
-??? explanation "Programm code"
+??? caution "Program code"
     For program files, it is recommended to follow the best practices for
     that programming language.
     It is dependent on the programming language how the character encoding must be
