@@ -312,7 +312,7 @@ def makeDocs():
           key=sortKey2,
       ):
         thisType = f'''<a
-          href="../dataTypes/{dataType}.md"
+          href="dataTypes/{dataType}"
         >{dataTypes[dataType]["display"]}</a>
 '''
         textFF = []
@@ -324,11 +324,11 @@ def makeDocs():
             key=sortKey(fileFormats),
         ):
           thisFormat = f'''<a
-            href="../fileFormats/{fileFormat}.md"
+            href="fileFormats/{fileFormat}"
           >{fileFormats[fileFormat]["display"]}</a>
 '''
           extensionInfo = ' '.join(
-              f'<a href="../extensions/{x}.md"><code>{extensions[x]["display"]}</code></a>'
+              f'<a href="extensions/{x}"><code>{extensions[x]["display"]}</code></a>'
               for x in sorted(
                   extsFromFile[fileFormat],
                   key=sortKey(extensions),
