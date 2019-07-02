@@ -1,7 +1,11 @@
 ## Overview
 
-Use the navigation to browse data types or file formats.
-or click on an item of the overview below.
+Here is a list of *file formats* under consideration, some of which
+we consider *preferred formats* for archiving.
+See [about](about.md) for background.
+
+Click on an entry for more information.
+Alternatively, use the navigation menu.
 
 [[overview]]
 

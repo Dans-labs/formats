@@ -298,7 +298,7 @@ def makeDocs():
       if isDir:
         os.makedirs(path, exist_ok=True)
 
-    def makeOverview():
+    def makeOverviewOld():
       text = []
       text.append('''
 <table>
@@ -354,6 +354,36 @@ def makeDocs():
 </table>
 ''')
       return '\n'.join(text)
+
+    def makeOverview():
+      text = []
+      text.append('''
+File format | Preferred ? | Extensions | Related | Data types
+--- | --- | --- | --- | ---
+''')
+      for (item, itemInfo) in sorted(fileFormats.items(), key=sortKey2):
+        display = f'[{itemInfo["display"]}](fileFormats/{item}.md)'
+        thisP = preferred[itemInfo.get('preferred', 'unknown')]
+        thisPreferred = f'{thisP["acro"]} {thisP["title"]}'
+        theseTypes = ', '.join(
+            f'[{dataTypes[x]["display"]}](dataTypes/{x}.md)'
+            for x in sorted(typesFromFile[item], key=sortKey(dataTypes))
+        )
+        theseExtensions = ', '.join(
+            f'[`{extensions[x]["display"]}`](extensions/{x}.md)'
+            for x in sorted(extsFromFile[item], key=sortKey(extensions))
+        )
+        theseRelated = ', '.join(
+            f'[{fileFormats[x]["display"]}](fileFormats/{x}.md)'
+            for x in sorted(set(chain.from_iterable(
+                filesFromType[dtype]
+                for dtype in typesFromFile[item]
+            )), key=sortKey(fileFormats))
+            if x != item
+        )
+        row = ' | '.join((display, thisPreferred, theseExtensions, theseRelated, theseTypes))
+        text.append(f'{row}\n')
+      return ''.join(text)
 
     def writeIndex():
       text = []
