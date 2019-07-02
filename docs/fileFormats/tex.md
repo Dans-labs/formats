@@ -12,7 +12,7 @@ item | info
 types | [Markup](../dataTypes/markup.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ⚠️ under conditions
 extensions | [`.sty`](../extensions/sty.md), [`.tex`](../extensions/tex.md)
-related formats | [CSS](../fileFormats/css.md), [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [HTML](../fileFormats/html.md), [HTML](../fileFormats/html.md), [JavaScript](../fileFormats/javascript.md), [JSON](../fileFormats/json.md), [JSX](../fileFormats/jsx.md), [Markdown](../fileFormats/markdown.md), [Markdown](../fileFormats/markdown.md), [SGML](../fileFormats/sgml.md), [SQL](../fileFormats/sql.md), [Text](../fileFormats/text.md), [XHTML](../fileFormats/xhtml.md), [XML](../fileFormats/xml.md), [XML](../fileFormats/xml.md), [XSLT](../fileFormats/xslt.md), [YAML](../fileFormats/yaml.md)
+related formats | [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [HTML](../fileFormats/html.md), [JavaScript](../fileFormats/javascript.md), [JSON](../fileFormats/json.md), [JSX](../fileFormats/jsx.md), [Markdown](../fileFormats/markdown.md), [SGML](../fileFormats/sgml.md), [SQL](../fileFormats/sql.md), [Text](../fileFormats/text.md), [XHTML](../fileFormats/xhtml.md), [XML](../fileFormats/xml.md), [XSLT](../fileFormats/xslt.md), [YAML](../fileFormats/yaml.md)
 wikipedia | [`TeX`]({{wikipedia}}/TeX), [`LaTeX`]({{wikipedia}}/LaTeX)
 
 

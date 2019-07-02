@@ -163,6 +163,14 @@ def makeDocs():
       print(f'ERROR: {msg}')
     return len(errors)
 
+  def sortKey(collection):
+    def thisSortKey(x):
+      return collection[x]['display'].lower()
+    return thisSortKey
+
+  def sortKey2(x):
+    return x[1]['display'].lower()
+
   def readDocInfo():
 
     for (dt, rels) in related.items():
@@ -301,7 +309,7 @@ def makeDocs():
 ''')
       for (dataType, dataTypeInfo) in sorted(
           dataTypes.items(),
-          key=lambda x: x[1]['display'],
+          key=sortKey2,
       ):
         thisType = f'''<a
           href="../dataTypes/{dataType}.md"
@@ -313,7 +321,7 @@ def makeDocs():
 ''')
         for fileFormat in sorted(
             filesFromType[dataType],
-            key=lambda x: fileFormats[x]['display'],
+            key=sortKey(fileFormats),
         ):
           thisFormat = f'''<a
             href="../fileFormats/{fileFormat}.md"
@@ -323,7 +331,7 @@ def makeDocs():
               f'<a href="../extensions/{x}.md"><code>{extensions[x]["display"]}</code></a>'
               for x in sorted(
                   extsFromFile[fileFormat],
-                  key=lambda e: extensions[e]['display'],
+                  key=sortKey(extensions),
               )
           )
           textFF.append(f'''
@@ -390,15 +398,15 @@ def makeDocs():
         material = itemInfo.get('text', '')
         theseFormats = ', '.join(
             f'[{fileFormats[x]["display"]}](../fileFormats/{x}.md)'
-            for x in sorted(filesFromType[item])
+            for x in sorted(filesFromType[item], key=sortKey(fileFormats))
         )
         theseExtensions = ', '.join(
             f'[`{x}`](../extensions/{x}.md)'
-            for x in sorted(extsFromType[item])
+            for x in sorted(extsFromType[item], key=sortKey(extensions))
         )
         theseRelated = ', '.join(
             f'[{dataTypes[x]["display"]}](../dataTypes/{x}.md)'
-            for x in sorted(relsFromType[item])
+            for x in sorted(relsFromType[item], key=sortKey(dataTypes))
         )
 
         text.append(f'''
@@ -435,20 +443,20 @@ related types | {theseRelated}
         material = itemInfo.get('text', '')
         theseTypes = ', '.join(
             f'[{dataTypes[x]["display"]}](../dataTypes/{x}.md)'
-            for x in sorted(typesFromFile[item])
+            for x in sorted(typesFromFile[item], key=sortKey(dataTypes))
         )
         thisP = preferred[itemInfo.get('preferred', 'unknown')]
         thisPreferred = f'{thisP["acro"]} {thisP["title"]}'
         theseExtensions = ', '.join(
             f'[`{extensions[x]["display"]}`](../extensions/{x}.md)'
-            for x in sorted(extsFromFile[item])
+            for x in sorted(extsFromFile[item], key=sortKey(extensions))
         )
         theseRelated = ', '.join(
             f'[{fileFormats[x]["display"]}](../fileFormats/{x}.md)'
-            for x in sorted(chain.from_iterable(
+            for x in sorted(set(chain.from_iterable(
                 filesFromType[dtype]
                 for dtype in typesFromFile[item]
-            ))
+            )), key=sortKey(fileFormats))
             if x != item
         )
         theseWikis = ', '.join(
@@ -498,18 +506,21 @@ wikipedia | {theseWikis}
         material = itemInfo.get('text', '')
         theseTypes = ', '.join(
             f'[{dataTypes[x]["display"]}](../dataTypes/{x}.md)'
-            for x in sorted(typesFromExt[item])
+            for x in sorted(typesFromExt[item], key=sortKey(dataTypes))
         )
         theseF = filesFromExt[item]
         theseFormats = ', '.join(
             f'[{fileFormats[x]["display"]}](../fileFormats/{x}.md)'
-            for x in sorted(theseF)
+            for x in sorted(theseF, key=sortKey(fileFormats))
         )
         thisFileInfo = f'[`extension/{item}`]({fileinfo}/{item})'
-        exts = chain.from_iterable(extsFromFile[x] for x in theseF)
+        exts = sorted(set(chain.from_iterable(
+            extsFromFile[x]
+            for x in theseF
+        )), key=sortKey(extensions))
         variantExtensions = ', '.join(
             f'[`{extensions[x]["display"]}`](../extensions/{x}.md)'
-            for x in sorted(exts)
+            for x in exts
             if x != item
         )
 
@@ -538,40 +549,24 @@ file info | {thisFileInfo}
         if '[[urls]]' in line:
           text.extend(urls)
         elif '[[dataTypes]]' in line:
-          for item in sorted(
-              dataTypes,
-              key=lambda x: dataTypes[x]['display'],
-          ):
-            itemInfo = dataTypes[item]
+          for (item, itemInfo) in sorted(dataTypes.items(), key=sortKey2):
             display = itemInfo['display']
             text.append(f"    - {display}: 'dataTypes/{item}.md'\n")
         elif '[[fileFormats]]' in line:
-          for item in sorted(
-              fileFormats,
-              key=lambda x: fileFormats[x]['display'],
-          ):
-            itemInfo = fileFormats[item]
+          for (item, itemInfo) in sorted(fileFormats.items(), key=sortKey2):
             display = itemInfo['display']
             text.append(f"    - {display}: 'fileFormats/{item}.md'\n")
         elif '[[extensions]]' in line:
-          for item in sorted(
-              extensions,
-              key=lambda x: extensions[x]['display'],
-          ):
-            itemInfo = extensions[item]
+          for (item, itemInfo) in sorted(extensions.items(), key=sortKey2):
             display = itemInfo['display']
             text.append(f"    - {display}: 'extensions/{item}.md'\n")
         elif '[[fileFormatsDT]]' in line:
-          for item in sorted(
-              dataTypes,
-              key=lambda x: dataTypes[x]['display'],
-          ):
-            itemInfo = dataTypes[item]
+          for (item, itemInfo) in sorted(dataTypes.items(), key=sortKey2):
             display = itemInfo['display']
             text.append(f"    - {display}:\n")
             for subitem in sorted(
                 filesFromType[item],
-                key=lambda x: fileFormats[x]['display'],
+                key=sortKey(fileFormats),
             ):
               subitemInfo = fileFormats[subitem]
               subdisplay = subitemInfo['display']

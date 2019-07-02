@@ -12,7 +12,7 @@ item | info
 types | [Data (container)](../dataTypes/dataContainer.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ✅ yes
 extensions | [`.json`](../extensions/json.md)
-related formats | [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [HTML](../fileFormats/html.md), [Markdown](../fileFormats/markdown.md), [SQL](../fileFormats/sql.md), [SQL](../fileFormats/sql.md), [TAR](../fileFormats/tar.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md), [YAML](../fileFormats/yaml.md)
+related formats | [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [HTML](../fileFormats/html.md), [Markdown](../fileFormats/markdown.md), [SQL](../fileFormats/sql.md), [TAR](../fileFormats/tar.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
 wikipedia | [`JSON`]({{wikipedia}}/JSON)
 
 

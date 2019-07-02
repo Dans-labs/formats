@@ -100,6 +100,15 @@ or click on an item of the overview below.
 
   <tr>
     <td><a
+            href="../fileFormats/dbase.md"
+          >dbase</a>
+</td>
+    <td><a href="../extensions/dbf.md"><code>.dbf</code></a></td>
+  </tr>
+
+
+  <tr>
+    <td><a
             href="../fileFormats/hdf5.md"
           >HDF5</a>
 </td>
@@ -131,15 +140,6 @@ or click on an item of the overview below.
           >XML</a>
 </td>
     <td><a href="../extensions/xml.md"><code>.xml</code></a></td>
-  </tr>
-
-
-  <tr>
-    <td><a
-            href="../fileFormats/dbase.md"
-          >dbase</a>
-</td>
-    <td><a href="../extensions/dbf.md"><code>.dbf</code></a></td>
   </tr>
 
 
@@ -295,19 +295,19 @@ or click on an item of the overview below.
 
   <tr>
     <td><a
-            href="../fileFormats/jsx.md"
-          >JSX</a>
+            href="../fileFormats/javascript.md"
+          >JavaScript</a>
 </td>
-    <td><a href="../extensions/jsx.md"><code>.jsx</code></a></td>
+    <td><a href="../extensions/es.md"><code>.es</code></a> <a href="../extensions/js.md"><code>.js</code></a></td>
   </tr>
 
 
   <tr>
     <td><a
-            href="../fileFormats/javascript.md"
-          >JavaScript</a>
+            href="../fileFormats/jsx.md"
+          >JSX</a>
 </td>
-    <td><a href="../extensions/es.md"><code>.es</code></a> <a href="../extensions/js.md"><code>.js</code></a></td>
+    <td><a href="../extensions/jsx.md"><code>.jsx</code></a></td>
   </tr>
 
 
@@ -408,19 +408,19 @@ or click on an item of the overview below.
 
   <tr>
     <td><a
-            href="../fileFormats/jsx.md"
-          >JSX</a>
+            href="../fileFormats/javascript.md"
+          >JavaScript</a>
 </td>
-    <td><a href="../extensions/jsx.md"><code>.jsx</code></a></td>
+    <td><a href="../extensions/es.md"><code>.es</code></a> <a href="../extensions/js.md"><code>.js</code></a></td>
   </tr>
 
 
   <tr>
     <td><a
-            href="../fileFormats/javascript.md"
-          >JavaScript</a>
+            href="../fileFormats/jsx.md"
+          >JSX</a>
 </td>
-    <td><a href="../extensions/es.md"><code>.es</code></a> <a href="../extensions/js.md"><code>.js</code></a></td>
+    <td><a href="../extensions/jsx.md"><code>.jsx</code></a></td>
   </tr>
 
 

@@ -12,7 +12,7 @@ item | info
 types | [Database](../dataTypes/database.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ⚠️ under conditions
 extensions | [`.csv`](../extensions/csv.md), [`.tsv`](../extensions/tsv.md)
-related formats | [Access](../fileFormats/access.md), [CSS](../fileFormats/css.md), [dbase](../fileFormats/dbase.md), [HDF5](../fileFormats/hdf5.md), [HTML](../fileFormats/html.md), [JSON](../fileFormats/json.md), [Markdown](../fileFormats/markdown.md), [SIARD](../fileFormats/siard.md), [SQL](../fileFormats/sql.md), [SQL](../fileFormats/sql.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
+related formats | [Access](../fileFormats/access.md), [CSS](../fileFormats/css.md), [dbase](../fileFormats/dbase.md), [HDF5](../fileFormats/hdf5.md), [HTML](../fileFormats/html.md), [JSON](../fileFormats/json.md), [Markdown](../fileFormats/markdown.md), [SIARD](../fileFormats/siard.md), [SQL](../fileFormats/sql.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
 wikipedia | [`Comma-separated_values`]({{wikipedia}}/Comma-separated_values)
 
 ## Description

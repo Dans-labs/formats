@@ -12,7 +12,7 @@ item | info
 types | [Data (container)](../dataTypes/dataContainer.md), [Database](../dataTypes/database.md), [Text (plain)](../dataTypes/textPlain.md)
 preferred | ✅ yes
 extensions | [`.sql`](../extensions/sql.md)
-related formats | [Access](../fileFormats/access.md), [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [CSV](../fileFormats/csv.md), [dbase](../fileFormats/dbase.md), [HDF5](../fileFormats/hdf5.md), [HTML](../fileFormats/html.md), [JSON](../fileFormats/json.md), [JSON](../fileFormats/json.md), [Markdown](../fileFormats/markdown.md), [SIARD](../fileFormats/siard.md), [TAR](../fileFormats/tar.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [XML](../fileFormats/xml.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md), [YAML](../fileFormats/yaml.md)
+related formats | [Access](../fileFormats/access.md), [CSS](../fileFormats/css.md), [CSV](../fileFormats/csv.md), [dbase](../fileFormats/dbase.md), [HDF5](../fileFormats/hdf5.md), [HTML](../fileFormats/html.md), [JSON](../fileFormats/json.md), [Markdown](../fileFormats/markdown.md), [SIARD](../fileFormats/siard.md), [TAR](../fileFormats/tar.md), [TeX](../fileFormats/tex.md), [Text](../fileFormats/text.md), [XML](../fileFormats/xml.md), [YAML](../fileFormats/yaml.md)
 wikipedia | [`SQL`]({{wikipedia}}/SQL)
 
 ## Description

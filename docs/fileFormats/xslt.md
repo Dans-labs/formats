@@ -12,7 +12,7 @@ item | info
 types | [Markup](../dataTypes/markup.md), [Program code](../dataTypes/programCode.md)
 preferred | ⚠️ under conditions
 extensions | [`.xsl`](../extensions/xsl.md), [`.xslt`](../extensions/xslt.md)
-related formats | [C](../fileFormats/c.md), [CPP](../fileFormats/cpp.md), [CSS](../fileFormats/css.md), [HTML](../fileFormats/html.md), [JAVA](../fileFormats/java.md), [JavaScript](../fileFormats/javascript.md), [JavaScript](../fileFormats/javascript.md), [JSX](../fileFormats/jsx.md), [JSX](../fileFormats/jsx.md), [Markdown](../fileFormats/markdown.md), [Pascal](../fileFormats/pascal.md), [Perl](../fileFormats/perl.md), [Prolog](../fileFormats/prolog.md), [Python](../fileFormats/python.md), [Ruby](../fileFormats/ruby.md), [Scala](../fileFormats/scala.md), [SGML](../fileFormats/sgml.md), [TeX](../fileFormats/tex.md), [XHTML](../fileFormats/xhtml.md), [XML](../fileFormats/xml.md)
+related formats | [C](../fileFormats/c.md), [CPP](../fileFormats/cpp.md), [CSS](../fileFormats/css.md), [HTML](../fileFormats/html.md), [JAVA](../fileFormats/java.md), [JavaScript](../fileFormats/javascript.md), [JSX](../fileFormats/jsx.md), [Markdown](../fileFormats/markdown.md), [Pascal](../fileFormats/pascal.md), [Perl](../fileFormats/perl.md), [Prolog](../fileFormats/prolog.md), [Python](../fileFormats/python.md), [Ruby](../fileFormats/ruby.md), [Scala](../fileFormats/scala.md), [SGML](../fileFormats/sgml.md), [TeX](../fileFormats/tex.md), [XHTML](../fileFormats/xhtml.md), [XML](../fileFormats/xml.md)
 wikipedia | [`XSLT`]({{wikipedia}}/XSLT)
 
 ## Description
