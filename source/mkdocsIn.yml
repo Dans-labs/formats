@@ -18,6 +18,8 @@ theme:
   development: true
   development_label: under development
   production_link: https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats?set_language=en
+  feature:
+    tabs: true
 
 strict: false
 
@@ -45,9 +47,7 @@ nav:
   - About: 'about.md'
   - Data Types:
 [[dataTypes]]
-  - File Formats (by data type):
-[[fileFormatsDT]]
-  - File Formats (A-Z):
+  - File Formats:
 [[fileFormats]]
   - Extensions:
 [[extensions]]
