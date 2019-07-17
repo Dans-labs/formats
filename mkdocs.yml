@@ -9,6 +9,7 @@ site_description: >-
 site_url: 'https://Dans-labs.github.io/formats/'
 site_author: Dirk Roorda based on input of colleagues Valentijn Gilissen and Henk van den Berg
 
+repo_name: Dans-labs/formats
 repo_url: 'https://github.com/Dans-labs/formats/'
 
 theme:
