@@ -1,3 +1,5 @@
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
 # About
 
 [DANS](https://www.dans.knaw.nl)
@@ -20,6 +22,7 @@ The currently authoritative texts can be found on the
 [prefered formats](https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats?set_language=en)
 web page of DANS.
 
-# Contact
+# Author
 
-[Dirk Roorda](mailto:dirk.roorda@dans.knaw.nl)
+[Dirk Roorda](https://github.com/dirkroorda)
+
