@@ -67,6 +67,7 @@ When they are done, they can push their modification to their online fork on Git
 This action can easily be performed with GitHub Desktop again.
 
 When they want their changes to be published, they create a pull-request.
+This can also be done with the GitHub Desktop app.
 
 ### From `source` to `docs`
 
