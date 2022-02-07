@@ -26,6 +26,7 @@ YAML = f"{SRC}/data.yaml"
 INDEX = "index.md"
 ABOUT = "about.md"
 HELP = "help.md"
+GUIDE = "development.md"
 
 USAGE = """
 Run `build.py` from the Terminal as follows:
@@ -120,6 +121,7 @@ def makeDocs():
         (INDEX, False),
         (ABOUT, False),
         (HELP, False),
+        (GUIDE, False),
         (DATA_TYPES, True),
         (FILE_FORMATS, True),
         (EXTENSIONS, True),
@@ -376,6 +378,16 @@ File format | Preferred ? | Extensions | Related | Data types
             with open(path, "w") as f:
                 f.write(text)
 
+        def writeGuide():
+            text = []
+            text.append(texts["header"])
+            text.append(texts["development"])
+            text.append(texts["footer"])
+            text = transformDoc(GUIDE, "", "\n".join(text))
+            path = f"{DOCS}/{GUIDE}"
+            with open(path, "w") as f:
+                f.write(text)
+
         def writeHelp():
             text = []
             text.append(texts["header1"])
@@ -586,6 +598,7 @@ file info | {thisFileInfo}
 
         writeIndex()
         writeAbout()
+        writeGuide()
         writeHelp()
         writeDataTypes()
         writeFileFormats()

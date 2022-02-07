@@ -25,7 +25,7 @@ web page of DANS.
 # Further development
 
 If you are interested in developing this pilot further,
-consult the [development guide](development.md) first.
+consult the [development guide](source/development.md) first.
 
 # Author
 

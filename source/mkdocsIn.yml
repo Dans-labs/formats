@@ -46,7 +46,8 @@ plugins:
 nav:
   - Home: 'index.md'
   - About: 'about.md'
-  - Build: 'help.md'
+  - 'Build instructions': 'help.md'
+  - 'Development guide': 'development.md'
   - Data Types:
 [[dataTypes]]
   - File Formats:

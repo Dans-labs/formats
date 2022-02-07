@@ -12,7 +12,7 @@ The source documents are all about file formats, and the data types involved, an
 file extensions involved.
 
 This is a big nest of interlinked information, and one of the tasks of the build script
-is to provide links between related pages wherever relevant.
+is to provide links between related pages whereever relevant.
 
 ## How does it work?
 
@@ -49,7 +49,7 @@ experts, or
 [Atom](https://atom.io)
 for everybody else.
 
-When they are done, they can push their modification to their online fork on GitHub.
+When they are done, they can push their modifications to their online fork on GitHub.
 This action can easily be performed with GitHub Desktop again.
 
 When they want their changes to be published, they create a pull-request.
@@ -64,7 +64,7 @@ Here we describe the steps in the publishing workflow in greater detail.
 
 ### Build script
 
-The build script is a Python program [build.py](build.py),
+The build script is a Python program [build.py](https://github.com/Dans-labs/formats/blob/master/build.py),
 documented in the published documentation itself:
 [help](https://dans-labs.github.io/formats/help/).
 If the documentation is not yet online, you can consult the markdown
@@ -102,7 +102,7 @@ and a list of urls in
 
 The recommended practice is to never enter a url directly into the source files,
 but define an abbreviation for it in `urls.list` and used the abbreviation
-in the markdown wrapped in `{{ }}`.
+in the markdown wrapped in double braces.
 
 The generation process makes a navigation structure based on the existing
 documentation source files.
@@ -139,6 +139,9 @@ python3 build.py g "commit message"
 ```
 
 Use this command to publish the website in `site` to GitHub pages.
+In fact, this steps also performs the previous `make` and `build` steps.
+So you can completely publish the current contents with a single invocation of the build script.
+
 Behind the screens, mkdocs will collect the contents of `site`, store it in a separate
 branch call `gh-pages`, and push the `gh-pages` branch to GitHub.
 From there, GitHub takes over, and will publish the contents it finds in `gh-pages`
@@ -180,7 +183,7 @@ the following things might be needed in due course:
     Currently, the published GitHub Pages are in a neutral *readthedocs* style.
     You might want to develop a more DANS-specific template.
     I have done something already, see
-    [mkdocs-dans])https://github.com/Dans-labs/mkdocs-dans) but this no longer works.
+    [mkdocs-dans](https://github.com/Dans-labs/mkdocs-dans) but this no longer works.
     However, a better thing to do might be the following:
 
 1.  **Build other publication channels:**

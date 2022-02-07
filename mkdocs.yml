@@ -46,6 +46,8 @@ plugins:
 nav:
   - Home: 'index.md'
   - About: 'about.md'
+  - 'Build instructions': 'help.md'
+  - 'Development guide': 'development.md'
   - Data Types:
     - Data (container): 'dataTypes/dataContainer.md'
     - Database: 'dataTypes/database.md'
@@ -160,7 +162,6 @@ nav:
     - .xsl: 'extensions/xsl.md'
     - .xslt: 'extensions/xslt.md'
     - .yaml: 'extensions/yaml.md'
-  - Build: 'help.md'
 
 extra:
   adobe: https://www.adobe.com

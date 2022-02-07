@@ -35,8 +35,6 @@ Export data as [CSV](../fileFormats/csv.md) and data description as [PDF/A](../f
 
 When storing the tables as [CSV](../fileFormats/csv.md) files, only the
 tabular data from a database are retained.
-Any overarching documentation needs to be described in a separate document
-accompanying the CSV files.
 
 In Microsoft Access databases, the Database
 Documentation feature can be used to generate a document with column
