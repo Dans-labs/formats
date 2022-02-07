@@ -13,7 +13,7 @@ repo_name: Dans-labs/formats
 repo_url: 'https://github.com/Dans-labs/formats/'
 
 theme:
-  name: dans
+  name: readthedocs
   logo: 'images/formats.png'
   favicon: 'images/formats.png'
   development: true
