@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://Dans-labs.github.io/formats/development/</loc>
+         <lastmod>2022-02-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://Dans-labs.github.io/formats/help/</loc>
          <lastmod>2022-02-07</lastmod>
          <changefreq>daily</changefreq>
